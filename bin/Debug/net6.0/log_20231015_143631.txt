@@ -1,0 +1,30 @@
+[INFO] 10/15/2023 2:36:31 PM (Setup): Logger setup initialized.
+[INFO] 10/15/2023 2:36:31 PM (Main): Initializing...
+[INFO] 10/15/2023 2:36:31 PM (Main): Loading configurations...
+[INFO] 10/15/2023 2:36:31 PM (Main): GPT-4 API Key: [REDACTED]
+[INFO] 10/15/2023 2:36:31 PM (Main): Eleven Labs API Key: [REDACTED]
+[INFO] 10/15/2023 2:36:31 PM (Main): Cloud Storage API Key: [REDACTED]
+[INFO] 10/15/2023 2:36:31 PM (Main): YouTube API Key: [REDACTED]
+[INFO] 10/15/2023 2:37:22 PM (SaveGeneratedContent): Script has been saved to: .\NexaCastVideo\Generation\History Of Country Music\Script_20231015_143722.txt
+[INFO] 10/15/2023 2:37:22 PM (CallOpenAIAsync): Saving Script to: C:\Users\bryan\Documents\Projects\NexaCastVideo\NexaCastVideo\bin\Debug\net6.0\NexaCastVideo\Generation\History Of Country Music\Script_20231015_143722.txt
+[INFO] 10/15/2023 2:38:25 PM (GenerateScriptFromInput): Subtitle file saved successfully to: [REDACTED_API_KEY]/GeneratedSubtitles.srt
+[INFO] 10/15/2023 2:38:25 PM (Main): Generated Script: [Background music playing]
+
+Narrator: "Hey there, music lovers! Welcome back to our channel, where we dive into the captivating world of music. Today, we have something special in store for you. We're taking a trip down memory lane to explore the fascinating history of country music."
+
+[Montage of iconic country music artists and performances]
+
+Narrator: "From the rolling hills of the Appalachian Mountains to the neon-lit streets of Nashville, country music has remained deeply rooted in American cultureNarrator: "One of the main points in the history of country music is its humble beginnings in the early 20th century. Arising from the musical traditions of European settlers in rural America, this genre has evolved and adapted over the years, telling stories of love, loss, hardship, and triumph."
+
+[Images of early country music pioneers such as the Carter Family and Jimmie Rodgers]
+
+Narrator: "In the 1920s and '30s, the phonograph and radio broughtNarrator: "In the 1920s and '30s, the introduction of the phonograph and radio brought country music to a wider audience. Artists like the Carter Family and Jimmie Rodgers recorded their songs and gained popularity through extensive airplay. The Carter Family, comprised of A. P. Carter, his wife Sara, and her cousin Maybelle, captured the essence of traditional Appalachian folk music, blending heartfelt harmonies with raw authenticity. Jimmie Rodgers, known as the 'Father ofNarrator: "One of the main points in the history of country music is its continued evolution and incorporation of new styles and influences. As the genre gained popularity and spread across the United States, it began to incorporate elements of blues, jazz, and even rock and roll, creating a dynamic fusion that appealed to a broader audience."
+
+[Images of artists like Hank Williams and Patsy Cline]
+
+Narrator: "In the 1940s and '50s, country music experienced a goldenNarrator: "In the 1940s and '50s, country music experienced a golden age with the emergence of artists like Hank Williams and Patsy Cline. Hank Williams, with his heartfelt lyrics and soulful voice, became a symbol of raw emotion in country music. He penned timeless classics like 'Your Cheatin' Heart' and 'I'm So Lonesome I Could Cry,' resonating with listeners across the nation. Patsy Cline, on the other handNarrator: "From its humble beginnings in Appalachia to its golden age in the mid-20th century, country music has captivated audiences with its heartfelt storytelling and emotional melodies. Throughout its history, it has evolved and incorporated various influences, creating a dynamic and diverse genre that continues to inspire and connect people today. So, whether you're a country music enthusiast or simply curious about its rich history, remember to appreciate the journey and the stories behind the music that has touched so many hearts. ThanksDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 2:38:25 PM (SaveScript): Script saved successfully to: .\NexaCastVideo\Generation\History Of Country Music\GeneratedScript.txt
+[INFO] 10/15/2023 2:38:25 PM (Main): Generating and downloading voiceovers...
+[INFO] 10/15/2023 2:39:00 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_1.mp3
+[INFO] 10/15/2023 2:46:16 PM (Main): Application has terminated.
+[ERROR] 10/15/2023 2:46:16 PM (Main): Unhandled exception: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
