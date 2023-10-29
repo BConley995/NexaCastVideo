@@ -65,8 +65,9 @@ namespace NexaCastVideo
 
         private bool IsDirection(string sentence)
         {
-            return sentence.StartsWith("[") && sentence.EndsWith("]");
+            return sentence.Trim().StartsWith("[") && sentence.Trim().EndsWith("]");
         }
+
 
         private string CleanSentence(string sentence)
         {

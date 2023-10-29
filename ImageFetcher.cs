@@ -13,7 +13,6 @@ public class ImageFetcher
     private readonly string _generationDirectory;
     private int _imageCounter;
 
-    // Introducing a retry mechanism (if you haven't already)
     private const int MaxRetries = 3;
 
     public ImageFetcher(string generationDirectory)
@@ -22,8 +21,6 @@ public class ImageFetcher
         _generationDirectory = generationDirectory ?? throw new ArgumentNullException(nameof(generationDirectory));
         _imageCounter = 1;
     }
-
-
 
     private async Task<string> FetchImageURLAsync(string description)
     {
@@ -41,7 +38,6 @@ public class ImageFetcher
 
             for (int retry = 0; retry < MaxRetries; retry++)
             {
-
                 try
                 {
                     var response = await client.PostAsync(_dalleApiEndpoint, new StringContent(JsonSerializer.Serialize(requestBody), System.Text.Encoding.UTF8, "application/json"));
@@ -50,9 +46,11 @@ public class ImageFetcher
                     {
                         var responseBody = await response.Content.ReadAsStringAsync();
                         var responseObject = JsonSerializer.Deserialize<DalleResponseWrapper>(responseBody);
+
                         if (responseObject?.Data != null && responseObject.Data.Count > 0)
                         {
-                            return responseObject.Data[0]?.Url ?? string.Empty;
+                            var fullUrl = responseObject.Data[0]?.Url ?? string.Empty;
+                            return fullUrl;
                         }
                         else
                         {
@@ -79,9 +77,9 @@ public class ImageFetcher
                     await Task.Delay(1000); // wait for a second before retrying
                 }
             }
-        }
 
-        return string.Empty;
+            return string.Empty;
+        }
     }
 
     public async Task<string> GenerateImageForScriptLineAsync(string scriptLine)
@@ -96,16 +94,11 @@ public class ImageFetcher
 
         try
         {
-            var filenameWithoutExtension = Path.GetFileNameWithoutExtension(imageUrl);
-            var base64FilePath = Path.Combine(_generationDirectory, $"{filenameWithoutExtension}.txt");
-            await DownloadFileAsBase64Async(imageUrl, base64FilePath);
+            var filename = $"Image{_imageCounter++}.png";
+            var destinationPath = Path.Combine(_generationDirectory, filename);
 
-            // Decode Base64 and save as PNG
-            var base64String = await File.ReadAllTextAsync(base64FilePath);
-            byte[] bytes = Convert.FromBase64String(base64String);
-            var pngFilePath = Path.Combine(_generationDirectory, $"{filenameWithoutExtension}.png");
-            await File.WriteAllBytesAsync(pngFilePath, bytes);
-            return pngFilePath;
+            await DownloadImageAsync(imageUrl, destinationPath);
+            return destinationPath;
         }
         catch (Exception ex)
         {
@@ -114,13 +107,35 @@ public class ImageFetcher
         }
     }
 
+    private async Task DownloadImageAsync(string url, string destinationPath)
+    {
+        using HttpClient client = new HttpClient { Timeout = TimeSpan.FromSeconds(30) };
+
+        for (int retry = 0; retry < MaxRetries; retry++)
+        {
+            try
+            {
+                var responseBytes = await client.GetByteArrayAsync(url);
+                await File.WriteAllBytesAsync(destinationPath, responseBytes);
+                return;
+            }
+            catch (HttpRequestException ex)
+            {
+                Logger.LogError($"Error during file download (Attempt {retry + 1}/{MaxRetries}): {ex.Message}");
+            }
+
+            await Task.Delay(1000); // waiting a second before retrying
+        }
+
+        throw new Exception($"Failed to download image from {url} after {MaxRetries} attempts.");
+    }
+
     public async Task<List<string>> GenerateImagesForScriptAsync(List<string> scriptLines)
     {
         var imageUrls = new List<string>();
 
         foreach (var line in scriptLines)
         {
-            // Check if line should be skipped
             if (!ShouldGenerateImageForLine(line))
             {
                 imageUrls.Add(string.Empty);  // Add an empty string or null to maintain line order, if necessary.
@@ -136,7 +151,6 @@ public class ImageFetcher
 
     private bool ShouldGenerateImageForLine(string line)
     {
-        // List of phrases for which images should not be generated
         var ignoredPhrases = new List<string>
     {
         "[Upbeat music playing]",
@@ -144,10 +158,8 @@ public class ImageFetcher
         "[Background music fades in]",
         "[Background music fades out]",
         "[Upbeat music starts playing]"
-
     };
 
-        // Check if line contains any of the ignored phrases
         foreach (var phrase in ignoredPhrases)
         {
             if (line.Contains(phrase, StringComparison.OrdinalIgnoreCase))
@@ -157,42 +169,6 @@ public class ImageFetcher
         }
 
         return true;
-    }
-
-
-    private async Task<string> DownloadFileAsBase64Async(string url, string destinationPath)
-    {
-        using HttpClient client = new HttpClient
-        {
-            Timeout = TimeSpan.FromSeconds(30)  // Set a reasonable timeout.
-        };
-
-        for (int retry = 0; retry < MaxRetries; retry++)
-        {
-            try
-            {
-                var response = await client.GetAsync(url);
-                if (response.IsSuccessStatusCode)
-                {
-                    byte[] bytes = await response.Content.ReadAsByteArrayAsync();
-                    string base64String = Convert.ToBase64String(bytes);
-                    await File.WriteAllTextAsync(destinationPath, base64String);
-                    return destinationPath;
-                }
-                else
-                {
-                    Logger.LogError($"Failed to download image from {url} (Attempt {retry + 1}/{MaxRetries})");
-                }
-            }
-            catch (HttpRequestException ex)
-            {
-                Logger.LogError($"Error during file download (Attempt {retry + 1}/{MaxRetries}): {ex.Message}");
-            }
-
-            await Task.Delay(1000); // waiting a second before retrying
-        }
-
-        throw new Exception($"Failed to download image from {url} after {MaxRetries} attempts.");
     }
 
     public class DalleResponseWrapper

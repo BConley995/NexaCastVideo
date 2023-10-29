@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Linq;
 using Polly;
 using System.Globalization;
+using System.Text.RegularExpressions;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
@@ -14,6 +16,8 @@ class Program
     {
         string logFileName = "log_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".txt";
         string logDirectory = Path.Combine(Environment.CurrentDirectory, "NexaCastVideo", "Errors");
+
+        string generationDirectory = null;
 
         // Ensure the directory exists
         if (!Directory.Exists(logDirectory))
@@ -24,7 +28,6 @@ class Program
         string logFilePath = Path.Combine(logDirectory, logFileName);
 
         Logger.Setup(logFilePath);
-
 
         AppDomain.CurrentDomain.UnhandledException += (s, e) =>
         {
@@ -43,33 +46,27 @@ class Program
             ConfigManager.LoadConfigurations();
 
             var gpt4ApiKey = ConfigManager.GetAPIKey("Gpt4ApiKey");
-            Logger.LogInfo("GPT-4 API Key: [REDACTED]");
             var elevenLabsApiKey = ConfigManager.GetAPIKey("ElevenLabsApiKey");
-            Logger.LogInfo("Eleven Labs API Key: [REDACTED]");
             var cloudStorageUrl = ConfigManager.GetAppSetting("CloudStorageUrl");
-            Logger.LogInfo("Cloud Storage API Key: [REDACTED]");
             var uploadEndpoint = ConfigManager.GetAppSetting("UploadEndpoint");
-            Logger.LogInfo("YouTube API Key: [REDACTED]");
-
             Console.WriteLine("Please enter a short description of what you want the video to be about:");
             string userRequest = Console.ReadLine();
 
             string formattedUserRequest = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(userRequest);
             string safeUserRequestFolderName = string.Concat(formattedUserRequest.Split(Path.GetInvalidFileNameChars(), StringSplitOptions.RemoveEmptyEntries));
-            string generationDirectory = Path.Combine("NexaCastVideo", "Generation", safeUserRequestFolderName);
+
+            // Initialize generationDirectory
+            generationDirectory = Path.Combine("NexaCastVideo", "Generation", safeUserRequestFolderName);
 
             // Debugging & Sanity Check
             Console.WriteLine($"Attempting to create directory: {generationDirectory}");
             Directory.CreateDirectory(generationDirectory);
-
             if (!Directory.Exists(generationDirectory))
             {
                 Console.WriteLine($"Failed to create directory: {generationDirectory}");
-                // Consider error handling or exit here.
             }
 
-            Directory.CreateDirectory(generationDirectory);
-            string subtitlePath = Path.Combine(generationDirectory, "Generation", safeUserRequestFolderName, "GeneratedSubtitles.srt");
+            string subtitlePath = Path.Combine(generationDirectory, "GeneratedSubtitles.srt");
 
 
             ContentCreator contentCreator = new ContentCreator(generationDirectory);
@@ -80,7 +77,7 @@ class Program
                 Console.Write("  Generating Script... ");
                 spinner.Start();
 
-                TopicGenerator topicGenerator = new TopicGenerator("[REDACTED_API_KEY]");
+                var subtopicGenerator = new TopicGenerator(generationDirectory);
 
                 var retryPolicy = Policy
                     .Handle<Exception>()
@@ -97,7 +94,7 @@ class Program
                 {
                     await retryPolicy.ExecuteAsync(async () =>
                     {
-                        script = await topicGenerator.GenerateScriptFromInput(userRequest);
+                        script = await subtopicGenerator.GenerateScriptFromInput(userRequest);
                     });
                 }
                 catch (Exception ex)
@@ -113,15 +110,39 @@ class Program
             Logger.LogInfo($"Generated Script: {script}");
             await contentCreator.SaveScript(script);
 
-            string originalScript = script;
-            string ttsScript = ProcessTextForTts(script, true).Replace("Sub-point: ", "").Replace("Narrator: ", "").Replace("Sub-Point: ", "");
+            // Call to GenerateSubtitles
+            TopicGenerator topicGenerator = new TopicGenerator(generationDirectory);
+            topicGenerator.GenerateSubtitles(script);
+
+            // Call the new GenerateDallePromptsFromScript method to generate prompts
+            TopicGenerator topicGeneratorForDalle = new TopicGenerator(generationDirectory);
+            var dallePrompts = await topicGeneratorForDalle.GenerateDallePromptsFromScript(script);
+
+            // Save the prompts to DallePrompts.txt
+            var dallePromptsFilePath = Path.Combine(generationDirectory, "DallePrompts.txt");
+            await File.WriteAllLinesAsync(dallePromptsFilePath, dallePrompts);
+
+            // Process the script for TTS
+            string ttsScript = ProcessTextForTts(script, true);
+            ttsScript = RemoveNarrationLabels(ttsScript);
+
+            static string RemoveNarrationLabels(string input)
+            {
+                string[] patterns = { "Sub-point:", "Narrator:", "Point:", "Main Point:" };
+
+                foreach (var pattern in patterns)
+                {
+                    input = Regex.Replace(input, pattern, "", RegexOptions.IgnoreCase);
+                }
+
+                return input.Trim();
+            }
 
             Logger.LogInfo("Generating and downloading voiceovers...");
             VoiceoverGenerator voiceoverGenerator = new VoiceoverGenerator(generationDirectory, elevenLabsApiKey);
             var scriptSegments = ttsScript.Split(new[] { "\r\n\r\n", "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
             var voiceoverFiles = await voiceoverGenerator.GenerateVoiceovers(new List<string>(scriptSegments));
-            var downloadedVoiceoverFiles = new List<string>();
-
+            
             // Create a list to store the tasks for downloading voiceovers
             var downloadTasks = new List<Task<string>>();
 
@@ -139,6 +160,7 @@ class Program
             // Wait for all voiceover downloads to complete asynchronously
             await Task.WhenAll(downloadTasks);
 
+            List<string> downloadedVoiceoverFiles = downloadTasks.Select(task => task.Result).ToList();
             // Check if any downloads failed
             if (downloadTasks.Any(task => task.IsFaulted))
             {
@@ -149,7 +171,25 @@ class Program
 
             Logger.LogInfo("Fetching and downloading images...");
             ImageFetcher imageFetcher = new ImageFetcher(generationDirectory);
-            var imageFiles = new List<string>();
+            var imageUrls = await imageFetcher.GenerateImagesForScriptAsync(scriptSegments.ToList());
+
+            // Concurrent image download tasks
+            var imageDownloadTasks = imageUrls.Select(url => DownloadFileAsync(url, Path.Combine(generationDirectory, "Image" + (imageUrls.IndexOf(url) + 1) + ".jpg"))).ToList();
+
+            // Await all the downloads
+            var localImagePaths = await Task.WhenAll(imageDownloadTasks);
+
+            // Check if any downloads failed
+            if (imageDownloadTasks.Any(task => task.IsFaulted))
+            {
+                // Handle the error as needed
+                Logger.LogError("Some image downloads failed.");
+                return;
+            }
+
+            List<string> imageFiles = new List<string>();
+
+            imageFiles.AddRange(localImagePaths);
 
             foreach (var scriptSegment in scriptSegments)
             {
@@ -217,11 +257,6 @@ class Program
         }
         finally
         {
-            string userRequest = Console.ReadLine();
-            string formattedUserRequest = ToTitleCase(userRequest);
-            string safeUserRequestFolderName = string.Concat(formattedUserRequest.Split(Path.GetInvalidFileNameChars(), StringSplitOptions.RemoveEmptyEntries));
-            string generationDirectory = Path.Combine(".\\NexaCastVideo\\Generation", safeUserRequestFolderName);
-            
             CleanupDirectories(new List<string> { Path.Combine(generationDirectory, "Voiceovers"), Path.Combine(generationDirectory, "Images"), Path.Combine(generationDirectory, "Subtitles") });
 
             Logger.LogInfo("Application has terminated.");
