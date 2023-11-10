@@ -1,0 +1,429 @@
+[INFO] 11/10/2023 12:07:53 PM (Setup): Logger setup initialized.
+[INFO] 11/10/2023 12:07:53 PM (Main): Initializing...
+[INFO] 11/10/2023 12:07:53 PM (Main): Loading configurations...
+[INFO] 11/10/2023 12:07:58 PM (Main): Directory NexaCastVideo\Generation\History Of Pugs created successfully.
+[INFO] 11/10/2023 12:07:59 PM (Main): Downloading random royalty-free music...
+[INFO] 11/10/2023 12:08:01 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Pugs\futuristic-beat-146661.mp3
+[INFO] 11/10/2023 12:08:45 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JPH9U7Tp6exk0II15fZFdQgTlhPY",
+  "object": "chat.completion",
+  "created": 1699636083,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Upbeat music playing]\n\nHost: \"Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.\n\n[Animated map appears on screen]\n\nHost: \"Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including \"Lo-Sze,\" which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples.\"\n\n[Images of ancient Chinese artifacts featuring pugs are shown]\n\nHost: \"You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!\"\n\n[Transition to European history]\n\nHost: \"But how did pugs make their way to Europe? Well"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 300,
+    "total_tokens": 331
+  }
+}
+
+[INFO] 11/10/2023 12:09:31 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JPHpCfc1CR0agq9uQvC311L6R1Yh",
+  "object": "chat.completion",
+  "created": 1699636125,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Host: \"Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.\n\n[Images of European historical figures with pugs are shown]\n\nHost: \"During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.\n\n[Transition to modern day]\n\nHost: \"Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable for both individuals and families alike.\n\n[Images of modern families with pugs are shown]\n\nHost: \"However, it's important to note that pugs, like other brachycephalic breeds, can suffer from certain health issues due to their unique physical characteristics. Their short noses and flattened faces can lead to breathing problems, eye issues, and heat sensitivity. Responsible pet ownership includes being aware of their specific needs and providing proper care to ensure their wellbeing.\n\nClosing:\n\nHost: \"And that wraps up our journey through the history of pugs! From their royal origins in ancient China to their popularity as lovable companions today, pugs have truly captured the hearts of dog lovers worldwide. We hope you enjoyed diving into their fascinating past with us. If you did, make sure to hit that like button and subscribe to our channel for more captivating historical content. Thanks for watching, and we'll see you in the next video!\""
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 396,
+    "total_tokens": 727
+  }
+}
+
+[INFO] 11/10/2023 12:09:53 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JPIZQvoVPS50mjNiFmpTIaAcDndj",
+  "object": "chat.completion",
+  "created": 1699636171,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Host: \"Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.\n\nPugs, specifically, are prone to a condition called brachycephalic airway syndrome. This syndrome encompasses a range of respiratory issues caused by their narrowed upper airways. Pugs may have difficulty breathing, especially in warm weather or during physical exertion. They may also snore, wheeze, and be more susceptible to respiratory infections.\n\nIn addition to respiratory problems, pugs may also experience eye issues due to their prominent, bulging eyes. Their eyes are more vulnerable to injuries, infections, and conditions such as corneal ulcers and dry eye. Regular eye examinations and proper"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 729,
+    "completion_tokens": 200,
+    "total_tokens": 929
+  }
+}
+
+[INFO] 11/10/2023 12:10:51 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JPIwaKVcoJmrPhxK0CmZRrQ85UbJ",
+  "object": "chat.completion",
+  "created": 1699636194,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Host: \"Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.\n\n[Animated map appears on screen]\n\nHost: \"Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including \"Lo-Sze,\" which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples.\"\n\n[Images of ancient Chinese artifacts featuring pugs are shown]\n\nHost: \"You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!\"\n\n[Transition to European history]\n\nHost: \"But how did pugs make their way to Europe? Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.\n\n[Images of European historical figures with pugs are shown]\n\nHost: \"During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.\n\n[Transition to modern day]\n\nHost: \"Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 927,
+    "completion_tokens": 500,
+    "total_tokens": 1427
+  }
+}
+
+[INFO] 11/10/2023 12:11:15 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JPJrRnaMpkd5k0oZvDUoE9lm7NJf",
+  "object": "chat.completion",
+  "created": 1699636251,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Host: \"Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.\n\nPugs, specifically, are prone to a condition called brachycephalic airway syndrome. This syndrome encompasses a range of respiratory issues caused by their narrowed upper airways. Pugs may have difficulty breathing, especially in warm weather or during physical exertion. They may also snore, wheeze, and be more susceptible to respiratory infections.\n\nIn addition to respiratory problems, pugs may also experience eye issues due to their prominent, bulging eyes. Their eyes are more vulnerable to injuries, infections, and conditions such as corneal ulcers and dry eye. Regular eye examinations and proper"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 200,
+    "total_tokens": 1629
+  }
+}
+
+[INFO] 11/10/2023 12:11:38 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JPKFEzBYH1LYGQY0MIj0g1nv6NzL",
+  "object": "chat.completion",
+  "created": 1699636275,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Host: \"And here's an interesting fact to wrap up our discussion. Did you know that pugs were one of the few dog breeds that were allowed to live in the Tibetan monasteries? Monks believed that pugs were the reincarnated souls of their fellow monks, and they were treated with the utmost reverence. These lucky pugs even had their own monastic titles and were pampered with the best care. Can you imagine being a dog with such a noble past? It just goes to show the special place that pugs have held throughout history.\n\n[Closing]\n\nHost: \"And that concludes our journey through the captivating history of pugs. From ancient China to Europe's imperial courts, and now as beloved family pets, pugs have left an indelible mark on our hearts. They truly are an extraordinary breed. If you enjoyed learning about pugs with us, don't forget to hit that like button and subscribe to our channel for more exciting educational content. Thanks for"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1626,
+    "completion_tokens": 200,
+    "total_tokens": 1826
+  }
+}
+
+[INFO] 11/10/2023 12:11:38 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Pugs\GeneratedScript.txt
+[INFO] 11/10/2023 12:11:38 PM (GenerateSubtitles): Subtitle file saved successfully to: NexaCastVideo\Generation\History Of Pugs\GeneratedSubtitles.srt
+[INFO] 11/10/2023 12:11:38 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Narrator: 
+
+Narrator: "Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.
+
+
+
+Narrator: "Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including "Lo-Sze," which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples."
+
+
+
+Narrator: "You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!"
+
+
+
+Narrator: "But how did pugs make their way to Europe? Well
+
+Narrator: "Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.
+
+
+
+Narrator: "During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.
+
+
+
+Narrator: "Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable for both individuals and families alike.
+
+
+
+Narrator: "However, it's important to note that pugs, like other brachycephalic breeds, can suffer from certain health issues due to their unique physical characteristics. Their short noses and flattened faces can lead to breathing problems, eye issues, and heat sensitivity. Responsible pet ownership includes being aware of their specific needs and providing proper care to ensure their wellbeing.
+
+Closing:
+
+Narrator: "And that wraps up our journey through the history of pugs! From their royal origins in ancient China to their popularity as lovable companions today, pugs have truly captured the hearts of dog lovers worldwide. We hope you enjoyed diving into their fascinating past with us. If you did, make sure to hit that like button and subscribe to our channel for more captivating historical content. Thanks for watching, and we'll see you in the next video!"
+
+Narrator: "Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.
+
+Pugs, specifically, are prone to a condition called brachycephalic airway syndrome. This syndrome encompasses a range of respiratory issues caused by their narrowed upper airways. Pugs may have difficulty breathing, especially in warm weather or during physical exertion. They may also snore, wheeze, and be more susceptible to respiratory infections.
+
+In addition to respiratory problems, pugs may also experience eye issues due to their prominent, bulging eyes. Their eyes are more vulnerable to injuries, infections, and conditions such as corneal ulcers and dry eye. Regular eye examinations and proper
+
+Narrator: "Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.
+
+
+
+Narrator: "Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including "Lo-Sze," which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples."
+
+
+
+Narrator: "You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!"
+
+
+
+Narrator: "But how did pugs make their way to Europe? Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.
+
+
+
+Narrator: "During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.
+
+
+
+Narrator: "Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable
+
+Narrator: "Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.
+
+Pugs, specifically, are prone to a condition called brachycephalic airway syndrome. This syndrome encompasses a range of respiratory issues caused by their narrowed upper airways. Pugs may have difficulty breathing, especially in warm weather or during physical exertion. They may also snore, wheeze, and be more susceptible to respiratory infections.
+
+In addition to respiratory problems, pugs may also experience eye issues due to their prominent, bulging eyes. Their eyes are more vulnerable to injuries, infections, and conditions such as corneal ulcers and dry eye. Regular eye examinations and proper
+
+Narrator: "And here's an interesting fact to wrap up our discussion. Did you know that pugs were one of the few dog breeds that were allowed to live in the Tibetan monasteries? Monks believed that pugs were the reincarnated souls of their fellow monks, and they were treated with the utmost reverence. These lucky pugs even had their own monastic titles and were pampered with the best care. Can you imagine being a dog with such a noble past? It just goes to show the special place that pugs have held throughout history.
+
+
+
+Narrator: "And that concludes our journey through the captivating history of pugs. From ancient China to Europe's imperial courts, and now as beloved family pets, pugs have left an indelible mark on our hearts. They truly are an extraordinary breed. If you enjoyed learning about pugs with us, don't forget to hit that like button and subscribe to our channel for more exciting educational content. Thanks for
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/10/2023 12:11:38 PM (GenerateDallePromptsFromScript): Extracted paragraphs:
+Narrator: 
+Narrator: "Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.
+Narrator: "Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including "Lo-Sze," which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples."
+Narrator: "You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!"
+Narrator: "But how did pugs make their way to Europe? Well
+Narrator: "Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.
+Narrator: "During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.
+Narrator: "Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable for both individuals and families alike.
+Narrator: "However, it's important to note that pugs, like other brachycephalic breeds, can suffer from certain health issues due to their unique physical characteristics. Their short noses and flattened faces can lead to breathing problems, eye issues, and heat sensitivity. Responsible pet ownership includes being aware of their specific needs and providing proper care to ensure their wellbeing.
+Narrator: "And that wraps up our journey through the history of pugs! From their royal origins in ancient China to their popularity as lovable companions today, pugs have truly captured the hearts of dog lovers worldwide. We hope you enjoyed diving into their fascinating past with us. If you did, make sure to hit that like button and subscribe to our channel for more captivating historical content. Thanks for watching, and we'll see you in the next video!"
+Narrator: "Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.
+Narrator: "Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.
+Narrator: "Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including "Lo-Sze," which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples."
+Narrator: "You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!"
+Narrator: "But how did pugs make their way to Europe? Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.
+Narrator: "During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.
+Narrator: "Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable
+Narrator: "Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.
+Narrator: "And here's an interesting fact to wrap up our discussion. Did you know that pugs were one of the few dog breeds that were allowed to live in the Tibetan monasteries? Monks believed that pugs were the reincarnated souls of their fellow monks, and they were treated with the utmost reverence. These lucky pugs even had their own monastic titles and were pampered with the best care. Can you imagine being a dog with such a noble past? It just goes to show the special place that pugs have held throughout history.
+Narrator: "And that concludes our journey through the captivating history of pugs. From ancient China to Europe's imperial courts, and now as beloved family pets, pugs have left an indelible mark on our hearts. They truly are an extraordinary breed. If you enjoyed learning about pugs with us, don't forget to hit that like button and subscribe to our channel for more exciting educational content. Thanks for
+[INFO] 11/10/2023 12:11:44 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.
+Prompt:
+[Create an illustration of a pug in a time-traveling adventure, featuring the dog with a wrinkled face and curly tail exploring different historical eras, from ancient civilizations to modern times.]
+[INFO] 11/10/2023 12:11:48 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including "Lo-Sze," which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples."
+Prompt:
+[Create an illustration of a pug in ancient China, resembling a lion dog trained and cherished by Chinese nobility during the Han Dynasty.]
+[INFO] 11/10/2023 12:11:52 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!"
+Prompt:
+[Illustrate a pug dressed in royal attire, surrounded by opulent decorations, servants attending to their needs, and guards standing by in a regal setting.]
+[INFO] 11/10/2023 12:11:58 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "But how did pugs make their way to Europe? Well
+Prompt:
+["But how did pugs make their way to Europe? Well, imagine an adorable pug wearing a sailor hat, standing on a ship with a map in its paws, sailing across the ocean waves towards Europe."]
+[INFO] 11/10/2023 12:12:05 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.
+Prompt:
+[Illustrate a scene showcasing the historical significance of pugs in the 16th century, with traders from the Dutch East India Company returning to Europe with pugs from China. Highlight the pugs as charming dogs that captured the attention of European nobility, depicting them as sought-after companions in royal courts]
+[INFO] 11/10/2023 12:12:11 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.
+Prompt:
+[Create an illustration that portrays a pug dog during the Victorian era, showcasing its elevated status as a fashionable and refined symbol of wealth and taste, often depicted in artwork and used as a stylish accessory by the upper class.]
+[INFO] 11/10/2023 12:12:16 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable for both individuals and families alike.
+Prompt:
+[Illustrate a pug surrounded by a loving family, showcasing their affectionate nature and playfulness that has made them popular among individuals and families worldwide.]
+[INFO] 11/10/2023 12:12:22 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "However, it's important to note that pugs, like other brachycephalic breeds, can suffer from certain health issues due to their unique physical characteristics. Their short noses and flattened faces can lead to breathing problems, eye issues, and heat sensitivity. Responsible pet ownership includes being aware of their specific needs and providing proper care to ensure their wellbeing.
+Prompt:
+[Illustrate a pug highlighting its unique physical characteristics, such as its short nose and flattened face. Show the pug experiencing breathing difficulties, while also representing potential eye issues and heat sensitivity. Emphasize the importance of responsible pet ownership by including a caring owner who is providing proper care to the p]
+[INFO] 11/10/2023 12:12:27 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "And that wraps up our journey through the history of pugs! From their royal origins in ancient China to their popularity as lovable companions today, pugs have truly captured the hearts of dog lovers worldwide. We hope you enjoyed diving into their fascinating past with us. If you did, make sure to hit that like button and subscribe to our channel for more captivating historical content. Thanks for watching, and we'll see you in the next video!"
+Prompt:
+[Create an illustration of a pug wearing a royal crown, showcasing the evolution of pugs from ancient China to their current status as beloved companions, capturing the hearts of dog lovers globally.]
+[INFO] 11/10/2023 12:12:31 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.
+Prompt:
+[Create an illustration of a pug highlighting the health issues caused by their brachycephalic traits.]
+[INFO] 11/10/2023 12:12:41 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Hey there, history lovers! Welcome back to our channel. Today, we have a fascinating topic for you: the history of pugs! These adorable little dogs with wrinkled faces and curly tails have captured the hearts of countless people over the centuries. From being the pets of emperors to charming their way into modern families, pugs have an incredibly rich and intriguing history. So, let's embark on a journey through time and uncover the secrets behind these lovable companions.
+Prompt:
+[Create an illustration for a YouTube thumbnail titled "The Fascinating History of Pugs!" featuring a pug with a regal crown atop a stack of historical books, with a scroll unraveling next to it to represent the rich and intriguing history of these adorable dogs.]
+[INFO] 11/10/2023 12:12:43 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Now, pugs originated in ancient China over 2,000 years ago. As early as the Han Dynasty, these distinctive dogs were bred by Chinese nobility and were treasured as loyal companions and high-status pets. They were known by several names, including "Lo-Sze," which means 'lion dog,' due to their resemblance to the Chinese guardian lions found in temples."
+Prompt:
+[Illustrate a pug sitting proudly on a velvet cushion, surrounded by luxurious Chinese motifs.]
+[INFO] 11/10/2023 12:12:48 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "You see, pugs were not only adored by the elite, but they also had a spiritual significance. They were believed to bring good fortune and were even treated with great respect and care. Some accounts even suggest that pugs were pampered with the utmost luxury, with their own servants and guards dedicated to their care. Now, that's the royal treatment!"
+Prompt:
+[Create an illustration showcasing a pug surrounded by luxurious items, such as velvet cushions, a golden throne, and servants attending to its needs.]
+[INFO] 11/10/2023 12:13:25 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "But how did pugs make their way to Europe? Well, it all started in the 16th century when traders from the Dutch East India Company brought pugs back from China. These charming dogs quickly caught the attention of European nobility and became sought-after companions in royal courts across the continent. Famous figures such as Marie Antoinette, Napoleon Bonaparte, and Queen Victoria were all known to be fond of pugs.
+Prompt:
+[Create an illustration showcasing the journey of pugs from China to Europe in the 16th century. Depict Dutch East India Company traders trading goods with Chinese merchants, and include a group of pugs being loaded onto a ship. Show a timeline in the background, highlighting how pugs became popular among]
+[INFO] 11/10/2023 12:13:30 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "During the Victorian era, pugs experienced a surge in popularity. They were often depicted in artwork and were even featured in fashion trends of the time. Pugs became a symbol of refined taste and status, and were seen as fashionable accessories for the upper class.
+Prompt:
+["Create an illustration showcasing a Victorian-era scene where a fashionable upper-class woman, dressed in extravagant attire, is elegantly holding a pug in her arms. The artwork should accentuate the refined taste and status symbol associated with pugs during this era."]
+[INFO] 11/10/2023 12:13:42 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Fast forward to the present day, and pugs have cemented their place as beloved family pets. Their affectionate nature, playful personality, and enduring cuteness have made them one of the most popular dog breeds in many countries. They're known for being great companions, suitable
+Prompt:
+[for individuals of all ages. Imagine an adorable pug surrounded by a diverse group of people, showcasing their universal appeal. The illustration should capture the pug's affectionate nature, playful personality, and enduring cuteness while highlighting its ability to be a great companion to people of all ages.]
+[INFO] 11/10/2023 12:13:46 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Now, let's delve into a sub-point regarding the health issues that pugs can face due to their unique physical characteristics. As mentioned earlier, pugs belong to a category of dog breeds called brachycephalic breeds. This term refers to breeds with short noses and flat faces. While these features contribute to their adorable appearance, they can also lead to various health challenges.
+Prompt:
+[Illustrate a pug with a short nose and a flat face, showcasing the unique physical characteristics of brachycephalic breeds.]
+[INFO] 11/10/2023 12:13:50 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "And here's an interesting fact to wrap up our discussion. Did you know that pugs were one of the few dog breeds that were allowed to live in the Tibetan monasteries? Monks believed that pugs were the reincarnated souls of their fellow monks, and they were treated with the utmost reverence. These lucky pugs even had their own monastic titles and were pampered with the best care. Can you imagine being a dog with such a noble past? It just goes to show the special place that pugs have held throughout history.
+Prompt:
+[Illustrate a pug wearing a monk robe with a serene expression sitting in front of a Tibetan monastery.]
+[INFO] 11/10/2023 12:13:51 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "And that concludes our journey through the captivating history of pugs. From ancient China to Europe's imperial courts, and now as beloved family pets, pugs have left an indelible mark on our hearts. They truly are an extraordinary breed. If you enjoyed learning about pugs with us, don't forget to hit that like button and subscribe to our channel for more exciting educational content. Thanks for
+Prompt:
+[creating Wonderful Pug History Journey]
+[INFO] 11/10/2023 12:13:51 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Pugs\DallePrompts.txt
+[INFO] 11/10/2023 12:13:51 PM (Main): Fetching and downloading images...
+[INFO] 11/10/2023 12:14:08 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:14:09 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_1.png
+[INFO] 11/10/2023 12:14:38 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:14:38 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_2.png
+[INFO] 11/10/2023 12:15:13 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:15:14 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_3.png
+[INFO] 11/10/2023 12:15:46 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:15:47 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_4.png
+[INFO] 11/10/2023 12:16:19 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:16:20 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_5.png
+[INFO] 11/10/2023 12:16:50 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:16:51 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_6.png
+[INFO] 11/10/2023 12:17:21 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:17:22 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_7.png
+[INFO] 11/10/2023 12:17:55 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:17:56 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_8.png
+[INFO] 11/10/2023 12:18:28 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:18:29 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_9.png
+[INFO] 11/10/2023 12:19:01 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:19:01 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_10.png
+[INFO] 11/10/2023 12:19:31 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:19:32 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_11.png
+[INFO] 11/10/2023 12:20:05 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:20:06 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_12.png
+[INFO] 11/10/2023 12:20:37 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:20:38 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_13.png
+[INFO] 11/10/2023 12:21:09 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:21:09 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_14.png
+[INFO] 11/10/2023 12:21:39 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:21:40 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_15.png
+[INFO] 11/10/2023 12:22:10 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:22:10 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_16.png
+[INFO] 11/10/2023 12:22:41 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:22:41 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_17.png
+[INFO] 11/10/2023 12:23:12 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:23:13 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_18.png
+[INFO] 11/10/2023 12:23:47 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 12:23:48 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pugs\image_19.png
+[INFO] 11/10/2023 12:24:03 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/10/2023 12:26:02 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_0.mp3
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_0.mp3
+[INFO] 11/10/2023 12:26:02 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_1.mp3
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_1.mp3
+[INFO] 11/10/2023 12:26:02 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_2.mp3
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_2.mp3
+[INFO] 11/10/2023 12:26:02 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_3.mp3
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:02 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_3.mp3
+[INFO] 11/10/2023 12:26:02 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_4.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_4.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_5.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_5.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_6.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_6.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_7.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_7.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_8.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_8.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_9.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_9.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_10.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_10.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_11.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_11.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_12.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_12.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_13.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_13.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_14.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_14.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_15.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_15.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_16.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_16.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_17.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_17.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_18.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_18.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_19.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_19.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_20.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_20.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_21.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_21.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_22.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_22.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_23.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_23.mp3
+[INFO] 11/10/2023 12:26:03 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Pugs\voiceover_24.mp3
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:26:03 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Pugs\voiceover_24.mp3

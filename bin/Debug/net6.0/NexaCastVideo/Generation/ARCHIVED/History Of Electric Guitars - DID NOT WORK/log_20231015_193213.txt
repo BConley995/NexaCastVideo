@@ -1,0 +1,246 @@
+[INFO] 10/15/2023 7:32:13 PM (Setup): Logger setup initialized.
+[INFO] 10/15/2023 7:32:13 PM (Main): Initializing...
+[INFO] 10/15/2023 7:32:13 PM (Main): Loading configurations...
+[INFO] 10/15/2023 7:32:13 PM (Main): GPT-4 API Key: [REDACTED]
+[INFO] 10/15/2023 7:32:13 PM (Main): Eleven Labs API Key: [REDACTED]
+[INFO] 10/15/2023 7:32:13 PM (Main): Cloud Storage API Key: [REDACTED]
+[INFO] 10/15/2023 7:32:13 PM (Main): YouTube API Key: [REDACTED]
+[INFO] 10/15/2023 7:32:24 PM (SaveGeneratedContent): Script has been saved to: .\NexaCastVideo\Generation\History Of Electric Guitars\Script_20231015_193224.txt
+[INFO] 10/15/2023 7:32:24 PM (CallOpenAIAsync): Saving Script to: C:\Users\bryan\Documents\Projects\NexaCastVideo\NexaCastVideo\bin\Debug\net6.0\NexaCastVideo\Generation\History Of Electric Guitars\Script_20231015_193224.txt
+[INFO] 10/15/2023 7:33:41 PM (GenerateScriptFromInput): Subtitle file saved successfully to: [REDACTED_API_KEY]/GeneratedSubtitles.srt
+[INFO] 10/15/2023 7:33:41 PM (Main): Generated Script: [Background music fades in]
+
+Host: "Hey there, fellow music enthusiasts! Welcome back to our channel, where today we are diving into the fascinating history of electric guitars. We're going to take a ride through time to explore how this iconic instrument revolutionized the way we make, play, and experience music."
+
+
+[Cut to visuals of vintage electric guitars and famous guitarists performing]
+
+
+Host: "When we think of the electric guitar, we envision legendary musicians like Jimi Hendrix, Jimmy PageHost: "One of the key points to understand about the history of electric guitars is that they didn't just magically appear overnight. In fact, the development of the electric guitar was a result of decades of experimentation and innovation.
+
+It all began in the early 1930s, when inventors and inventors like George Beauchamp and Adolph Rickenbacker started tinkering with the idea of amplifying the sound of a guitar. They wanted to give guitarists the ability to be heardSub-point: Improving Sound Projection
+
+Host: "One of the main reasons behind the development of the electric guitar was the need for improved sound projection. In the early days of instrument amplification, musicians relied on microphones to amplify their acoustic guitars in live performances, which often resulted in feedback issues and limited the guitar's projection in large venues."
+
+[Visuals of a crowded concert venue and a musician struggling to be heard with an acoustic guitar]
+
+Host: "George Beauchamp and AdolphHost: "One of the main points to highlight about the history of electric guitars is the continuous pursuit of improving the instrument's sound quality and practicality. As mentioned earlier, George Beauchamp and Adolph Rickenbacker were among the early pioneers of electric guitar development. Together, they founded the Electro String Instrument Corporation in 1931 and introduced the first commercially successful electric guitar, known as the 'Frying Pan.
+
+[Visual of a vintage 'Frying Pan' electric guitar]
+
+HostHost: "Now, let's dive a little deeper into the 'Frying Pan' electric guitar. Its name may sound peculiar, but its design is truly unique. The 'Frying Pan' was so named because its hollow aluminum body resembled the shape of a frying pan. It had a single magnetic pickup, or 'coil,' which converted the vibration of the guitar strings into electrical signals, eliminating the need for a microphone."
+
+[Visuals of the 'Frying Pan', showing its distinctive shapeHost: "So, to recap, the history of electric guitars is a fascinating journey that started with the need for improved sound projection and led to the creation of the 'Frying Pan' electric guitar by George Beauchamp and Adolph Rickenbacker. This innovative instrument featured a hollow aluminum body and a single magnetic pickup, revolutionizing the way guitars were played and heard in live performances."
+
+[Background music fades out]
+
+Host: "That's all for today's video, but stay tunedDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 7:33:41 PM (SaveScript): Script saved successfully to: .\NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt
+[INFO] 10/15/2023 7:33:41 PM (Main): Generating and downloading voiceovers...
+[ERROR] 10/15/2023 7:33:41 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Background music fades in]'
+[ERROR] 10/15/2023 7:34:02 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visuals of a crowded concert venue and a musician struggling to be heard with an acoustic guitar]'
+[ERROR] 10/15/2023 7:34:09 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visual of a vintage 'Frying Pan' electric guitar]'
+[ERROR] 10/15/2023 7:34:21 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Background music fades out]'
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_1.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_1.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_2.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_2.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_3.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_3.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_4.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_4.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_5.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_5.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_7.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_7.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_9.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_9.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_10.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_10.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_12.mp3
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for .\NexaCastVideo\Generation\History Of Electric Guitars\voiceover_12.mp3
+[INFO] 10/15/2023 7:34:23 PM (Main): Fetching and downloading images...
+[ERROR] 10/15/2023 7:34:31 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412871,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-BZeDIrdjrIHAPQ66hrRmF16I.png?st=2023-10-15T22%3A34%3A31Z&se=2023-10-16T00%3A34%3A31Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T18%3A21%3A56Z&ske=2023-10-16T18%3A21%3A56Z&sks=b&skv=2021-08-06&sig=Cc5LvRlGwVhKf2uaFCschhSIo61mImKumFtW2rLfnL4%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:34:31 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Background music fades in]
+[INFO] 10/15/2023 7:34:31 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:34:31 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:31 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:34:38 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412879,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-7TGstvBgBS2tYiWdo0bA9nFb.png?st=2023-10-15T22%3A34%3A39Z&se=2023-10-16T00%3A34%3A39Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T02%3A56%3A00Z&ske=2023-10-16T02%3A56%3A00Z&sks=b&skv=2021-08-06&sig=3DGXcwxmHUT69jMtxZMvlMspc/8hQoxDSde9prz/I2k%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:34:38 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Hey there, fellow music enthusiasts! Welcome back to our channel, where today we are diving into the fascinating history of electric guitars. We're going to take a ride through time to explore how this iconic instrument revolutionized the way we make, play, and experience music."
+[INFO] 10/15/2023 7:34:38 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:34:38 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:38 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:34:46 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412887,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-PYyiqBPCAbtGcdyTvtrSPvxM.png?st=2023-10-15T22%3A34%3A47Z&se=2023-10-16T00%3A34%3A47Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T21%3A47%3A58Z&ske=2023-10-16T21%3A47%3A58Z&sks=b&skv=2021-08-06&sig=RMoP1KvXV0ZF6vZBDWIaJLKBQ8VSBk4qU4CDI970bv8%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:34:46 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: 
+[Cut to visuals of vintage electric guitars and famous guitarists performing]
+[INFO] 10/15/2023 7:34:46 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:34:46 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:46 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:34:56 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412896,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-S6FOL8rsNzqSoRuhBQUPTpGZ.png?st=2023-10-15T22%3A34%3A56Z&se=2023-10-16T00%3A34%3A56Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T15%3A26%3A39Z&ske=2023-10-16T15%3A26%3A39Z&sks=b&skv=2021-08-06&sig=Os6FT6gt987cDxrveT%2BEpmD3rbgdW%2BVYE3egOxwp5jo%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:34:56 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: 
+Host: "When we think of the electric guitar, we envision legendary musicians like Jimi Hendrix, Jimmy PageHost: "One of the key points to understand about the history of electric guitars is that they didn't just magically appear overnight. In fact, the development of the electric guitar was a result of decades of experimentation and innovation.
+[INFO] 10/15/2023 7:34:56 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:34:56 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:34:56 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:05 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412906,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-IZmgSWQRmld8v4Z6qe1soDPw.png?st=2023-10-15T22%3A35%3A06Z&se=2023-10-16T00%3A35%3A06Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T21%3A44%3A22Z&ske=2023-10-16T21%3A44%3A22Z&sks=b&skv=2021-08-06&sig=w2aS9ETCFUYWSUCFaA4kH3OZ/Cp8dRR9EMOshADnR5c%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:05 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: It all began in the early 1930s, when inventors and inventors like George Beauchamp and Adolph Rickenbacker started tinkering with the idea of amplifying the sound of a guitar. They wanted to give guitarists the ability to be heardImproving Sound Projection
+[INFO] 10/15/2023 7:35:05 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:12 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412913,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-fpn8a9d8FnalPrIau4Nlm7nk.png?st=2023-10-15T22%3A35%3A13Z&se=2023-10-16T00%3A35%3A13Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T14%3A38%3A10Z&ske=2023-10-16T14%3A38%3A10Z&sks=b&skv=2021-08-06&sig=C1IKQZLelru7LB7gJgFafsWeKw2GKgUB6kKYYikcmWU%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:12 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "One of the main reasons behind the development of the electric guitar was the need for improved sound projection. In the early days of instrument amplification, musicians relied on microphones to amplify their acoustic guitars in live performances, which often resulted in feedback issues and limited the guitar's projection in large venues."
+[INFO] 10/15/2023 7:35:12 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:12 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:12 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:21 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412922,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-LgxJ3ISzQPU4kPZJLEpbuhdm.png?st=2023-10-15T22%3A35%3A22Z&se=2023-10-16T00%3A35%3A22Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T06%3A30%3A27Z&ske=2023-10-16T06%3A30%3A27Z&sks=b&skv=2021-08-06&sig=0EPSJAwRKal6QV1O0A2OqYAUy/fh8ujOOqpK7MPM3fI%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:21 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visuals of a crowded concert venue and a musician struggling to be heard with an acoustic guitar]
+[INFO] 10/15/2023 7:35:21 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:21 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:21 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:29 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412930,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-T2zREyDlOxqtDU3eMWBLwep5.png?st=2023-10-15T22%3A35%3A30Z&se=2023-10-16T00%3A35%3A30Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A03%3A10Z&ske=2023-10-16T22%3A03%3A10Z&sks=b&skv=2021-08-06&sig=exZnQEYneueyZQguKn6ol306/H85x%2B0rABH4DcC0tuo%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:29 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "George Beauchamp and AdolphHost: "One of the main points to highlight about the history of electric guitars is the continuous pursuit of improving the instrument's sound quality and practicality. As mentioned earlier, George Beauchamp and Adolph Rickenbacker were among the early pioneers of electric guitar development. Together, they founded the Electro String Instrument Corporation in 1931 and introduced the first commercially successful electric guitar, known as the 'Frying Pan.
+[INFO] 10/15/2023 7:35:29 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:29 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:29 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:37 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412938,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-cUKCsuxDJ2lUfZRGAYrC7iSb.png?st=2023-10-15T22%3A35%3A38Z&se=2023-10-16T00%3A35%3A38Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A09%3A45Z&ske=2023-10-16T22%3A09%3A45Z&sks=b&skv=2021-08-06&sig=95glJanV%2BnHpSy/fl9XVpN/WCSGcK9JZXdvnm8UO8rg%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:37 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visual of a vintage 'Frying Pan' electric guitar]
+[INFO] 10/15/2023 7:35:37 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:37 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:37 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:47 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412947,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-cNAMdW9WkKvscgPvaL8Saz6w.png?st=2023-10-15T22%3A35%3A47Z&se=2023-10-16T00%3A35%3A47Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T21%3A45%3A10Z&ske=2023-10-16T21%3A45%3A10Z&sks=b&skv=2021-08-06&sig=vMsPcBP9/A3VfqhxtnIU8Gi3UB8Z299ZABIXqP6dUVs%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:47 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: HostHost: "Now, let's dive a little deeper into the 'Frying Pan' electric guitar. Its name may sound peculiar, but its design is truly unique. The 'Frying Pan' was so named because its hollow aluminum body resembled the shape of a frying pan. It had a single magnetic pickup, or 'coil,' which converted the vibration of the guitar strings into electrical signals, eliminating the need for a microphone."
+[INFO] 10/15/2023 7:35:47 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:47 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:47 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:35:55 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412955,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-XmbmQUpIYaG2azxMIZ0CybUx.png?st=2023-10-15T22%3A35%3A55Z&se=2023-10-16T00%3A35%3A55Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A46%3A39Z&ske=2023-10-16T22%3A46%3A39Z&sks=b&skv=2021-08-06&sig=ozH2LHMObpU%2BZQF6Owvs%2BMcrLenFzIPZo8Nm8sO%2BSCo%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:35:55 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visuals of the 'Frying Pan', showing its distinctive shapeHost: "So, to recap, the history of electric guitars is a fascinating journey that started with the need for improved sound projection and led to the creation of the 'Frying Pan' electric guitar by George Beauchamp and Adolph Rickenbacker. This innovative instrument featured a hollow aluminum body and a single magnetic pickup, revolutionizing the way guitars were played and heard in live performances."
+[INFO] 10/15/2023 7:35:55 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:35:55 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:35:55 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:36:02 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412963,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-r64oh6LTLZfcJRBSVwRmbv62.png?st=2023-10-15T22%3A36%3A03Z&se=2023-10-16T00%3A36%3A03Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A02%3A01Z&ske=2023-10-16T22%3A02%3A01Z&sks=b&skv=2021-08-06&sig=hpcPRtPqhemPdqD/nyCtN0p10Rm0dxD3cjS7fp%2B2Erc%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:36:02 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Background music fades out]
+[INFO] 10/15/2023 7:36:02 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:36:02 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:36:02 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:36:10 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697412971,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-ElODAzlSgNHXfoJ6ryrTPGsA.png?st=2023-10-15T22%3A36%3A11Z&se=2023-10-16T00%3A36%3A11Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A35%3A59Z&ske=2023-10-16T22%3A35%3A59Z&sks=b&skv=2021-08-06&sig=1daXlJMzk3sk7tB/BfgGzt2vg9QvS7mLbHL%2B3eHdglI%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 7:36:10 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "That's all for today's video, but stay tunedDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 7:36:10 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 7:36:10 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 7:36:10 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 7:36:10 PM (Main): Mismatch between the number of voiceovers and images.
+[INFO] 10/15/2023 7:36:10 PM (Main): Removing 13 excess images...
+[INFO] 10/15/2023 7:36:10 PM (Main): Mismatch handled. The counts now match.
+[INFO] 10/15/2023 7:36:10 PM (Main): Building slideshow...

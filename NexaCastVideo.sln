@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexaCastVideo", "NexaCastVideo.csproj", "{5AB2005B-F2F2-45D8-B6EF-D6CE205540E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptGenerationTest", "..\ScriptGenerationTest\ScriptGenerationTest.csproj", "{E53C6B5F-E3C2-4FDF-898D-6E53572F4D03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AB2005B-F2F2-45D8-B6EF-D6CE205540E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB2005B-F2F2-45D8-B6EF-D6CE205540E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB2005B-F2F2-45D8-B6EF-D6CE205540E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB2005B-F2F2-45D8-B6EF-D6CE205540E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53C6B5F-E3C2-4FDF-898D-6E53572F4D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53C6B5F-E3C2-4FDF-898D-6E53572F4D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53C6B5F-E3C2-4FDF-898D-6E53572F4D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53C6B5F-E3C2-4FDF-898D-6E53572F4D03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E99A9D65-0BE2-4716-BBF6-44FAABA395A7}
+	EndGlobalSection
+EndGlobal

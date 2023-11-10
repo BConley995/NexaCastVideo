@@ -1,0 +1,46 @@
+[INFO] 10/15/2023 3:22:15 PM (Setup): Logger setup initialized.
+[INFO] 10/15/2023 3:22:15 PM (Main): Initializing...
+[INFO] 10/15/2023 3:22:15 PM (Main): Loading configurations...
+[INFO] 10/15/2023 3:22:15 PM (Main): GPT-4 API Key: [REDACTED]
+[INFO] 10/15/2023 3:22:15 PM (Main): Eleven Labs API Key: [REDACTED]
+[INFO] 10/15/2023 3:22:15 PM (Main): Cloud Storage API Key: [REDACTED]
+[INFO] 10/15/2023 3:22:15 PM (Main): YouTube API Key: [REDACTED]
+[INFO] 10/15/2023 3:22:23 PM (SaveGeneratedContent): Script has been saved to: .\NexaCastVideo\Generation\History Of Pugs\Script_20231015_152223.txt
+[INFO] 10/15/2023 3:22:23 PM (CallOpenAIAsync): Saving Script to: C:\Users\bryan\Documents\Projects\NexaCastVideo\NexaCastVideo\bin\Debug\net6.0\NexaCastVideo\Generation\History Of Pugs\Script_20231015_152223.txt
+[INFO] 10/15/2023 3:23:23 PM (GenerateScriptFromInput): Subtitle file saved successfully to: [REDACTED_API_KEY]/GeneratedSubtitles.srt
+[INFO] 10/15/2023 3:23:23 PM (Main): Generated Script: [Upbeat music fades in]
+
+Host: "Hey there, history buffs! Welcome back to our channel where we dive deep into all things fascinating and enlightening. Today, get ready to embark on an adventure as we unravel the captivating and often adorable history of one of the most beloved dog breeds around - the pug!
+
+[Cute pug images flash across the screen]
+
+Host: "Pugs, with their lovable smooshed faces and playful personalities, have won the hearts of millions aroundHost: "Pugs, with their lovable smooshed faces and playful personalities, have won the hearts of millions around the world. But did you know that the history of pugs dates back over 2,000 years? That's right, these adorable little companions have an intriguing past steeped in both royalty and ancient civilizations.
+
+[Historical images of ancient civilizations and royalty appear on screen]
+
+Host: "The story of pugs begins in ancient China, where they were bred as companionHost: "The story of pugs begins in ancient China, where they were bred as companion dogs for Chinese emperors and noble families. These dogs were highly valued for their small size, adorable features, and charming personalities, making them a status symbol in the imperial courts."
+
+[Images of Chinese emperors and their pugs fill the screen]
+
+Host: "During the Ming Dynasty (1368-1644), pugs became even more popular among the ruling class. They were even givenHost: "During the Ming Dynasty (1368-1644), pugs became even more popular among the ruling class. They were even given their own dedicated living quarters and received the highest level of care and attention imaginable. These pampered pugs were treated as royalty themselves, and some were even guarded by specially appointed soldiers!"
+
+[Images of ornate pug palaces and soldiers guarding pugs are displayed]
+
+Host: "But the pug's journey didn't end there. With the advancementHost: "But the pug's journey didn't end there. With the advancement of trade routes, pugs eventually made their way to Europe, where they captured the hearts of European nobility and became popular pets amongst the aristocracy."
+
+[Images of European nobility with their pugs are shown]
+
+Host: "In the 16th century, pugs found favor with European royals such as Queen Victoria of England and Napoleon Bonaparte of France. Queen Victoria, known for her love, had a deep affection for pugs and played a significant role in popularizing the breed. Pugs even had their own special party, known as the "Pug Party," where Queen Victoria's pugs would socialize with other pugs and enjoy lavish feasts fit for royalty.
+
+[Images of Queen Victoria and Napoleon with their pugs are displayed]
+
+Host: "And so, the pug's popularity continued to spread across the globe. In modern times, these lovable companions have becomeDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 3:23:23 PM (SaveScript): Script saved successfully to: .\NexaCastVideo\Generation\History Of Pugs\GeneratedScript.txt
+[INFO] 10/15/2023 3:23:23 PM (Main): Generating and downloading voiceovers...
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_1.mp3
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_3.mp3
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_5.mp3
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_7.mp3
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_9.mp3
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_11.mp3
+[INFO] 10/15/2023 3:23:58 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_13.mp3

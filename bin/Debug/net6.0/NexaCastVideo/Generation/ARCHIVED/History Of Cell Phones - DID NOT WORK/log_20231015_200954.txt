@@ -1,0 +1,220 @@
+[INFO] 10/15/2023 8:09:54 PM (Setup): Logger setup initialized.
+[INFO] 10/15/2023 8:09:54 PM (Main): Initializing...
+[INFO] 10/15/2023 8:09:54 PM (Main): Loading configurations...
+[INFO] 10/15/2023 8:09:54 PM (Main): GPT-4 API Key: [REDACTED]
+[INFO] 10/15/2023 8:09:54 PM (Main): Eleven Labs API Key: [REDACTED]
+[INFO] 10/15/2023 8:09:54 PM (Main): Cloud Storage API Key: [REDACTED]
+[INFO] 10/15/2023 8:09:54 PM (Main): YouTube API Key: [REDACTED]
+[INFO] 10/15/2023 8:11:22 PM (GenerateScriptFromInput): Subtitle file saved successfully to: [REDACTED_API_KEY]/GeneratedSubtitles.srt
+[INFO] 10/15/2023 8:11:22 PM (Main): Generated Script: [Upbeat music starts playing]
+
+Host: "Hey there, history buffs! Welcome back to our channel, where we explore fascinating stories from the past. Today, we're diving into the captivating history of cell phones. From those hefty beasts to the sleek smartphones we have today, it's truly a journey worth exploring. So, let's jump into the time machine and embark on this thrilling adventure together!"
+
+[Animated footage of the first-ever cell phones appears on screen]
+
+Host: "First, letHost: "First, let's talk about the early days of cell phones. Believe it or not, cell phones did not always fit in our pockets or have touchscreens. In fact, the first cell phone weighed a whopping 2.2 pounds and was about the size of a brick! It may seem unimaginable now, but back in 1983, when Motorola introduced the DynaTAC 8000X, it was a groundbreaking piece of technology."
+
+[Visuals of the DynHost: "Elaborating on the DynaTAC 8000X, it had a hefty price tag of $3,995! That's equivalent to about $10,000 in today's money. It had a battery life of about 30 minutes of talk time, and it took a whopping 10 hours to fully recharge. But despite its limitations, this device paved the way for the future of mobile communication."
+
+[Transition to the evolution of cell phones]
+
+Host: "As theHost: "As the years went by, cell phones evolved at a rapid pace. Manufacturers like Nokia, Ericsson, and Samsung entered the scene, introducing smaller and more compact designs. In the 1990s, we saw the rise of flip phones, which revolutionized the way we interacted with our devices. With their compact form factor and innovative features, flip phones became a style statement and a must-have accessory."
+
+[Visuals of flip phones, including the iconic Motorola RAZR]Host: "But what made flip phones so special? Well, besides their sleek design, they offered something that previous cell phones didn't - a built-in camera! That's right, flip phones brought the power of photography right to our hands. While the image quality may not have been the best by today's standards, it was a game-changer at the time."
+
+[Visuals of phone cameras and the first camera phone, the Nokia 7650]
+
+Host: "Then, in 200Host: "Then, in 2007, a revolutionary device entered the market that would change the way we see cell phones forever. Can you guess what it is? That's right - the iPhone! Apple's introduction of the iPhone completely transformed the industry. With its sleek design, multitouch display, and intuitive user interface, the iPhone set a new standard for smartphones."
+
+[Visuals of different iPhone models]
+
+Host: "Since then, smartphones have continued to evolve at a rapid pace. WeDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 8:11:22 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Cell Phones\GeneratedScript.txt
+[INFO] 10/15/2023 8:11:22 PM (Main): Generating and downloading voiceovers...
+[ERROR] 10/15/2023 8:11:22 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Upbeat music starts playing]'
+[ERROR] 10/15/2023 8:11:27 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Animated footage of the first-ever cell phones appears on screen]'
+[ERROR] 10/15/2023 8:11:38 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Transition to the evolution of cell phones]'
+[ERROR] 10/15/2023 8:11:49 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visuals of phone cameras and the first camera phone, the Nokia 7650]'
+[ERROR] 10/15/2023 8:11:54 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visuals of different iPhone models]'
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_1.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_1.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_3.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_3.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_4.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_4.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_6.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_6.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_7.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_7.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_9.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_9.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Cell Phones\voiceover_11.mp3
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:11:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Cell Phones\voiceover_11.mp3
+[INFO] 10/15/2023 8:11:57 PM (Main): Fetching and downloading images...
+[ERROR] 10/15/2023 8:12:06 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415127,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-hOCF0S1VvFU8qpl2C2fogmeL.png?st=2023-10-15T23%3A12%3A07Z&se=2023-10-16T01%3A12%3A07Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A23%3A13Z&ske=2023-10-16T22%3A23%3A13Z&sks=b&skv=2021-08-06&sig=gKYlCvP5ghTbFF44uVxAtuW/j3Ppkn3pQYgJCXwVhnU%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:06 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Upbeat music starts playing]
+[INFO] 10/15/2023 8:12:06 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:06 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:06 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:12:15 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415135,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-sNYaxCqzv0fmP9sifKDSdV0l.png?st=2023-10-15T23%3A12%3A15Z&se=2023-10-16T01%3A12%3A15Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T20%3A14%3A51Z&ske=2023-10-16T20%3A14%3A51Z&sks=b&skv=2021-08-06&sig=Egy7CEbAYc40OM8nbhGlPs1Q1utVBldbu4uXmNTgZis%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:15 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Hey there, history buffs! Welcome back to our channel, where we explore fascinating stories from the past. Today, we're diving into the captivating history of cell phones. From those hefty beasts to the sleek smartphones we have today, it's truly a journey worth exploring. So, let's jump into the time machine and embark on this thrilling adventure together!"
+[INFO] 10/15/2023 8:12:15 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:15 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:15 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:12:23 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415143,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-rXkn2ObajBybczKRGlu98bVY.png?st=2023-10-15T23%3A12%3A23Z&se=2023-10-16T01%3A12%3A23Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T21%3A54%3A15Z&ske=2023-10-16T21%3A54%3A15Z&sks=b&skv=2021-08-06&sig=lo9BN016uZkUQvL2R9dlOmWWlvm6AOnarjHfuRFGjgw%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:23 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Animated footage of the first-ever cell phones appears on screen]
+[INFO] 10/15/2023 8:12:23 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:23 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:23 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:12:33 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415153,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-Hirnja6q1amxoOfkNFx3GTjB.png?st=2023-10-15T23%3A12%3A33Z&se=2023-10-16T01%3A12%3A33Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T19%3A15%3A41Z&ske=2023-10-16T19%3A15%3A41Z&sks=b&skv=2021-08-06&sig=hp3guve0a8SbwI3iDUIq/iOmZoTHhB57L%2BauHwXii/s%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:33 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "First, letHost: "First, let's talk about the early days of cell phones. Believe it or not, cell phones did not always fit in our pockets or have touchscreens. In fact, the first cell phone weighed a whopping 2.2 pounds and was about the size of a brick! It may seem unimaginable now, but back in 1983, when Motorola introduced the DynaTAC 8000X, it was a groundbreaking piece of technology."
+[INFO] 10/15/2023 8:12:33 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:33 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:33 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:12:43 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415163,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-kSMODccCMyhSYfkN5njFxyaf.png?st=2023-10-15T23%3A12%3A43Z&se=2023-10-16T01%3A12%3A43Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T11%3A24%3A21Z&ske=2023-10-16T11%3A24%3A21Z&sks=b&skv=2021-08-06&sig=Rrt7pphPb%2B0PC4z6Is88UpnaYem5nG7nanGsjBRd2n8%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:43 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visuals of the DynHost: "Elaborating on the DynaTAC 8000X, it had a hefty price tag of $3,995! That's equivalent to about $10,000 in today's money. It had a battery life of about 30 minutes of talk time, and it took a whopping 10 hours to fully recharge. But despite its limitations, this device paved the way for the future of mobile communication."
+[INFO] 10/15/2023 8:12:43 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:43 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:43 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:12:51 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415172,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-sLW553PoRNQE2xQWtbQmyiKI.png?st=2023-10-15T23%3A12%3A52Z&se=2023-10-16T01%3A12%3A52Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T07%3A31%3A00Z&ske=2023-10-16T07%3A31%3A00Z&sks=b&skv=2021-08-06&sig=g1l8Y6yD7n71eiecuVqHwKNrhpBLB2v5FI8%2BSP1qUsQ%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:51 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Transition to the evolution of cell phones]
+[INFO] 10/15/2023 8:12:51 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:51 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:51 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:12:59 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415179,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-uVvn0NpkPyJz9BgOgOFd8om9.png?st=2023-10-15T23%3A12%3A59Z&se=2023-10-16T01%3A12%3A59Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T07%3A45%3A41Z&ske=2023-10-16T07%3A45%3A41Z&sks=b&skv=2021-08-06&sig=/ItflYBeFQ6OiQxEvLcfxuzr47zutblnqSOOficKLcc%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:12:59 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "As theHost: "As the years went by, cell phones evolved at a rapid pace. Manufacturers like Nokia, Ericsson, and Samsung entered the scene, introducing smaller and more compact designs. In the 1990s, we saw the rise of flip phones, which revolutionized the way we interacted with our devices. With their compact form factor and innovative features, flip phones became a style statement and a must-have accessory."
+[INFO] 10/15/2023 8:12:59 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:12:59 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:12:59 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:13:08 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415188,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-jQW5wOlKNymAqUux9bg5jaqB.png?st=2023-10-15T23%3A13%3A08Z&se=2023-10-16T01%3A13%3A08Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T23%3A16%3A34Z&ske=2023-10-16T23%3A16%3A34Z&sks=b&skv=2021-08-06&sig=PJqLkfkLEuR/QyFXPS0lUofhugt0kKx4n5mR%2BTGvMRA%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:13:08 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visuals of flip phones, including the iconic Motorola RAZR]Host: "But what made flip phones so special? Well, besides their sleek design, they offered something that previous cell phones didn't - a built-in camera! That's right, flip phones brought the power of photography right to our hands. While the image quality may not have been the best by today's standards, it was a game-changer at the time."
+[INFO] 10/15/2023 8:13:08 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:13:08 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:13:08 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:13:16 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415197,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-AHfU0awL1DZ7U3zeWqoIfMwS.png?st=2023-10-15T23%3A13%3A17Z&se=2023-10-16T01%3A13%3A17Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T05%3A27%3A57Z&ske=2023-10-16T05%3A27%3A57Z&sks=b&skv=2021-08-06&sig=EkC7srtYPm9AY7CrvS6vB51f9yIs6gp41XCJCe1nOeQ%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:13:16 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visuals of phone cameras and the first camera phone, the Nokia 7650]
+[INFO] 10/15/2023 8:13:16 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:13:16 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:13:16 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:13:24 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415204,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-1WhanbFCtkmdIbOr0tekyEzn.png?st=2023-10-15T23%3A13%3A24Z&se=2023-10-16T01%3A13%3A24Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A11%3A23Z&ske=2023-10-16T22%3A11%3A23Z&sks=b&skv=2021-08-06&sig=/DSkYHKk4et8HJn9/TQcJArALv6WR87rhDsMqPSk5II%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:13:24 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Then, in 200Host: "Then, in 2007, a revolutionary device entered the market that would change the way we see cell phones forever. Can you guess what it is? That's right - the iPhone! Apple's introduction of the iPhone completely transformed the industry. With its sleek design, multitouch display, and intuitive user interface, the iPhone set a new standard for smartphones."
+[INFO] 10/15/2023 8:13:24 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:13:24 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:13:24 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:13:32 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415212,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-QfEabhdvNNaaHlxY9oHwRgum.png?st=2023-10-15T23%3A13%3A32Z&se=2023-10-16T01%3A13%3A32Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T22%3A04%3A04Z&ske=2023-10-16T22%3A04%3A04Z&sks=b&skv=2021-08-06&sig=wwayoObIgZiN7xHB8Fct9hMfZR3XURkDJtfCeMdE2/I%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:13:32 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visuals of different iPhone models]
+[INFO] 10/15/2023 8:13:32 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:13:32 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:13:32 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:13:40 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697415221,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-rk8tyK6uz8AnB9CKxP4aaLZs.png?st=2023-10-15T23%3A13%3A41Z&se=2023-10-16T01%3A13%3A41Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-15T23%3A07%3A01Z&ske=2023-10-16T23%3A07%3A01Z&sks=b&skv=2021-08-06&sig=HuXMrqmPwkgyZWUOcB0vvBJDjAVS5EIMrZZ4XX8poYk%3D"
+    }
+  ]
+}
+
+[ERROR] 10/15/2023 8:13:40 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Since then, smartphones have continued to evolve at a rapid pace. WeDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 8:13:40 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/15/2023 8:13:40 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/15/2023 8:13:40 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/15/2023 8:13:40 PM (Main): Mismatch between the number of voiceovers and images.
+[INFO] 10/15/2023 8:13:40 PM (Main): Removing 12 excess images...
+[INFO] 10/15/2023 8:13:40 PM (Main): Mismatch handled. The counts now match.
+[INFO] 10/15/2023 8:13:40 PM (Main): Building slideshow...

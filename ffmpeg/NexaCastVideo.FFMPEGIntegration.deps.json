@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NexaCastVideo.FFMPEGIntegration/1.0.0": {
+        "dependencies": {
+          "Accord.Video.FFMPEG.x64": "3.8.0"
+        },
+        "runtime": {
+          "NexaCastVideo.FFMPEGIntegration.dll": {}
+        }
+      },
+      "Accord/3.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Video/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Video.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Video.FFMPEG.x64/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Video": "3.8.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NexaCastVideo.FFMPEGIntegration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7kJrB570dO5ELim+2KWQNozuvWO9/BuZfZspdFy36fcWPNF2CEccblLuILeUlI8QJYd2DlBy0bfK8BlCx/uayA==",
+      "path": "accord/3.8.0",
+      "hashPath": "accord.3.8.0.nupkg.sha512"
+    },
+    "Accord.Video/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-efsmrydC22ZEisWkukqAiCtv27qF0l5/9U1eCCTkbnc5EYYE6F2RSnsfWr8iTELXb3ZsLLGO+Sy+K0NXrHDv4A==",
+      "path": "accord.video/3.8.0",
+      "hashPath": "accord.video.3.8.0.nupkg.sha512"
+    },
+    "Accord.Video.FFMPEG.x64/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eYHbjfn6AlYPjhaPBWy6Hyjnw5lbWzBQ43GzwsQQcAMgsYB6sK7kwh5yTHns4UycI2v0Y/I/WVXJdOcpaiK3Xw==",
+      "path": "accord.video.ffmpeg.x64/3.8.0",
+      "hashPath": "accord.video.ffmpeg.x64.3.8.0.nupkg.sha512"
+    }
+  }
+}
