@@ -2,6 +2,18 @@
 
 NexaCast is a cutting-edge project that utilizes advanced AI technologies to automate the creation of videos for YouTube. Users can input a brief summary or idea, and NexaCast efficiently generates a comprehensive video, including visuals, voiceovers, subtitles, and background music, tailored for YouTube audiences.
 
+## Project Overview
+
+### Features to Integrate:
+
+1. Logging system to record errors, invalid inputs, or other important events.
+2. Asynchronous operations to enhance efficiency.
+3. Database with related tables to store video metadata and user configurations using raw SQL.
+4. Unit tests to ensure robustness.
+5. SOLID principle comments for maintainability and clarity.
+6. Regex validation for ensuring content adheres to YouTube's guidelines.
+7. Transform application into an API for potential integrations.
+
 ## Current Capabilities
 
 - **Topic Generation**: NexaCast employs ChatGPT to generate relevant topics based on user inputs.
