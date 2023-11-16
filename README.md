@@ -65,3 +65,4 @@ Access all large files, including `ffmpeg.exe`, necessary for the project.
 2. **Automated Testing**: Develop unit and integration tests.
 3. **Optimization**: Continuously optimize for performance.
 4. **Documentation**: Create detailed API and developer documentation.
+5. **Allow API**: Need to create a way for project reviewer to use current APIs
