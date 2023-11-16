@@ -1,0 +1,150 @@
+[INFO] 11/16/2023 2:33:40 PM (Setup): Logger setup initialized.
+[INFO] 11/16/2023 2:33:40 PM (Main): Initializing...
+[INFO] 11/16/2023 2:33:40 PM (Main): Loading configurations...
+[INFO] 11/16/2023 2:33:43 PM (Main): Directory NexaCastVideo\Generation\History Of Artificial Intelligence created successfully.
+[INFO] 11/16/2023 2:33:44 PM (Main): Downloading random royalty-free music...
+[INFO] 11/16/2023 2:33:46 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Artificial Intelligence\eco-technology-145636.mp3
+[INFO] 11/16/2023 2:33:58 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcPTQOpL9sSgzq9Pc85abNP9A3Vn",
+  "object": "chat.completion",
+  "created": 1700163227,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Background music fades in]\n\nNarrator (AI Voice): \"Welcome to our channel, where we explore intriguing topics and dive deep into the world of knowledge. Today, we will journey through the captivating history of Artificial Intelligence, or AI for short.\"\n\n[Animated visuals depicting AI-related concepts appear on screen]\n\nNarrator (AI Voice): \"But before we embark on this enlightening adventure, it's worth mentioning that the content you're about to witness has been generated using cutting-edge artificial intelligence technology."
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 100,
+    "total_tokens": 147
+  }
+}
+
+[INFO] 11/16/2023 2:34:04 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcPf4EmQQjYBcS4wRaWoyOoWkdNu",
+  "object": "chat.completion",
+  "created": 1700163239,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The main point about the history of artificial intelligence is that it has evolved from theoretical concepts in the 1950s to becoming an integral part of our everyday lives, with advancements in machine learning and deep learning shaping its development."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 45,
+    "total_tokens": 77
+  }
+}
+
+[INFO] 11/16/2023 2:34:13 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcPldBMYxd0uoAZsz30jvgwr1bvp",
+  "object": "chat.completion",
+  "created": 1700163245,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "As a script generator for educational YouTube videos, my role is to create well-structured and engaging scripts that effectively communicate information or concepts to the audience. These scripts serve as the foundation for the video content, guiding the presenter or narrator on what to say and ensuring that the information is organized in a logical and easily understandable manner.\n\nEducational YouTube videos often cover a wide range of topics, from science and history to mathematics and literature. It is crucial for the script generator to have a good understanding of the"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 100,
+    "total_tokens": 129
+  }
+}
+
+[INFO] 11/16/2023 2:34:18 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcPvfL2jRGyih0gymQvagPqJxBmJ",
+  "object": "chat.completion",
+  "created": 1700163255,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "topic they are creating content about in order to create accurate and informative educational YouTube videos."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 17,
+    "total_tokens": 58
+  }
+}
+
+[INFO] 11/16/2023 2:34:27 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcPz8RYvuLopVkkOslXBCX0vy0OB",
+  "object": "chat.completion",
+  "created": 1700163259,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "And there you have it! Knowing these facts about the topic has definitely expanded our knowledge. From the history to the science behind it, it's fascinating to dive deeper into this subject. Remember, learning is a lifelong process, so never stop seeking out new facts and information. Stay curious and keep educating yourself. Until next time, keep exploring and expanding your mind!"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 73,
+    "total_tokens": 103
+  }
+}
+
+[INFO] 11/16/2023 2:34:27 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedScript.txt
+[INFO] 11/16/2023 2:34:27 PM (GenerateSubtitles): Subtitle file saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedSubtitles.srt
+[INFO] 11/16/2023 2:34:27 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+"Welcome to our channel, where we explore intriguing topics and dive deep into the world of knowledge. Today, we will journey through the captivating history of Artificial Intelligence, or AI for short."
+
+
+
+"But before we embark on this enlightening adventure, it's worth mentioning that the content you're about to witness has been generated using cutting-edge artificial intelligence technology.
+
+ The main point about the history of artificial intelligence is that it has evolved from theoretical concepts in the 1950s to becoming an integral part of our everyday lives, with advancements in machine learning and deep learning shaping its development.
+
+ As a script generator for educational YouTube videos, my role is to create well-structured and engaging scripts that effectively communicate information or concepts to the audience. These scripts serve as the foundation for the video content, guiding the presenter or narrator on what to say and ensuring that the information is organized in a logical and easily understandable manner.
+
+Educational YouTube videos often cover a wide range of topics, from science and history to mathematics and literature. It is crucial for the script generator to have a good understanding of thetopic they are creating content about in order to create accurate and informative educational YouTube videos.
+
+ And there you have it! Knowing these facts about the topic has definitely expanded our knowledge. From the history to the science behind it, it's fascinating to dive deeper into this subject. Remember, learning is a lifelong process, so never stop seeking out new facts and information. Stay curious and keep educating yourself. Until next time, keep exploring and expanding your mind!
+
+Don’t forget to subscribe. Thank you for watching NexaCast.
+[INFO] 11/16/2023 2:34:27 PM (GenerateDallePromptsFromScript): Extracted paragraphs:
+"Welcome to our channel, where we explore intriguing topics and dive deep into the world of knowledge. Today, we will journey through the captivating history of Artificial Intelligence, or AI for short."
+"But before we embark on this enlightening adventure, it's worth mentioning that the content you're about to witness has been generated using cutting-edge artificial intelligence technology.
+ The main point about the history of artificial intelligence is that it has evolved from theoretical concepts in the 1950s to becoming an integral part of our everyday lives, with advancements in machine learning and deep learning shaping its development.
+ As a script generator for educational YouTube videos, my role is to create well-structured and engaging scripts that effectively communicate information or concepts to the audience. These scripts serve as the foundation for the video content, guiding the presenter or narrator on what to say and ensuring that the information is organized in a logical and easily understandable manner.
+Educational YouTube videos often cover a wide range of topics, from science and history to mathematics and literature. It is crucial for the script generator to have a good understanding of thetopic they are creating content about in order to create accurate and informative educational YouTube videos.
+ And there you have it! Knowing these facts about the topic has definitely expanded our knowledge. From the history to the science behind it, it's fascinating to dive deeper into this subject. Remember, learning is a lifelong process, so never stop seeking out new facts and information. Stay curious and keep educating yourself. Until next time, keep exploring and expanding your mind!
+Don’t forget to subscribe. Thank you for watching NexaCast.
+[INFO] 11/16/2023 2:34:58 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\DallePrompts.txt
+[INFO] 11/16/2023 2:34:58 PM (Main): Fetching and downloading images...
+[INFO] 11/16/2023 2:35:17 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:35:18 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_1.png
+[INFO] 11/16/2023 2:35:51 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:35:52 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_2.png
+[INFO] 11/16/2023 2:36:24 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:36:24 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_3.png

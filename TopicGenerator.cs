@@ -72,7 +72,21 @@ public class TopicGenerator
 
     private async Task<string> GenerateSegment(string context, string prompt, int maxTokens)
     {
-        return await MakeAPICall("You are a script generator for educational YouTube videos.", context + prompt, maxTokens);
+        var generatedSegment = await MakeAPICall("You are a script generator for educational YouTube videos.", context + prompt, maxTokens);
+        var completeSegment = await EnsureCompleteSentence(generatedSegment);
+        return completeSegment;
+    }
+
+    private async Task<string> EnsureCompleteSentence(string segment)
+    {
+        if (!segment.EndsWith(".") && !segment.EndsWith("?") && !segment.EndsWith("!"))
+        {
+            // The last sentence seems incomplete. Generate the completion.
+            string completionPrompt = "Complete the following sentence: " + segment.Split('.').Last();
+            var completion = await MakeAPICall("You are a script generator for educational YouTube videos.", completionPrompt, 50);
+            return segment + completion;
+        }
+        return segment; // Return the original segment if it ends with a complete sentence.
     }
 
     private async Task<string> GenerateDetailedPromptForDalle(string content, string topic)
@@ -113,14 +127,8 @@ public class TopicGenerator
         }
     }
 
-    // This is a new method to further simplify the AI-generated prompt if necessary.
     private string SimplifyPrompt(string prompt)
-    {
-        // Implement any additional logic here to refine the prompt. This could involve:
-        // - Stripping out any non-visual elements.
-        // - Removing complex and abstract concepts.
-        // - Ensuring the prompt is focused on concrete, visualizable content.
-        // For the sake of example, let's say we just return the prompt directly.
+    { 
         return prompt;
     }
 
@@ -132,70 +140,44 @@ public class TopicGenerator
 
         try
         {
-            var introduction = await GenerateSegment(context, $"Create an engaging introduction discussing {topic}.", 300);
-            context += introduction;
-            script.AppendLine($"Narrator: {introduction}");
-            script.AppendLine();
-
-            // Define a list of phrases that signal the end of the script
-            var conclusionSignals = new List<string>
-        {
-            "subscribe button",
-            "Until next time",
-            "Wrapping up",
-            // Add more phrases as needed
-        };
-
-            bool hasConcluded = false;
-
-            for (int i = 1; i <= 2; i++)
+            // Generate a concise introduction
+            var introduction = await GenerateSegment(context, $"Create a very brief introduction include a quick statement that content is AI generated and the narrator is an AI voice. Than discus a quick into to {topic}.", 100);
+            if (!string.IsNullOrWhiteSpace(introduction))
             {
-                var mainPoint = await GenerateSegment(context, $"Provide a main point about {topic}.", 500);
-                context += mainPoint;
-                script.AppendLine($"Narrator: {mainPoint}");
+                script.AppendLine($"Narrator: {introduction}");
                 script.AppendLine();
-
-                // Check if the main point contains a conclusion signal
-                foreach (var signal in conclusionSignals)
-                {
-                    if (mainPoint.Contains(signal))
-                    {
-                        hasConcluded = true;
-                        break;
-                    }
-                }
-
-                if (hasConcluded) break; // Stop if a conclusion signal is found
-
-                var subPoint = await GenerateSegment(context, $"Elaborate with a sub-point regarding the above point.", 200);
-                context += subPoint;
-                script.AppendLine($"Narrator: {subPoint}");
-                script.AppendLine();
-
-                // Check if the sub-point contains a conclusion signal
-                foreach (var signal in conclusionSignals)
-                {
-                    if (subPoint.Contains(signal))
-                    {
-                        hasConcluded = true;
-                        break;
-                    }
-                }
-
-                if (hasConcluded) break; // Stop if a conclusion signal is found
             }
 
-            // If no conclusion has been reached, generate the conclusion
-            if (!hasConcluded)
+            // Limit the number of main points and sub-points
+            for (int i = 1; i <= 1; i++)
             {
-                var conclusion = await GenerateSegment(context, "Conclude the discussion with an interesting fact.", 200);
-                context += conclusion;
+                // Generate a main point
+                var mainPoint = await GenerateSegment(context, $"Provide a concise main point about {topic}.", 150);
+                if (!string.IsNullOrWhiteSpace(mainPoint))
+                {
+                    script.AppendLine($"Narrator: {mainPoint}");
+                    script.AppendLine();
+                }
+
+                // Generate a sub-point
+                var subPoint = await GenerateSegment(context, $"Briefly elaborate on the above point.", 100);
+                if (!string.IsNullOrWhiteSpace(subPoint))
+                {
+                    script.AppendLine($"Narrator: {subPoint}");
+                    script.AppendLine();
+                }
+            }
+
+            // Generate a brief conclusion
+            var conclusion = await GenerateSegment(context, "Conclude the discussion with a short fact.", 100);
+            if (!string.IsNullOrWhiteSpace(conclusion))
+            {
                 script.AppendLine($"Narrator: {conclusion}");
                 script.AppendLine();
             }
 
             // Add the final call to action
-            script.AppendLine("Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.");
+            script.AppendLine("Don’t forget to subscribe. Thank you for watching NexaCast.");
 
             string finalScript = ScriptCleaner(script.ToString());
 
@@ -208,7 +190,6 @@ public class TopicGenerator
         }
     }
 
-
     public async Task<List<string>> GenerateDallePromptsFromScript(string script)
     {
         Logger.LogInfo($"Received script for DALL·E prompts generation:\n{script}");
@@ -216,8 +197,8 @@ public class TopicGenerator
         var prompts = new List<string>();
         try
         {
-            var paragraphs = script.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries)
-                                .Where(line => line.StartsWith("Narrator:")).ToList();
+            // Split the script into paragraphs
+            var paragraphs = script.Split(new string[] { "\r\n\r\n", "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
 
             Logger.LogInfo($"Extracted paragraphs:\n{string.Join("\n", paragraphs)}");
 
@@ -234,14 +215,13 @@ public class TopicGenerator
 
             foreach (var paragraph in paragraphs)
             {
-                var content = paragraph.Replace("Narrator: ", "").Trim();
+                var content = paragraph.Trim();
                 if (!string.IsNullOrEmpty(content))
                 {
-                    // Execute the retry policy
+                    // Generate DALL-E prompt for each paragraph
                     var rawPrompt = await retryPolicy.ExecuteAsync(() => GenerateDetailedPromptForDalle(content, ""));
                     var bracketedPrompt = $"[{Regex.Replace(rawPrompt, @"^\w+:\s+", "")}]";
                     prompts.Add(bracketedPrompt);
-                    Logger.LogInfo($"Generated prompt for paragraph:\n{paragraph}\nPrompt:\n{bracketedPrompt}");
                 }
             }
 
@@ -264,6 +244,7 @@ public class TopicGenerator
 
         return prompts;
     }
+
 
     public void GenerateSubtitles(string script)
     {
@@ -343,6 +324,11 @@ public class TopicGenerator
         script = script.Replace(" : ", "");
         script = script.Replace("Narrator (voiceover):", "Narrator:");
         script = script.Replace("Narrator: Narrator (voiceover):", "Narrator:");
+        script = script.Replace("Narrator", "");
+        script = script.Replace("Narrator: ", "");
+        script = script.Replace("Narrator:", "");
+        script = script.Replace("Narrator :", "");
+        script = script.Replace(":", "");
 
         // Correct missing spaces after punctuation
         script = Regex.Replace(script, @"([a-zA-Z])\.([a-zA-Z])", "$1. $2");  // Periods

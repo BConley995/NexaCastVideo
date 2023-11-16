@@ -1,0 +1,212 @@
+[INFO] 11/10/2023 3:43:33 PM (Setup): Logger setup initialized.
+[INFO] 11/10/2023 3:43:33 PM (Main): Initializing...
+[INFO] 11/10/2023 3:43:33 PM (Main): Loading configurations...
+[INFO] 11/10/2023 3:43:41 PM (Main): Directory NexaCastVideo\Generation\History Of Bourbon Glasses created successfully.
+[INFO] 11/10/2023 3:43:41 PM (Main): Downloading random royalty-free music...
+[INFO] 11/10/2023 3:43:44 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Bourbon Glasses\eco-technology-145636.mp3
+[INFO] 11/10/2023 3:44:29 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JSds3xiDH0NZ8FvBmpMZElBdR1GW",
+  "object": "chat.completion",
+  "created": 1699649024,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Upbeat instrumental music fades in]\n\nHost: \"Welcome back to our channel, where we explore fascinating topics from around the world! Today, we're diving into the rich history of bourbon glasses. So grab your favorite drink, sit back, and let's journey through time!\"\n\n[Animated timeline graphic appears on screen]\n\nHost: \"To understand the history of bourbon glasses, we need to start at the beginning. Bourbon, one of America's most beloved spirits, traces its origins back to the late"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 100,
+    "total_tokens": 131
+  }
+}
+
+[INFO] 11/10/2023 3:44:47 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JSebyWUV4Cxz1nHaIxqlQZgmzzIn",
+  "object": "chat.completion",
+  "created": 1699649069,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "18th century. In those early days, bourbon was served in a variety of containers, including jugs, cups, and even clay vessels. But it wasn't until the 19th century that specific glassware designed for bourbon started to gain popularity.\"\n\n[Image of early 19th-century bourbon glasses appear on screen]\n\nHost: \"The earliest bourbon glasses, known as tumblers, were simple and sturdy vessels. They were usually made of clear glass, with a thick bottom to enhance stability and prevent tipping. These tumblers were utilitarian in nature, designed primarily for practicality rather than aesthetics.\"\n\n[Image transitions to more ornate bourbon glasses]\n\nHost: \"However, as bourbon's popularity grew, so did the desire for more elegant glass"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 150,
+    "total_tokens": 282
+  }
+}
+
+[INFO] 11/10/2023 3:44:58 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JSetL1nY13kzpFeGrniEoz0vA6oB",
+  "object": "chat.completion",
+  "created": 1699649087,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "ware. Enter the era of intricately-designed bourbon glasses. In the mid-19th century, glassmakers began experimenting with more ornate patterns and shapes, adding a touch of sophistication to the bourbon-drinking experience.\"\n\n[Close-up shots of intricate patterns on bourbon glasses]\n\nHost: \"One popular style during this time was the cut glass bourbon glass, featuring elaborate patterns and faceted designs. These glasses showcased the craftsmanship of skilled glassmakers, with intricate cuts that caught the light and created a dazzling"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 279,
+    "completion_tokens": 100,
+    "total_tokens": 379
+  }
+}
+
+[INFO] 11/10/2023 3:45:09 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JSf4SXgO9NBE3z57ys16hFCAKwTV",
+  "object": "chat.completion",
+  "created": 1699649098,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Host: \"Did you know that one of the most iconic bourbon glasses, known as the Glencairn glass, was created in the 21st century? This distinctive glass is characterized by its tulip shape and wide base, which enhances the aroma and flavor of bourbon. Its design was specifically developed to enhance the whiskey-drinking experience by concentrating the aromas and allowing for a comfortable grip. Today, the Glencairn glass is widely recognized as the preferred glassware for bourbon enthusiasts around"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 380,
+    "completion_tokens": 100,
+    "total_tokens": 480
+  }
+}
+
+[INFO] 11/10/2023 3:45:09 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Bourbon Glasses\GeneratedScript.txt
+[INFO] 11/10/2023 3:45:09 PM (GenerateSubtitles): Subtitle file saved successfully to: NexaCastVideo\Generation\History Of Bourbon Glasses\GeneratedSubtitles.srt
+[INFO] 11/10/2023 3:45:09 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Narrator: 
+
+Narrator: "Welcome back to our channel, where we explore fascinating topics from around the world! Today, we're diving into the rich history of bourbon glasses. So grab your favorite drink, sit back, and let's journey through time!"
+
+
+
+Narrator: "To understand the history of bourbon glasses, we need to start at the beginning. Bourbon, one of America's most beloved spirits, traces its origins back to the late
+
+Narrator: 18th century. In those early days, bourbon was served in a variety of containers, including jugs, cups, and even clay vessels. But it wasn't until the 19th century that specific glassware designed for bourbon started to gain popularity."
+
+
+
+Narrator: "The earliest bourbon glasses, known as tumblers, were simple and sturdy vessels. They were usually made of clear glass, with a thick bottom to enhance stability and prevent tipping. These tumblers were utilitarian in nature, designed primarily for practicality rather than aesthetics."
+
+
+
+Narrator: "However, as bourbon's popularity grew, so did the desire for more elegant glass
+
+Narrator: ware. Enter the era of intricately-designed bourbon glasses. In the mid-19th century, glassmakers began experimenting with more ornate patterns and shapes, adding a touch of sophistication to the bourbon-drinking experience."
+
+
+
+Narrator: "One popular style during this time was the cut glass bourbon glass, featuring elaborate patterns and faceted designs. These glasses showcased the craftsmanship of skilled glassmakers, with intricate cuts that caught the light and created a dazzling
+
+Narrator: "Did you know that one of the most iconic bourbon glasses, known as the Glencairn glass, was created in the 21st century? This distinctive glass is characterized by its tulip shape and wide base, which enhances the aroma and flavor of bourbon. Its design was specifically developed to enhance the whiskey-drinking experience by concentrating the aromas and allowing for a comfortable grip. Today, the Glencairn glass is widely recognized as the preferred glassware for bourbon enthusiasts around
+
+Don’t forget to subscribe. Thank you for watching NexaCast.
+[INFO] 11/10/2023 3:45:09 PM (GenerateDallePromptsFromScript): Extracted paragraphs:
+Narrator: 
+Narrator: "Welcome back to our channel, where we explore fascinating topics from around the world! Today, we're diving into the rich history of bourbon glasses. So grab your favorite drink, sit back, and let's journey through time!"
+Narrator: "To understand the history of bourbon glasses, we need to start at the beginning. Bourbon, one of America's most beloved spirits, traces its origins back to the late
+Narrator: 18th century. In those early days, bourbon was served in a variety of containers, including jugs, cups, and even clay vessels. But it wasn't until the 19th century that specific glassware designed for bourbon started to gain popularity."
+Narrator: "The earliest bourbon glasses, known as tumblers, were simple and sturdy vessels. They were usually made of clear glass, with a thick bottom to enhance stability and prevent tipping. These tumblers were utilitarian in nature, designed primarily for practicality rather than aesthetics."
+Narrator: "However, as bourbon's popularity grew, so did the desire for more elegant glass
+Narrator: ware. Enter the era of intricately-designed bourbon glasses. In the mid-19th century, glassmakers began experimenting with more ornate patterns and shapes, adding a touch of sophistication to the bourbon-drinking experience."
+Narrator: "One popular style during this time was the cut glass bourbon glass, featuring elaborate patterns and faceted designs. These glasses showcased the craftsmanship of skilled glassmakers, with intricate cuts that caught the light and created a dazzling
+Narrator: "Did you know that one of the most iconic bourbon glasses, known as the Glencairn glass, was created in the 21st century? This distinctive glass is characterized by its tulip shape and wide base, which enhances the aroma and flavor of bourbon. Its design was specifically developed to enhance the whiskey-drinking experience by concentrating the aromas and allowing for a comfortable grip. Today, the Glencairn glass is widely recognized as the preferred glassware for bourbon enthusiasts around
+[INFO] 11/10/2023 3:45:15 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Welcome back to our channel, where we explore fascinating topics from around the world! Today, we're diving into the rich history of bourbon glasses. So grab your favorite drink, sit back, and let's journey through time!"
+Prompt:
+[Please illustrate a cozy scene with a bourbon glass surrounded by various historical artifacts, such as antique whiskey bottles, aged oak barrels, and a vintage map.]
+[INFO] 11/10/2023 3:45:18 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "To understand the history of bourbon glasses, we need to start at the beginning. Bourbon, one of America's most beloved spirits, traces its origins back to the late
+Prompt:
+["To visualize the history of bourbon glasses, create an illustration showcasing the evolution of bourbon drinking vessels. Begin with the late"]
+[INFO] 11/10/2023 3:45:33 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: 18th century. In those early days, bourbon was served in a variety of containers, including jugs, cups, and even clay vessels. But it wasn't until the 19th century that specific glassware designed for bourbon started to gain popularity."
+Prompt:
+[Illustrate an image showcasing the evolution of bourbon containers through the centuries. Depict the 18th century scene, where bourbon is being served in various vessels like jugs, cups, and clay vessels. Transition into the 19th century, where the focus shifts to specific glassware designed exclusively for]
+[INFO] 11/10/2023 3:45:45 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "The earliest bourbon glasses, known as tumblers, were simple and sturdy vessels. They were usually made of clear glass, with a thick bottom to enhance stability and prevent tipping. These tumblers were utilitarian in nature, designed primarily for practicality rather than aesthetics."
+Prompt:
+[Create an illustration of a traditional bourbon tumbler with a clear glass body and a thick, stable bottom. Emphasize its simplicity and utilitarian nature.]
+[INFO] 11/10/2023 3:45:48 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "However, as bourbon's popularity grew, so did the desire for more elegant glass
+Prompt:
+[Create an illustration showcasing an elegant glass design that caters to the increasing popularity of bourbon.]
+[INFO] 11/10/2023 3:45:52 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: ware. Enter the era of intricately-designed bourbon glasses. In the mid-19th century, glassmakers began experimenting with more ornate patterns and shapes, adding a touch of sophistication to the bourbon-drinking experience."
+Prompt:
+[Create an illustration showcasing beautifully crafted and ornate mid-19th century bourbon glasses, adding sophistication and elegance to the era of whiskey.]
+[INFO] 11/10/2023 3:45:58 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "One popular style during this time was the cut glass bourbon glass, featuring elaborate patterns and faceted designs. These glasses showcased the craftsmanship of skilled glassmakers, with intricate cuts that caught the light and created a dazzling
+Prompt:
+[Create an illustration of a cut glass bourbon glass adorned with elaborate patterns and faceted designs, showcasing the craftsmanship of skilled glassmakers. The intricate cuts capture the light, producing a dazzling display.]
+[INFO] 11/10/2023 3:46:01 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: "Did you know that one of the most iconic bourbon glasses, known as the Glencairn glass, was created in the 21st century? This distinctive glass is characterized by its tulip shape and wide base, which enhances the aroma and flavor of bourbon. Its design was specifically developed to enhance the whiskey-drinking experience by concentrating the aromas and allowing for a comfortable grip. Today, the Glencairn glass is widely recognized as the preferred glassware for bourbon enthusiasts around
+Prompt:
+[Create an illustration of a Glencairn glass, showcasing its distinctive tulip shape and wide base that enhance the aroma and flavor of bourbon.]
+[INFO] 11/10/2023 3:46:01 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Bourbon Glasses\DallePrompts.txt
+[INFO] 11/10/2023 3:46:01 PM (Main): Fetching and downloading images...
+[INFO] 11/10/2023 3:46:16 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:46:17 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_1.png
+[INFO] 11/10/2023 3:46:48 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:46:48 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_2.png
+[INFO] 11/10/2023 3:47:19 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:47:19 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_3.png
+[INFO] 11/10/2023 3:47:51 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:47:51 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_4.png
+[INFO] 11/10/2023 3:48:21 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:48:21 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_5.png
+[INFO] 11/10/2023 3:48:50 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:48:50 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_6.png
+[INFO] 11/10/2023 3:49:20 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:49:20 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_7.png
+[INFO] 11/10/2023 3:49:49 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 3:49:49 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Bourbon Glasses\image_8.png
+[INFO] 11/10/2023 3:50:04 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_0.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_0.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_1.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_1.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_2.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_2.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_3.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_3.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_4.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_4.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_5.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_5.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_6.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_6.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_7.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_7.mp3
+[INFO] 11/10/2023 3:50:34 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_8.mp3
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 3:50:34 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Bourbon Glasses\voiceover_8.mp3
