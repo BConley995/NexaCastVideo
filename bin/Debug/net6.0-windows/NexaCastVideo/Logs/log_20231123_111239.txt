@@ -1,0 +1,33 @@
+[INFO] 11/23/2023 11:12:39 AM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 11:12:45 AM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 11:12:48 AM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Thanksgiving\leva-eternity-149473 (1).mp3
+[INFO] 11/23/2023 11:12:48 AM (GenerateScriptFromInput): Starting to generate introduction for topic: history of thanksgiving
+[INFO] 11/23/2023 11:12:58 AM (GenerateScriptFromInput): Generating main point 1 for topic: history of thanksgiving
+[INFO] 11/23/2023 11:13:08 AM (GenerateScriptFromInput): Generating main point 2 for topic: history of thanksgiving
+[INFO] 11/23/2023 11:13:37 AM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 11:13:48 AM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 11:13:48 AM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\GeneratedScript.txt
+[INFO] 11/23/2023 11:13:48 AM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to Nexacast! Today, we delve into the rich history of Thanksgiving. As an AI-generated video, we aim to provide you with anengaging and informative learning experience.
+
+ One of the key events that shaped the history of Thanksgiving was the arrival of the Pilgrims on the shores of Plymouth, Massachusetts in 1620. This group of English Separatists left their homeland in search of religious freedom and a new life across the Atlantic. Little did they know that their arrival would eventually lead to the establishment of one of America's most cherished holidays.
+
+ One significant aspect of the history of Thanksgiving is the relationship between the Pilgrims and the Native Americans.
+
+ As we explore the history of Thanksgiving, it's important to touch upon the relationship between the Pilgrims and the Native Americans. When the Pilgrims landed in Plymouth, they were met by a Native American named Squanto, who played a crucial role in ensuring their survival.
+
+Squanto had previously been captured by English explorers and taken to England, where he learnedabout English culture and language.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 11:13:48 AM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 6
+[INFO] 11/23/2023 11:13:51 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to Nexacast! Today, we delve into the rich history of Thanksgiving. As an AI-generated video, we aim to provide you with anengaging and informative learning experience.
+[INFO] 11/23/2023 11:13:52 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One of the key events that shaped the history of Thanksgiving was the arrival of the Pilgrims on the shores of Plymouth, Massachusetts in 1620. This group of English Separatists left their homeland in search of religious freedom and a new life across the Atlantic. Little did they know that their arrival would eventually lead to the establishment of one of America's most cherished holidays.
+[INFO] 11/23/2023 11:13:53 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One significant aspect of the history of Thanksgiving is the relationship between the Pilgrims and the Native Americans.
+[INFO] 11/23/2023 11:13:54 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: As we explore the history of Thanksgiving, it's important to touch upon the relationship between the Pilgrims and the Native Americans. When the Pilgrims landed in Plymouth, they were met by a Native American named Squanto, who played a crucial role in ensuring their survival.
+[INFO] 11/23/2023 11:13:58 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Squanto had previously been captured by English explorers and taken to England, where he learnedabout English culture and language.
+[INFO] 11/23/2023 11:14:03 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 11:14:03 AM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\DallePrompts.txt
+[INFO] 11/23/2023 11:14:03 AM (GenerateDallePromptsFromScript): Number of prompts generated: 6
+[INFO] 11/23/2023 11:14:03 AM (Main): Fetching and downloading images...
+[INFO] 11/23/2023 11:14:21 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:14:22 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_1.png

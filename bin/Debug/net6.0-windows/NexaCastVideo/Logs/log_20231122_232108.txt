@@ -1,0 +1,3 @@
+[INFO] 11/22/2023 11:21:08 PM (Setup): Logger setup initialized.
+[INFO] 11/22/2023 11:21:13 PM (Main): Downloading random royalty-free music...
+[INFO] 11/22/2023 11:21:16 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Cyber Security\happy-day-113985.mp3

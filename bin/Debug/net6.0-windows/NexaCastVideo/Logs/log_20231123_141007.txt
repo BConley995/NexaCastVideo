@@ -1,0 +1,44 @@
+[INFO] 11/23/2023 2:10:34 PM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 2:10:40 PM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 2:10:43 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Dc Comics Joker\cinematic-fairy-tale-story-main-8697.mp3
+[INFO] 11/23/2023 2:10:43 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of dc comics joker
+[INFO] 11/23/2023 2:10:58 PM (GenerateScriptFromInput): Generating main point 1 for topic: History of dc comics joker
+[INFO] 11/23/2023 2:11:23 PM (GenerateScriptFromInput): Generating main point 2 for topic: History of dc comics joker
+[INFO] 11/23/2023 2:11:56 PM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 2:12:25 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 2:12:25 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Dc Comics Joker\GeneratedScript.txt
+[INFO] 11/23/2023 2:12:25 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to Nexacast, the educational AI-powered channel! Today, we will dive into the fascinating history of one of the most iconic villains in comicbook history The Joker. Join us as we unravel the enigma behind this nefarious character and explore how he has evolved throughout the years.
+
+ The Joker, a demented and unpredictable criminal mastermind, has been an integral part of DC Comics for over eight decades. Dive deep into the history of this iconic character, as we explore his origins, evolution, and enduring legacy in the world of comics.
+
+ One of the main highlights in the history of DC Comics is the creation and evolution of the infamous Joker, a character that has captivated audiences with his chaotic and villainous nature. From his humble beginnings as a pulp-inspired criminal clown to becoming Batman's arch-nemesis, the Joker has left an indelible mark on the comic book world. Today, we will delve into the fascinating backstory and transformation of this iconic character, exploring how he has become an integral part of the DC Universe. So let's immerse ourselves in the captivating history of the DC Comics Joker!
+
+ As we conclude our journey through the history of the DC Comics Joker, it's worth noting that this character has had a profound impact on popular culture. Not only has he become one of the most recognizable villains in comic book history, but he has also transcended the pages of comics to become a symbol of chaos and anarchy in our society. From his debut in Batman #1 in 1939, the Caped Crusader has captured the imagination of fans around the world.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 2:12:25 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 5
+[INFO] 11/23/2023 2:12:28 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to Nexacast, the educational AI-powered channel! Today, we will dive into the fascinating history of one of the most iconic villains in comicbook history The Joker. Join us as we unravel the enigma behind this nefarious character and explore how he has evolved throughout the years.
+[INFO] 11/23/2023 2:12:29 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The Joker, a demented and unpredictable criminal mastermind, has been an integral part of DC Comics for over eight decades. Dive deep into the history of this iconic character, as we explore his origins, evolution, and enduring legacy in the world of comics.
+[INFO] 11/23/2023 2:12:32 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One of the main highlights in the history of DC Comics is the creation and evolution of the infamous Joker, a character that has captivated audiences with his chaotic and villainous nature. From his humble beginnings as a pulp-inspired criminal clown to becoming Batman's arch-nemesis, the Joker has left an indelible mark on the comic book world. Today, we will delve into the fascinating backstory and transformation of this iconic character, exploring how he has become an integral part of the DC Universe. So let's immerse ourselves in the captivating history of the DC Comics Joker!
+[INFO] 11/23/2023 2:12:35 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: As we conclude our journey through the history of the DC Comics Joker, it's worth noting that this character has had a profound impact on popular culture. Not only has he become one of the most recognizable villains in comic book history, but he has also transcended the pages of comics to become a symbol of chaos and anarchy in our society. From his debut in Batman #1 in 1939, the Caped Crusader has captured the imagination of fans around the world.
+[INFO] 11/23/2023 2:12:38 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 2:12:38 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Dc Comics Joker\DallePrompts.txt
+[INFO] 11/23/2023 2:12:38 PM (GenerateDallePromptsFromScript): Number of prompts generated: 5
+[INFO] 11/23/2023 2:12:38 PM (Main): Fetching and downloading images...
+[INFO] 11/23/2023 2:12:54 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 2:12:55 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Dc Comics Joker\image_1.png
+[INFO] 11/23/2023 2:13:25 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 2:13:26 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Dc Comics Joker\image_2.png
+[INFO] 11/23/2023 2:13:54 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 2:13:55 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Dc Comics Joker\image_3.png
+[INFO] 11/23/2023 2:14:23 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 2:14:24 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Dc Comics Joker\image_4.png
+[INFO] 11/23/2023 2:14:54 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 2:14:55 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Dc Comics Joker\image_5.png
+[INFO] 11/23/2023 2:15:10 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/23/2023 2:16:38 PM (Main): Concatenating video segments...
+[INFO] 11/23/2023 2:16:38 PM (Main): Concatenation of video segments completed. Proceeding to add background music.
+[ERROR] 11/23/2023 2:16:38 PM (GetAudioDurationAsync): Failed to obtain audio duration.
+[ERROR] 11/23/2023 2:16:38 PM (GetAudioDurationAsync): Error while obtaining audio duration: Failed to obtain audio duration.
+[ERROR] 11/23/2023 2:16:38 PM (AddBackgroundMusicWithFade): Failed to add background music: Failed to obtain audio duration.

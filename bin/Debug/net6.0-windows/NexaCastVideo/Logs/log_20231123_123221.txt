@@ -1,0 +1,7 @@
+[INFO] 11/23/2023 12:32:21 PM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 12:32:34 PM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 12:32:37 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of DC Comics Joker\goldn-116392 (1).mp3
+[INFO] 11/23/2023 12:32:37 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of DC Comics Joker
+[INFO] 11/23/2023 12:32:56 PM (GenerateScriptFromInput): Generating main point 1 for topic: History of DC Comics Joker
+[INFO] 11/23/2023 12:33:59 PM (GenerateScriptFromInput): Generating main point 2 for topic: History of DC Comics Joker
+[ERROR] 11/23/2023 12:44:39 PM (GenerateScriptFromInput): Error generating script: The request was canceled due to the configured HttpClient.Timeout of 600 seconds elapsing.

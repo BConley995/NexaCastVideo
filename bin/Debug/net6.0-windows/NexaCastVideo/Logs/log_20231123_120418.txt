@@ -1,0 +1,42 @@
+[INFO] 11/23/2023 12:04:18 PM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 12:04:26 PM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 12:04:29 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Cyber Security\cinematic-time-lapse-115672.mp3
+[INFO] 11/23/2023 12:04:29 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of cyber security
+[INFO] 11/23/2023 12:04:37 PM (GenerateScriptFromInput): Generating main point 1 for topic: History of cyber security
+[INFO] 11/23/2023 12:04:49 PM (GenerateScriptFromInput): Generating main point 2 for topic: History of cyber security
+[INFO] 11/23/2023 12:05:13 PM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 12:05:28 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 12:05:28 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Cyber Security\GeneratedScript.txt
+[INFO] 11/23/2023 12:05:28 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to NexaCast, your go-to channel for educational content! Today, we are diving into the fascinating history of cyber security. It's importantto stay organized and manage your time effectively in order to be successful in your academic and personal life.
+
+ One key aspect of the history of cyber security is the rise of computer viruses. In the 1970s, the concept of malicious software designed to infect and disrupt computer systems was introduced. The first computer virus, known as Creeper, was created by Bob Thomas and only affected mainframe computers. This marked the beginning of a cat-and-mouse game between hackers and security experts, as the latter developed antivirus software to protect against these rogue programs.
+
+ One pivotal development in the history of cyber security was the emergence of encryption technologies. Encryption refers to the process of converting information into a code or cipher, making it unreadable to anyone without the necessary decryption key. The use of encryption can be traced back to ancient civilizations, where messages were encoded to ensure confidentiality during wartime. However, it wasn't until the mid-20th century that modern encryption methods, such as the Data Encryption Standard and the Advanced Encryption Standard , became prevalent in the digital realm. These encryption algorithms played a crucial role in safeguarding sensitive data and communication channels in the face of evolving cyber threats. As hackers continually sought ways to exploit vulnerabilities, the development of stronger encryption algorithms became paramount in the ongoing battle tosafeguard sensitive information and protect digital communications.
+
+ As we wrap up our fascinating journey through the history of cyber security, it's important to note that the field continues to evolve rapidly. With the rise of artificial intelligence, quantum computing, and the Internet of Things, new challenges and threats emerge on a daily basis. Understanding the lessons learned from the past can help us build a more secure digital future. From the early days ofhuman civilization, people have relied on various forms of communication to convey messages and share information.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 12:05:28 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 5
+[INFO] 11/23/2023 12:05:34 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to NexaCast, your go-to channel for educational content! Today, we are diving into the fascinating history of cyber security. It's importantto stay organized and manage your time effectively in order to be successful in your academic and personal life.
+[INFO] 11/23/2023 12:05:36 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One key aspect of the history of cyber security is the rise of computer viruses. In the 1970s, the concept of malicious software designed to infect and disrupt computer systems was introduced. The first computer virus, known as Creeper, was created by Bob Thomas and only affected mainframe computers. This marked the beginning of a cat-and-mouse game between hackers and security experts, as the latter developed antivirus software to protect against these rogue programs.
+[INFO] 11/23/2023 12:05:37 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One pivotal development in the history of cyber security was the emergence of encryption technologies. Encryption refers to the process of converting information into a code or cipher, making it unreadable to anyone without the necessary decryption key. The use of encryption can be traced back to ancient civilizations, where messages were encoded to ensure confidentiality during wartime. However, it wasn't until the mid-20th century that modern encryption methods, such as the Data Encryption Standard and the Advanced Encryption Standard , became prevalent in the digital realm. These encryption algorithms played a crucial role in safeguarding sensitive data and communication channels in the face of evolving cyber threats. As hackers continually sought ways to exploit vulnerabilities, the development of stronger encryption algorithms became paramount in the ongoing battle tosafeguard sensitive information and protect digital communications.
+[INFO] 11/23/2023 12:05:39 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: As we wrap up our fascinating journey through the history of cyber security, it's important to note that the field continues to evolve rapidly. With the rise of artificial intelligence, quantum computing, and the Internet of Things, new challenges and threats emerge on a daily basis. Understanding the lessons learned from the past can help us build a more secure digital future. From the early days ofhuman civilization, people have relied on various forms of communication to convey messages and share information.
+[INFO] 11/23/2023 12:05:42 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 12:05:42 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Cyber Security\DallePrompts.txt
+[INFO] 11/23/2023 12:05:42 PM (GenerateDallePromptsFromScript): Number of prompts generated: 5
+[INFO] 11/23/2023 12:05:42 PM (Main): Fetching and downloading images...
+[INFO] 11/23/2023 12:06:00 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 12:06:01 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Cyber Security\image_1.png
+[INFO] 11/23/2023 12:06:32 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 12:06:33 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Cyber Security\image_2.png
+[INFO] 11/23/2023 12:07:03 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 12:07:04 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Cyber Security\image_3.png
+[INFO] 11/23/2023 12:07:36 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 12:07:37 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Cyber Security\image_4.png
+[INFO] 11/23/2023 12:08:07 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 12:08:08 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Cyber Security\image_5.png
+[INFO] 11/23/2023 12:08:23 PM (Main): Generating and downloading voiceovers...
+[ERROR] 11/23/2023 12:10:15 PM (GetVideoDurationAsync): Failed to obtain video duration.
+[ERROR] 11/23/2023 12:10:15 PM (GetVideoDurationAsync): Error while obtaining video duration: Failed to obtain video duration.
+[ERROR] 11/23/2023 12:10:15 PM (AddBackgroundMusicWithFade): Failed to add background music: Failed to obtain video duration.

@@ -1,0 +1,59 @@
+[INFO] 11/23/2023 11:18:26 AM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 11:18:32 AM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 11:18:36 AM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Thanksgiving\inside-you-162760.mp3
+[INFO] 11/23/2023 11:18:36 AM (GenerateScriptFromInput): Starting to generate introduction for topic: history of thanksgiving
+[INFO] 11/23/2023 11:18:51 AM (GenerateScriptFromInput): Generating main point 1 for topic: history of thanksgiving
+[INFO] 11/23/2023 11:19:05 AM (GenerateScriptFromInput): Generating main point 2 for topic: history of thanksgiving
+[INFO] 11/23/2023 11:19:56 AM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 11:20:07 AM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 11:20:07 AM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\GeneratedScript.txt
+[INFO] 11/23/2023 11:20:07 AM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to Nexacast, your go-to channel for educational content! Today, we're diving into the fascinating history of Thanksgiving. But before we begin, let's take a moment to subscribe to our channel and hit the notification bell so you never miss any of our educational content. This way, you can stay updated with our latest videos and be a part of our growing community of learners. Now,
+
+ In order to understand the history of Thanksgiving, we need to journey back to the early 17th century. It all started when the Pilgrims, who were English separatists seeking religious freedom, set sail from Plymouth, England, in 1620 aboard the Mayflower. After a grueling journey across the Atlantic, they finally reached the shores of what is now known as Cape Cod, Massachusetts. This marked the beginning of a new chapter in American history and would eventually lead to the establishment of one of the most cherished holidays in the United States.
+
+ Now, let's delve into the main point of the history of Thanksgiving. As the Pilgrims settled in the New World, they faced numerous challenges, including harsh winter conditions and a lack of resources. Fortunately, they received assistance from the Native American tribe known as the Wampanoag. The Wampanoag people provided the Pilgrims with knowledge of local crops and hunting techniques, helping them survive in their new surroundings. 
+
+In the autumn of 1621, after a successful harvest, the Pilgrims wanted to express their gratitude for the bountiful year they had experienced. They invited their Wampanoag allies to join them in a celebratory feast, which is often referred to as the "First Thanksgiving." This gathering symbolized a moment of unity, where both groups came together to share food, stories, and express gratitude for their blessings. 
+
+However, it's important to note that Thanksgiving didn't become an annual tradition right away. It wasn't until over 200 years later, in 1863, that President Abraham Lincoln proclaimed Thanksgiving as a national holiday. This declaration was made during the midst of the American Civil War, serving as a way to foster national unity and gratitude during a time of division and strife. 
+
+Throughout the years, Thanksgiving has evolved into a holiday that brings families and loved ones together. It's a time for reflection, expressing gratitude, and enjoying a hearty feast. Whether it's participating in parades, watching football games, or simply spending quality time with loved ones, Thanksgiving has become an integral part of American culture. 
+
+So, the history of Thanksgiving is a tale of resilience, cooperation, and appreciation. It reminds us of the importance of coming together, regardless of our differences, to celebrate our shared blessings and express gratitude. By understanding the origins of this cherished holiday, we gain a deeper appreciation for the traditions that have been passed down through generations.
+
+ And here's a fascinating fact to wrap up our journey into the history of Thanksgiving Did you know that the "First Thanksgiving" feast celebrated by the Pilgrims and the Wampanoag people actually lasted for three days? That's right! The festivities extended beyond a single day, allowing everyone to truly savor the spirit of gratitude and togetherness.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 11:20:07 AM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 9
+[INFO] 11/23/2023 11:20:10 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to Nexacast, your go-to channel for educational content! Today, we're diving into the fascinating history of Thanksgiving. But before we begin, let's take a moment to subscribe to our channel and hit the notification bell so you never miss any of our educational content. This way, you can stay updated with our latest videos and be a part of our growing community of learners. Now,
+[INFO] 11/23/2023 11:20:11 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In order to understand the history of Thanksgiving, we need to journey back to the early 17th century. It all started when the Pilgrims, who were English separatists seeking religious freedom, set sail from Plymouth, England, in 1620 aboard the Mayflower. After a grueling journey across the Atlantic, they finally reached the shores of what is now known as Cape Cod, Massachusetts. This marked the beginning of a new chapter in American history and would eventually lead to the establishment of one of the most cherished holidays in the United States.
+[INFO] 11/23/2023 11:20:13 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Now, let's delve into the main point of the history of Thanksgiving. As the Pilgrims settled in the New World, they faced numerous challenges, including harsh winter conditions and a lack of resources. Fortunately, they received assistance from the Native American tribe known as the Wampanoag. The Wampanoag people provided the Pilgrims with knowledge of local crops and hunting techniques, helping them survive in their new surroundings.
+[INFO] 11/23/2023 11:20:16 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In the autumn of 1621, after a successful harvest, the Pilgrims wanted to express their gratitude for the bountiful year they had experienced. They invited their Wampanoag allies to join them in a celebratory feast, which is often referred to as the "First Thanksgiving." This gathering symbolized a moment of unity, where both groups came together to share food, stories, and express gratitude for their blessings.
+[INFO] 11/23/2023 11:20:19 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: However, it's important to note that Thanksgiving didn't become an annual tradition right away. It wasn't until over 200 years later, in 1863, that President Abraham Lincoln proclaimed Thanksgiving as a national holiday. This declaration was made during the midst of the American Civil War, serving as a way to foster national unity and gratitude during a time of division and strife.
+[INFO] 11/23/2023 11:20:21 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Throughout the years, Thanksgiving has evolved into a holiday that brings families and loved ones together. It's a time for reflection, expressing gratitude, and enjoying a hearty feast. Whether it's participating in parades, watching football games, or simply spending quality time with loved ones, Thanksgiving has become an integral part of American culture.
+[INFO] 11/23/2023 11:20:23 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: So, the history of Thanksgiving is a tale of resilience, cooperation, and appreciation. It reminds us of the importance of coming together, regardless of our differences, to celebrate our shared blessings and express gratitude. By understanding the origins of this cherished holiday, we gain a deeper appreciation for the traditions that have been passed down through generations.
+[INFO] 11/23/2023 11:20:25 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: And here's a fascinating fact to wrap up our journey into the history of Thanksgiving Did you know that the "First Thanksgiving" feast celebrated by the Pilgrims and the Wampanoag people actually lasted for three days? That's right! The festivities extended beyond a single day, allowing everyone to truly savor the spirit of gratitude and togetherness.
+[INFO] 11/23/2023 11:20:29 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 11:20:29 AM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\DallePrompts.txt
+[INFO] 11/23/2023 11:20:29 AM (GenerateDallePromptsFromScript): Number of prompts generated: 9
+[INFO] 11/23/2023 11:20:29 AM (Main): Fetching and downloading images...
+[INFO] 11/23/2023 11:20:46 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:20:47 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_1.png
+[INFO] 11/23/2023 11:21:18 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:21:19 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_2.png
+[INFO] 11/23/2023 11:21:49 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:21:50 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_3.png
+[INFO] 11/23/2023 11:22:19 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:22:20 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_4.png
+[INFO] 11/23/2023 11:22:50 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:22:51 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_5.png
+[INFO] 11/23/2023 11:23:22 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:23:23 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_6.png
+[INFO] 11/23/2023 11:23:53 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:23:53 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_7.png
+[INFO] 11/23/2023 11:24:27 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:24:27 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_8.png
+[INFO] 11/23/2023 11:24:59 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:25:00 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_9.png
+[INFO] 11/23/2023 11:25:15 AM (Main): Generating and downloading voiceovers...

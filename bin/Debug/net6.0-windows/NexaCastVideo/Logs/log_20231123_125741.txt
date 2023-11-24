@@ -1,0 +1,69 @@
+[INFO] 11/23/2023 1:00:05 PM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 1:00:23 PM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 1:00:28 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Artificial Intelligence\reflected-light-147979 (1).mp3
+[INFO] 11/23/2023 1:00:28 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of Artificial Intelligence
+[INFO] 11/23/2023 1:00:48 PM (GenerateScriptFromInput): Generating main point 1 for topic: History of Artificial Intelligence
+[INFO] 11/23/2023 1:01:38 PM (GenerateScriptFromInput): Generating main point 2 for topic: History of Artificial Intelligence
+[INFO] 11/23/2023 1:02:05 PM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 1:02:32 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 1:02:32 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedScript.txt
+[INFO] 11/23/2023 1:02:32 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to NexaCast, the channel that brings you the latest insights on various topics! Today, we're diving into the fascinating world of artificial intelligenceand exploring its countless applications in our daily lives. Artificial intelligence, commonly referred to as AI, is a rapidly growing field that focuses on developing intelligent machines capable of simulating human intelligence. 
+
+AI has been around for decades, but recent advancements in technology
+
+ The history of artificial intelligence dates back several decades. The term "artificial intelligence" was first coined in 1956 at the Dartmouth Conference, where a group of scientists gathered to discuss the potential of creating machines that can exhibit human-like intelligence. From that point onwards, researchers began developing various AI techniques and algorithms.
+
+In the 1950s and 1960s, AI researchers primarily focused on solving complex mathematical problems and developing rule-based systems. They believed that if they could program enough rules into a machine, it would be able to mimic human intelligence. However, this approach faced limitations, as it was difficult to account for every possible scenario and decision-making process.
+
+In the 1980s and 1990s, there was amassive shift in technology that revolutionized the way people lived and worked. From the introduction of personal computers to the widespread use of the internet, this era witnessed unprecedented advancements and innovations that transformed various aspects of society.
+
+ One key milestone in the history of artificial intelligence was the emergence of machine learning in the late 1990s. This approach focused on developing algorithms that allow machines to learn from data and improve their performance over time. Instead of relying solely on pre-programmed rules, machine learning enabled AI systems to adapt and evolve based on real-world experiences.
+
+In recent years, thanks to advancements in computing power and the availability of vast amounts of data, machine learning has become a cornerstone of AI development. This has led to breakthroughs in areas like computer vision, natural language processing, and speech recognition. Machine learning algorithms are now powering virtual assistants, self-driving cars, and recommendation systems, among many other applications.
+
+Another major advancement in AI has been the rise of deeplearning algorithms.
+
+ One fascinating fact about the history of artificial intelligence is that AI research faced a major setback during a period known as the "AI winter" in the 1970s and 1980s. During this time, progress in AI research slowed down significantly due to unrealistic expectations and overpromising. Funding for AI projects was reduced, and many researchers shifted their focus to other areasof study and development in order to secure future funding and address emerging challenges and opportunities.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 1:02:32 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 10
+[INFO] 11/23/2023 1:02:34 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to NexaCast, the channel that brings you the latest insights on various topics! Today, we're diving into the fascinating world of artificial intelligenceand exploring its countless applications in our daily lives. Artificial intelligence, commonly referred to as AI, is a rapidly growing field that focuses on developing intelligent machines capable of simulating human intelligence.
+[INFO] 11/23/2023 1:02:35 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: AI has been around for decades, but recent advancements in technology
+[INFO] 11/23/2023 1:02:37 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The history of artificial intelligence dates back several decades. The term "artificial intelligence" was first coined in 1956 at the Dartmouth Conference, where a group of scientists gathered to discuss the potential of creating machines that can exhibit human-like intelligence. From that point onwards, researchers began developing various AI techniques and algorithms.
+[INFO] 11/23/2023 1:02:40 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In the 1950s and 1960s, AI researchers primarily focused on solving complex mathematical problems and developing rule-based systems. They believed that if they could program enough rules into a machine, it would be able to mimic human intelligence. However, this approach faced limitations, as it was difficult to account for every possible scenario and decision-making process.
+[INFO] 11/23/2023 1:02:42 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In the 1980s and 1990s, there was amassive shift in technology that revolutionized the way people lived and worked. From the introduction of personal computers to the widespread use of the internet, this era witnessed unprecedented advancements and innovations that transformed various aspects of society.
+[INFO] 11/23/2023 1:02:45 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One key milestone in the history of artificial intelligence was the emergence of machine learning in the late 1990s. This approach focused on developing algorithms that allow machines to learn from data and improve their performance over time. Instead of relying solely on pre-programmed rules, machine learning enabled AI systems to adapt and evolve based on real-world experiences.
+[INFO] 11/23/2023 1:02:46 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In recent years, thanks to advancements in computing power and the availability of vast amounts of data, machine learning has become a cornerstone of AI development. This has led to breakthroughs in areas like computer vision, natural language processing, and speech recognition. Machine learning algorithms are now powering virtual assistants, self-driving cars, and recommendation systems, among many other applications.
+[INFO] 11/23/2023 1:02:48 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Another major advancement in AI has been the rise of deeplearning algorithms.
+[INFO] 11/23/2023 1:02:50 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One fascinating fact about the history of artificial intelligence is that AI research faced a major setback during a period known as the "AI winter" in the 1970s and 1980s. During this time, progress in AI research slowed down significantly due to unrealistic expectations and overpromising. Funding for AI projects was reduced, and many researchers shifted their focus to other areasof study and development in order to secure future funding and address emerging challenges and opportunities.
+[INFO] 11/23/2023 1:02:53 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 1:02:53 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\DallePrompts.txt
+[INFO] 11/23/2023 1:02:53 PM (GenerateDallePromptsFromScript): Number of prompts generated: 10
+[INFO] 11/23/2023 1:02:53 PM (Main): Fetching and downloading images...
+[INFO] 11/23/2023 1:03:11 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:03:12 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_1.png
+[INFO] 11/23/2023 1:03:40 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:03:41 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_2.png
+[INFO] 11/23/2023 1:04:14 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:04:15 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_3.png
+[INFO] 11/23/2023 1:04:47 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:04:48 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_4.png
+[INFO] 11/23/2023 1:05:17 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:05:17 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_5.png
+[INFO] 11/23/2023 1:05:46 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:05:47 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_6.png
+[INFO] 11/23/2023 1:06:19 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:06:20 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_7.png
+[INFO] 11/23/2023 1:06:49 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:06:50 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_8.png
+[INFO] 11/23/2023 1:07:21 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:07:22 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_9.png
+[INFO] 11/23/2023 1:07:54 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 1:07:55 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_10.png
+[INFO] 11/23/2023 1:08:10 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/23/2023 1:10:38 PM (Main): Concatenating video segments...
+[INFO] 11/23/2023 1:10:38 PM (Main): Adding background music...
+[ERROR] 11/23/2023 1:10:38 PM (GetVideoDurationAsync): Failed to obtain video duration.
+[ERROR] 11/23/2023 1:10:38 PM (GetVideoDurationAsync): Error while obtaining video duration: Failed to obtain video duration.
+[ERROR] 11/23/2023 1:10:39 PM (AddBackgroundMusicWithFade): Failed to add background music: Failed to obtain video duration.

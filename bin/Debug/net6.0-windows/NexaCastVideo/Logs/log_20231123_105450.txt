@@ -1,0 +1,11 @@
+[INFO] 11/23/2023 10:54:50 AM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 10:54:56 AM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 10:55:00 AM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Thanksgiving\morning-garden-acoustic-chill-15013.mp3
+[INFO] 11/23/2023 10:55:00 AM (GenerateScriptFromInput): Starting to generate introduction for topic: History of thanksgiving
+[INFO] 11/23/2023 10:55:09 AM (GenerateScriptFromInput): Generating main point 1 for topic: History of thanksgiving
+[INFO] 11/23/2023 10:55:28 AM (GenerateScriptFromInput): Generating sub-point for main point 1
+[INFO] 11/23/2023 10:55:44 AM (GenerateScriptFromInput): Generating main point 2 for topic: History of thanksgiving
+[INFO] 11/23/2023 10:56:05 AM (GenerateScriptFromInput): Generating sub-point for main point 2
+[INFO] 11/23/2023 11:03:05 AM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 11:03:38 AM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 11:03:38 AM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\GeneratedScript.txt

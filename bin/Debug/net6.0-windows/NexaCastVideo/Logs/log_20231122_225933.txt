@@ -1,0 +1,27 @@
+[INFO] 11/22/2023 10:59:33 PM (Setup): Logger setup initialized.
+[INFO] 11/22/2023 10:59:39 PM (Main): Downloading random royalty-free music...
+[INFO] 11/22/2023 10:59:42 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Cyber Security\lofi-study-112191.mp3
+[INFO] 11/22/2023 11:00:06 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Cyber Security\GeneratedScript.txt
+[INFO] 11/22/2023 11:00:06 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+"In a world where our lives are intricately intertwined with digital threads, safeguarding our virtual existence has never been more crucial. Welcome to an enlightening journey through the History of Cyber Security."
+
+ Voiceover "Planet Earth is home to an incredibly diverse range of ecosystems, each with its own unique balance of climate, geography, and life forms
+
+
+Cyber security is a critical field that focuses on protecting computers, networks, programs, and data from unauthorized access, damage, or attack. The history of cyber security stretches back to the early days of computing, with notable developments and milestones that have shaped its evolution.
+
+One interesting and relevant fact about the history of cyber security involves the creation of one of the first recorded types of computer viruses known as the "Creeper virus." This experiment in self-replicating code was developed in the early1970s by computer scientist John von Neumann who theorized the concept of a design, not unlike the biological process of reproduction, wherein a machine could autonomously build a copy of itself using a set of instructions. This concept laid the groundwork for
+
+One of the most pertinent facts in the history of cyber security is the development of the first computer virus. While there is some debate about which virus truly holds this title, many experts consider the "Creeper" virus as the first known computer virus that spread across a network.
+
+Created in 1971 by Bob Thomas at BBN Technologies, the Creeper virus was an experimental self-replicating program that affected the early ARPANET, a precursor to the modern Internet. It was notuntil the late 20th century that the full potential of the internet began to be realized, transforming the way we communicate, access information, and conduct business. Thank you for watching NexaCast. Don't forget to subscribe for more intersting content. From thought to YouTube, NexaCast brings knowledge to your screen.
+[INFO] 11/22/2023 11:00:06 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 6
+[INFO] 11/22/2023 11:00:07 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "In a world where our lives are intricately intertwined with digital threads, safeguarding our virtual existence has never been more crucial. Welcome to an enlightening journey through the History of Cyber Security."
+[INFO] 11/22/2023 11:00:09 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Voiceover "Planet Earth is home to an incredibly diverse range of ecosystems, each with its own unique balance of climate, geography, and life forms
+[INFO] 11/22/2023 11:00:11 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Cyber security is a critical field that focuses on protecting computers, networks, programs, and data from unauthorized access, damage, or attack. The history of cyber security stretches back to the early days of computing, with notable developments and milestones that have shaped its evolution.
+[INFO] 11/22/2023 11:00:14 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One interesting and relevant fact about the history of cyber security involves the creation of one of the first recorded types of computer viruses known as the "Creeper virus." This experiment in self-replicating code was developed in the early1970s by computer scientist John von Neumann who theorized the concept of a design, not unlike the biological process of reproduction, wherein a machine could autonomously build a copy of itself using a set of instructions. This concept laid the groundwork for
+[INFO] 11/22/2023 11:00:16 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One of the most pertinent facts in the history of cyber security is the development of the first computer virus. While there is some debate about which virus truly holds this title, many experts consider the "Creeper" virus as the first known computer virus that spread across a network.
+[INFO] 11/22/2023 11:00:19 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Created in 1971 by Bob Thomas at BBN Technologies, the Creeper virus was an experimental self-replicating program that affected the early ARPANET, a precursor to the modern Internet. It was notuntil the late 20th century that the full potential of the internet began to be realized, transforming the way we communicate, access information, and conduct business. Thank you for watching NexaCast. Don't forget to subscribe for more intersting content. From thought to YouTube, NexaCast brings knowledge to your screen.
+[INFO] 11/22/2023 11:00:19 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Cyber Security\DallePrompts.txt
+[INFO] 11/22/2023 11:00:19 PM (GenerateDallePromptsFromScript): Number of prompts generated: 6
+[INFO] 11/22/2023 11:00:19 PM (Main): Fetching and downloading images...

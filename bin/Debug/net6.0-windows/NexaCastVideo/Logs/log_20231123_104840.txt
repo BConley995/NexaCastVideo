@@ -1,0 +1,3 @@
+[INFO] 11/23/2023 10:48:40 AM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 10:49:12 AM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 10:49:15 AM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Thanksgiving\leonell-cassio-the-paranormal-is-real-ft-carrie-163742.mp3

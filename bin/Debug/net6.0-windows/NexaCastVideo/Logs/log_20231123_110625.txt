@@ -1,0 +1,50 @@
+[INFO] 11/23/2023 11:06:25 AM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 11:06:31 AM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 11:06:34 AM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Thanksgiving\good-night-160166.mp3
+[INFO] 11/23/2023 11:06:34 AM (GenerateScriptFromInput): Starting to generate introduction for topic: History of thanksgiving
+[INFO] 11/23/2023 11:06:54 AM (GenerateScriptFromInput): Generating main point 1 for topic: History of thanksgiving
+[INFO] 11/23/2023 11:07:04 AM (GenerateScriptFromInput): Generating sub-point for main point 1
+[INFO] 11/23/2023 11:07:14 AM (GenerateScriptFromInput): Generating main point 2 for topic: History of thanksgiving
+[INFO] 11/23/2023 11:07:20 AM (GenerateScriptFromInput): Generating sub-point for main point 2
+[INFO] 11/23/2023 11:08:11 AM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/23/2023 11:08:28 AM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/23/2023 11:08:28 AM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\GeneratedScript.txt
+[INFO] 11/23/2023 11:08:28 AM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to Nexacast, your ultimate source for fascinating educational content! Today, we're diving into the captivating history of Thanksgiving. But before we begin, it's worth mentioning that this video is AI-generated, meaning that the script and visuals were created by an artificial intelligence program. While this may sound futuristic, AI has made significant advancements in recent years, allowing it to generate content like this video. So let's dive right in and explore the fascinating world of
+
+ Today, we're exploring the rich and captivating history of Thanksgiving. From its origins as a harvest festival to the cherished national holiday it has become, the story of Thanksgiving is filled with fascinating details and meaningful traditions. So join us as we journey back in time and uncover the historical roots of this beloved celebration.
+
+ The Origins of Thanksgiving
+ To truly appreciate the history of Thanksgiving, we must travel back to the early 17th century and the time when English pilgrims known as the Pilgrims settled in Plymouth, Massachusetts.
+
+Visualcommunication is an essential tool for expressing ideas, presenting information, and engaging audiences.
+
+ The History of Thanksgiving is filled with rich and fascinating stories, tracing its roots back to the early 17th century when English pilgrims known as the Pilgrims settled in Plymouth, Massachusetts.
+
+ The Pilgrim's Journey to Plymouth
+
+ The Pilgrims were a group of English separatists who sought religious freedom and fled to the New World in search of a better life. After a treacherous journey aboard thestorm-ridden seas, our brave explorers finally reached their destination the mysterious island of Atlantis.
+
+ And that, my friends, is just the beginning of the captivating history of Thanksgiving. From the humble origins of a harvest festival to a cherished national holiday, this celebration has evolved over the centuries. So next time you gather with loved ones around a bountiful Thanksgiving feast, take a moment to appreciate the stories, the struggles, and the traditions that have shapedthe unique tapestry of this cherished holiday. From the very first Thanksgiving celebrated by the Pilgrims and Native Americans in 1621, to the present day where families come together to express gratitude, Thanksgiving has evolved into much more than just a meal
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 11:08:28 AM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 10
+[INFO] 11/23/2023 11:08:29 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to Nexacast, your ultimate source for fascinating educational content! Today, we're diving into the captivating history of Thanksgiving. But before we begin, it's worth mentioning that this video is AI-generated, meaning that the script and visuals were created by an artificial intelligence program. While this may sound futuristic, AI has made significant advancements in recent years, allowing it to generate content like this video. So let's dive right in and explore the fascinating world of
+[INFO] 11/23/2023 11:08:31 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Today, we're exploring the rich and captivating history of Thanksgiving. From its origins as a harvest festival to the cherished national holiday it has become, the story of Thanksgiving is filled with fascinating details and meaningful traditions. So join us as we journey back in time and uncover the historical roots of this beloved celebration.
+[INFO] 11/23/2023 11:08:33 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The Origins of Thanksgiving
+[INFO] 11/23/2023 11:08:35 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: To truly appreciate the history of Thanksgiving, we must travel back to the early 17th century and the time when English pilgrims known as the Pilgrims settled in Plymouth, Massachusetts.
+[INFO] 11/23/2023 11:08:36 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Visualcommunication is an essential tool for expressing ideas, presenting information, and engaging audiences.
+[INFO] 11/23/2023 11:08:38 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The History of Thanksgiving is filled with rich and fascinating stories, tracing its roots back to the early 17th century when English pilgrims known as the Pilgrims settled in Plymouth, Massachusetts.
+[INFO] 11/23/2023 11:08:40 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The Pilgrim's Journey to Plymouth
+[INFO] 11/23/2023 11:08:41 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The Pilgrims were a group of English separatists who sought religious freedom and fled to the New World in search of a better life. After a treacherous journey aboard thestorm-ridden seas, our brave explorers finally reached their destination the mysterious island of Atlantis.
+[INFO] 11/23/2023 11:08:42 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: And that, my friends, is just the beginning of the captivating history of Thanksgiving. From the humble origins of a harvest festival to a cherished national holiday, this celebration has evolved over the centuries. So next time you gather with loved ones around a bountiful Thanksgiving feast, take a moment to appreciate the stories, the struggles, and the traditions that have shapedthe unique tapestry of this cherished holiday. From the very first Thanksgiving celebrated by the Pilgrims and Native Americans in 1621, to the present day where families come together to express gratitude, Thanksgiving has evolved into much more than just a meal
+[INFO] 11/23/2023 11:08:46 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/23/2023 11:08:46 AM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Thanksgiving\DallePrompts.txt
+[INFO] 11/23/2023 11:08:46 AM (GenerateDallePromptsFromScript): Number of prompts generated: 10
+[INFO] 11/23/2023 11:08:46 AM (Main): Fetching and downloading images...
+[INFO] 11/23/2023 11:09:01 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:09:02 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_1.png
+[INFO] 11/23/2023 11:09:32 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:09:32 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_2.png
+[INFO] 11/23/2023 11:10:05 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/23/2023 11:10:06 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Thanksgiving\image_3.png

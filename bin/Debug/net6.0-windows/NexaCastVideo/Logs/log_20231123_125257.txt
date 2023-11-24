@@ -1,0 +1,5 @@
+[INFO] 11/23/2023 12:53:19 PM (Setup): Logger setup initialized.
+[INFO] 11/23/2023 12:53:28 PM (Main): Downloading random royalty-free music...
+[INFO] 11/23/2023 12:53:31 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Artificial Intelligence\a-call-to-the-soul-149262.mp3
+[INFO] 11/23/2023 12:53:31 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of Artificial Intelligence
+[INFO] 11/23/2023 12:53:54 PM (GenerateScriptFromInput): Generating main point 1 for topic: History of Artificial Intelligence

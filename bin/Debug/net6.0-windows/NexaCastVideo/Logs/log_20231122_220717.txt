@@ -1,0 +1,44 @@
+[INFO] 11/22/2023 10:07:17 PM (Setup): Logger setup initialized.
+[INFO] 11/22/2023 10:07:28 PM (Main): Downloading random royalty-free music...
+[INFO] 11/22/2023 10:07:31 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Pink Floyd\waterfall-140894.mp3
+[INFO] 11/22/2023 10:09:26 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Pink Floyd\GeneratedScript.txt
+[INFO] 11/22/2023 10:09:26 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+"Hey there, history enthusiasts! Welcome back to our channel, where we delve into the fascinating stories that shaped the world we live in. Today, we have something extra special in store for you. We'll be exploring the captivating history of one of the most legendary bands of all time Pink Floyd."
+
+
+
+ "But here's the twist — the entire content of this video has been generatedby AI!" 
+
+
+
+ "That's right, today we're exploring the fascinating world of artificial intelligence and its creative capabilities. As you can see,
+
+
+Did you know that Pink Floyd, one of the most iconic rock bands in history, was originally known as The Tea Set? In their early years, they frequently performed at tea dances and parties, which inspired their initial name. However, they soon discovered that there was another band already using the same name, and after a legal issue, they decided to change it. The name "Pink Floyd" was coined during a spontaneous moment when Syd Barrett, the band's original guitarist, combined the names of two blues musicians he admired, Pink Anderson and Floyd Council. This decision would go on to shape the band's legendary career, as they became pioneers of the progressive rock genre and went on to create timeless albums, such as "The Dark Side of theMoon," "Wish You Were Here," and "The Wall."
+
+Did you know that Pink Floyd's iconic album, "The Dark Side of the Moon," actually stayed on the Billboard charts for a staggering 14 years straight? Released in 1973, the album didn't leave the charts until 1988, making it one of the longest-charting albums in history. It's a testament to the enduring popularity and impact of Pink Floyd's unique blend of progressive and psychedelic rock music.
+
+Did you know that Pink Floyd's iconic album, "The Dark Side of the Moon," spent a staggering 937 weeks on the Billboard 200 chart? Released in 1973, it stayed on the chart for an incredible 18 years, making it one of the longest-charting albums in history. This record-breaking achievement showcases the enduring popularity and timeless appeal of Pink Floyd's music. Thank you for watching NexaCast. Don't forget to subscribe for more intersting content. From thought to YouTube, NexaCast brings knowledge to your screen.
+[INFO] 11/22/2023 10:09:26 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 6
+[INFO] 11/22/2023 10:09:28 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "Hey there, history enthusiasts! Welcome back to our channel, where we delve into the fascinating stories that shaped the world we live in. Today, we have something extra special in store for you. We'll be exploring the captivating history of one of the most legendary bands of all time Pink Floyd."
+[INFO] 11/22/2023 10:09:30 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "But here's the twist — the entire content of this video has been generatedby AI!"
+[INFO] 11/22/2023 10:09:31 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "That's right, today we're exploring the fascinating world of artificial intelligence and its creative capabilities. As you can see,
+[INFO] 11/22/2023 10:09:36 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Did you know that Pink Floyd, one of the most iconic rock bands in history, was originally known as The Tea Set? In their early years, they frequently performed at tea dances and parties, which inspired their initial name. However, they soon discovered that there was another band already using the same name, and after a legal issue, they decided to change it. The name "Pink Floyd" was coined during a spontaneous moment when Syd Barrett, the band's original guitarist, combined the names of two blues musicians he admired, Pink Anderson and Floyd Council. This decision would go on to shape the band's legendary career, as they became pioneers of the progressive rock genre and went on to create timeless albums, such as "The Dark Side of theMoon," "Wish You Were Here," and "The Wall."
+[INFO] 11/22/2023 10:09:38 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Did you know that Pink Floyd's iconic album, "The Dark Side of the Moon," actually stayed on the Billboard charts for a staggering 14 years straight? Released in 1973, the album didn't leave the charts until 1988, making it one of the longest-charting albums in history. It's a testament to the enduring popularity and impact of Pink Floyd's unique blend of progressive and psychedelic rock music.
+[INFO] 11/22/2023 10:09:41 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Did you know that Pink Floyd's iconic album, "The Dark Side of the Moon," spent a staggering 937 weeks on the Billboard 200 chart? Released in 1973, it stayed on the chart for an incredible 18 years, making it one of the longest-charting albums in history. This record-breaking achievement showcases the enduring popularity and timeless appeal of Pink Floyd's music. Thank you for watching NexaCast. Don't forget to subscribe for more intersting content. From thought to YouTube, NexaCast brings knowledge to your screen.
+[INFO] 11/22/2023 10:09:41 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Pink Floyd\DallePrompts.txt
+[INFO] 11/22/2023 10:09:41 PM (GenerateDallePromptsFromScript): Number of prompts generated: 6
+[INFO] 11/22/2023 10:09:41 PM (Main): Fetching and downloading images...
+[INFO] 11/22/2023 10:09:50 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/22/2023 10:09:51 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pink Floyd\image_1.png
+[INFO] 11/22/2023 10:10:14 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/22/2023 10:10:15 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pink Floyd\image_2.png
+[INFO] 11/22/2023 10:10:38 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/22/2023 10:10:39 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pink Floyd\image_3.png
+[INFO] 11/22/2023 10:11:02 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/22/2023 10:11:03 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pink Floyd\image_4.png
+[INFO] 11/22/2023 10:11:27 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/22/2023 10:11:28 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pink Floyd\image_5.png
+[INFO] 11/22/2023 10:11:53 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/22/2023 10:11:54 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Pink Floyd\image_6.png
+[INFO] 11/22/2023 10:12:09 PM (Main): Generating and downloading voiceovers...
