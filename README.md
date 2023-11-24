@@ -1,56 +1,40 @@
 # NexaCast-Video: Automated YouTube Video Generator
 
-NexaCast is a cutting-edge project that utilizes advanced AI technologies to automate the creation of videos for YouTube. Users can input a brief summary or idea, and NexaCast efficiently generates a comprehensive video, including visuals, voiceovers, subtitles, and background music, tailored for YouTube audiences.
+NexaCast is an innovative project that leverages advanced AI technologies to automate the creation of YouTube videos. It enables users to input a brief summary or idea, and NexaCast efficiently generates a comprehensive video. This includes creating scripts, voiceovers, visuals, and adding background music, all tailored for YouTube audiences.
 
 ## Project Overview
 
-### Features to Integrate:
+NexaCast-Video combines various technologies and APIs to create a seamless video production workflow. The application interacts with services like ChatGPT, DALL·E, and Eleven Labs to generate content that is then compiled into a complete video.
 
-1. Logging system to record errors, invalid inputs, or other important events.
-<<<<<<< HEAD
-1. Asynchronous operations to enhance efficiency.
-1. Unit tests to ensure robustness.
-1. SOLID principle comments for maintainability and clarity.
-1. Regex validation for ensuring content adheres to YouTube's guidelines.
+### Key Features
 
-## Current Capabilities
-
-- **Topic Generation**: NexaCast employs ChatGPT to generate relevant topics based on user inputs. 
-- **Script Creation**: It crafts a detailed video script using the derived topic. (Can take 10 minutes to do this portion)
-=======
-2. Asynchronous operations to enhance efficiency.
-3. Database with related tables to store video metadata and user configurations using raw SQL.
-4. Unit tests to ensure robustness.
-5. SOLID principle comments for maintainability and clarity.
-6. Regex validation for ensuring content adheres to YouTube's guidelines.
-7. Transform application into an API for potential integrations.
+- **Asynchronous Operations**: Enhances efficiency by handling multiple tasks concurrently.
+- **Dynamic Content Creation**: Uses AI to generate scripts, images, and voiceovers based on user input.
+- **Background Music Integration**: Adds royalty-free music to videos, with features like looping and fading effects.
+- **Logging System**: Records important events, errors, or invalid inputs for debugging and monitoring.
+- **User Input Validation**: Employs Regex for content adherence to YouTube's guidelines.
 
 ## Current Capabilities
 
-- **Topic Generation**: NexaCast employs ChatGPT to generate relevant topics based on user inputs.
-- **Script Creation**: It crafts a detailed video script using the derived topic.
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
-- **Voiceover Production**: Converts each script line into engaging voiceovers.
-- **Dynamic Image Sourcing**: Uses DALL·E to generate contextually relevant images for each script line.
-- **Royalty-Free Music**: Pulls random royalty-free music for the video's background.
+- **Topic Generation**: Utilizes ChatGPT to derive relevant topics from user inputs.
+- **Script Creation**: Crafts detailed video scripts based on the chosen topic, which can take up to 10 minutes.
+- **Voiceover Production**: Converts script lines into engaging voiceovers.
+- **Dynamic Image Sourcing**: Generates contextually relevant images for each script line using DALL·E.
+- **Royalty-Free Music**: Sources random royalty-free music tracks for the video background.
 
-Currently, NexaCast-Video can generate the script, images, text-to-speech voiceover, and select royalty-free music. The development is ongoing to enable the following:
+## Development Progress
 
-- Compiling the video into a cohesive format.
-- Shortening the video length to fit YouTube standards.
-<<<<<<< HEAD
-=======
-- Uploading the final video directly to YouTube.
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
+The project is in an active development phase, with the following functionalities implemented:
 
-Explore the AI creations and progress on the YouTube channel: [NexaCastVideo on YouTube](https://www.youtube.com/@NexaCastVideo)
+- **Video Compilation**: Combines generated content into a cohesive video format.
+- **Music Integration**: Adds and adjusts background music, including looping and fading effects.
 
-## Installation
+## Installation and Setup
 
-1. Clone this repository.
-<<<<<<< HEAD
-1. Obtain and store your API keys in `.\SECURE\config.json`, including keys for ChatGPT, Eleven Labs, DALL·E, and Google Cloud.
-1. Required Nuget Packages
+1. **Clone the Repository**: Download the project from its GitHub repository.
+2. **API Keys**: Store your API keys (ChatGPT, Eleven Labs, DALL·E, Google Cloud) in `.\SECURE\config.json`.
+3. **NuGet Packages**: Install required NuGet packages.
+   Required Nuget Packages
     - Accord by Accord.NET      3.8.0
     - Google.Apis.Drive.v3      1.64.0.3155
     - Microsoft.Win32.Registry  5.0.0
@@ -66,39 +50,22 @@ Explore the AI creations and progress on the YouTube channel: [NexaCastVideo on 
     - SixLabors.ImageSharp      2.1.4
     - System.Drawing.Common     8.0.0
     - System.Text.Json          8.0.0
-    - Xabe.FFmpeg                5.2.6
-=======
-2. Navigate to the project's root directory.
-3. Run the "InstallPackages" PowerShell script to install necessary NuGet packages.
-4. Obtain and store your API keys in `.\SECURE\config.json`, including keys for ChatGPT, Eleven Labs, DALL·E, Google Cloud, and YouTube.
+    - Xabe.FFmpeg               5.2.6
 
-## Retrieving Large Files
+4. **FFmpeg**: Ensure FFmpeg is installed and configured, as it is crucial for video and audio processing.
 
-NexaCast-Video uses Git Large File Storage (Git LFS) for managing large files in the repository.
+## Usage Guide
 
-### Prerequisites
+NexaCast-Video is designed to be user-friendly:
 
-1. Install Git LFS from the [official Git LFS website](https://git-lfs.github.com/).
+1. **Input Topic**: Users can input a brief summary or topic idea.
+2. **Content Generation**: The application generates a script, sources images, and produces voiceovers.
+3. **Video Compilation**: Combines all elements into a final video, adding background music and ensuring optimal length.
+4. **Review and Upload**: Users can review the final video before uploading it to YouTube.
 
-### Retrieving the Large Files
+## Future Enhancements
 
-1. Navigate to the cloned repository's directory.
-2. Initialize Git LFS:
-   ```bash
-   git lfs install
-   ```
-3. Pull the large files:
-   ```bash
-   git lfs pull
-   ```
-
-Access all large files, including `ffmpeg.exe`, necessary for the project.
-
-## TODO List
-
-1. **Front-End/UI** (optional): Design a user-friendly interface.
-2. **Automated Testing**: Develop unit and integration tests.
-3. **Optimization**: Continuously optimize for performance.
-4. **Documentation**: Create detailed API and developer documentation.
-5. **Allow API**: Need to create a way for project reviewer to use current APIs
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
+- **Front-End Development**: Create a user-friendly interface for easier interaction.
+- **Automated YouTube Uploads**: Directly upload completed videos to YouTube.
+- **Continuous Optimization**: Regular updates for performance improvements.
+- **Comprehensive Documentation**: Detailed guides and API documentation for developers and users.
