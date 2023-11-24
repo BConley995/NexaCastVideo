@@ -1,0 +1,175 @@
+[INFO] 11/16/2023 2:29:09 PM (Setup): Logger setup initialized.
+[INFO] 11/16/2023 2:29:09 PM (Main): Initializing...
+[INFO] 11/16/2023 2:29:09 PM (Main): Loading configurations...
+[INFO] 11/16/2023 2:29:13 PM (Main): Directory NexaCastVideo\Generation\History Of Artificial Intelligence created successfully.
+[INFO] 11/16/2023 2:29:13 PM (Main): Downloading random royalty-free music...
+[INFO] 11/16/2023 2:29:16 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Artificial Intelligence\cinematic-fairy-tale-story-main-8697.mp3
+[INFO] 11/16/2023 2:29:29 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcL8eCGF6nQoYlKT1sz2XZOapqlk",
+  "object": "chat.completion",
+  "created": 1700162958,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Background music playing]\n\nNarrator (AI voice): Welcome back to our educational series! Today, we're diving into the fascinating world of artificial intelligence. But before we begin, please note that this content has been generated using advanced AI technology, and your narrator for today is an AI voice. It's remarkable how far we've come, isn't it?\n\nArtificial intelligence, commonly known as AI, is a field that focuses on creating computer systems capable of performing tasks that would typically require human intelligence"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 100,
+    "total_tokens": 147
+  }
+}
+
+[INFO] 11/16/2023 2:29:35 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcLKSSHuT7Pb2uwt6TW6hQef1JjH",
+  "object": "chat.completion",
+  "created": 1700162970,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": ". These tasks can include problem-solving, decision-making, learning, understanding natural language, and even recognizing objects and faces. With advancements in technology and computing power, AI has made significant progress in recent years, revolutionizing industries and impacting our everyday lives.\n\n"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 50,
+    "total_tokens": 118
+  }
+}
+
+[INFO] 11/16/2023 2:29:40 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcLQrdpflEeyp4L7ez8Z3TG3DA3e",
+  "object": "chat.completion",
+  "created": 1700162976,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The history of artificial intelligence showcases the incredible progress and advancements made in creating intelligent machines that can replicate human cognitive abilities, revolutionizing numerous industries and significantly impacting our daily lives."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 34,
+    "total_tokens": 66
+  }
+}
+
+[INFO] 11/16/2023 2:29:52 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcLUHUj5kVo5w8pNF3cE6CVpTk1H",
+  "object": "chat.completion",
+  "created": 1700162980,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "As a script generator for educational YouTube videos, my role is to generate informative and engaging scripts that cover a wide range of educational topics. These scripts are aimed at capturing the attention of viewers and providing them with valuable knowledge and insights in a concise and captivating manner.\n\nI understand the importance of delivering content in an engaging and entertaining way, so I strive to make the videos interesting and interactive. Whether it's explaining complex concepts, providing step-by-step tutorials, or sharing interesting facts, I ensure that the information"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 100,
+    "total_tokens": 129
+  }
+}
+
+[INFO] 11/16/2023 2:29:54 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcLhCeTFNEKaXsIDXkoOWDhcbBme",
+  "object": "chat.completion",
+  "created": 1700162993,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "is presented in a clear and engaging manner."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 9,
+    "total_tokens": 59
+  }
+}
+
+[INFO] 11/16/2023 2:30:06 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcLjZS3PXUbH7z8BJPxYEC0OU5vH",
+  "object": "chat.completion",
+  "created": 1700162995,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "And there you have it, a fascinating discussion exploring the world of ancient civilizations. From the towering pyramids of Egypt to the advanced engineering of the Roman Empire, these ancient civilizations leave us in awe of their accomplishments. One interesting fact to take away is that the Mesopotamians, often considered the cradle of civilization, were the inventors of writing around 3200 BCE. This remarkable achievement paved the way for the development of language, literature, and historical records we still rely on today."
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 100,
+    "total_tokens": 130
+  }
+}
+
+[INFO] 11/16/2023 2:30:06 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedScript.txt
+[INFO] 11/16/2023 2:30:06 PM (GenerateSubtitles): Subtitle file saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedSubtitles.srt
+[INFO] 11/16/2023 2:30:06 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+: 
+
+Welcome back to our educational series! Today, we're diving into the fascinating world of artificial intelligence. But before we begin, please note that this content has been generated using advanced AI technology, and your narrator for today is an AI voice. It's remarkable how far we've come, isn't it?
+
+Artificial intelligence, commonly known as AI, is a field that focuses on creating computer systems capable of performing tasks that would typically require human intelligence. These tasks can include problem-solving, decision-making, learning, understanding natural language, and even recognizing objects and faces. With advancements in technology and computing power, AI has made significant progress in recent years, revolutionizing industries and impacting our everyday lives.
+
+: The history of artificial intelligence showcases the incredible progress and advancements made in creating intelligent machines that can replicate human cognitive abilities, revolutionizing numerous industries and significantly impacting our daily lives.
+
+: As a script generator for educational YouTube videos, my role is to generate informative and engaging scripts that cover a wide range of educational topics. These scripts are aimed at capturing the attention of viewers and providing them with valuable knowledge and insights in a concise and captivating manner.
+
+I understand the importance of delivering content in an engaging and entertaining way, so I strive to make the videos interesting and interactive. Whether it's explaining complex concepts, providing step-by-step tutorials, or sharing interesting facts, I ensure that the informationis presented in a clear and engaging manner.
+
+: And there you have it, a fascinating discussion exploring the world of ancient civilizations. From the towering pyramids of Egypt to the advanced engineering of the Roman Empire, these ancient civilizations leave us in awe of their accomplishments. One interesting fact to take away is that the Mesopotamians, often considered the cradle of civilization, were the inventors of writing around 3200 BCE. This remarkable achievement paved the way for the development of language, literature, and historical records we still rely on today.
+
+Don’t forget to subscribe. Thank you for watching NexaCast.
+[INFO] 11/16/2023 2:30:06 PM (GenerateDallePromptsFromScript): Extracted paragraphs:
+: 
+Welcome back to our educational series! Today, we're diving into the fascinating world of artificial intelligence. But before we begin, please note that this content has been generated using advanced AI technology, and your narrator for today is an AI voice. It's remarkable how far we've come, isn't it?
+Artificial intelligence, commonly known as AI, is a field that focuses on creating computer systems capable of performing tasks that would typically require human intelligence. These tasks can include problem-solving, decision-making, learning, understanding natural language, and even recognizing objects and faces. With advancements in technology and computing power, AI has made significant progress in recent years, revolutionizing industries and impacting our everyday lives.
+: The history of artificial intelligence showcases the incredible progress and advancements made in creating intelligent machines that can replicate human cognitive abilities, revolutionizing numerous industries and significantly impacting our daily lives.
+: As a script generator for educational YouTube videos, my role is to generate informative and engaging scripts that cover a wide range of educational topics. These scripts are aimed at capturing the attention of viewers and providing them with valuable knowledge and insights in a concise and captivating manner.
+I understand the importance of delivering content in an engaging and entertaining way, so I strive to make the videos interesting and interactive. Whether it's explaining complex concepts, providing step-by-step tutorials, or sharing interesting facts, I ensure that the informationis presented in a clear and engaging manner.
+: And there you have it, a fascinating discussion exploring the world of ancient civilizations. From the towering pyramids of Egypt to the advanced engineering of the Roman Empire, these ancient civilizations leave us in awe of their accomplishments. One interesting fact to take away is that the Mesopotamians, often considered the cradle of civilization, were the inventors of writing around 3200 BCE. This remarkable achievement paved the way for the development of language, literature, and historical records we still rely on today.
+Don’t forget to subscribe. Thank you for watching NexaCast.
+[INFO] 11/16/2023 2:30:46 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\DallePrompts.txt
+[INFO] 11/16/2023 2:30:46 PM (Main): Fetching and downloading images...
+[INFO] 11/16/2023 2:30:59 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:30:59 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_1.png
+[INFO] 11/16/2023 2:31:32 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:31:33 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_2.png
+[INFO] 11/16/2023 2:32:01 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:32:01 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_3.png
+[INFO] 11/16/2023 2:32:35 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:32:35 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_4.png

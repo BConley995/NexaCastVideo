@@ -1,0 +1,220 @@
+[INFO] 11/16/2023 2:13:16 PM (Setup): Logger setup initialized.
+[INFO] 11/16/2023 2:13:16 PM (Main): Initializing...
+[INFO] 11/16/2023 2:13:16 PM (Main): Loading configurations...
+[INFO] 11/16/2023 2:13:28 PM (Main): Directory NexaCastVideo\Generation\History Of Artificial Intelligence created successfully.
+[INFO] 11/16/2023 2:13:28 PM (Main): Downloading random royalty-free music...
+[INFO] 11/16/2023 2:13:32 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Artificial Intelligence\cinematic-fairy-tale-story-main-8697.mp3
+[INFO] 11/16/2023 2:13:43 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc5tn4hrrCZ3KGSYwcb6KfpFLpFh",
+  "object": "chat.completion",
+  "created": 1700162013,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Background music playing]\n\nNarrator (AI Voice): Welcome back, history enthusiasts! Today, we delve into the fascinating world of artificial intelligence. Before we begin, it's important to note that this content is AI generated, voiced by an AI voice. Now, let's embark on a journey through the history of artificial intelligence.\n\nArtificial intelligence, commonly known as AI, refers to the development of computer systems that can perform tasks that typically require human intelligence. The concept of AI has been around for"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 100,
+    "total_tokens": 147
+  }
+}
+
+[INFO] 11/16/2023 2:13:45 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc63mjuPGr2aGaVWdwpkdXnDhUli",
+  "object": "chat.completion",
+  "created": 1700162023,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "decades, but in recent years it has gained significant attention and advancement."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 35,
+    "completion_tokens": 15,
+    "total_tokens": 50
+  }
+}
+
+[INFO] 11/16/2023 2:13:49 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc66Gf2VsDWUd0ZSpS3f4ynXJrzA",
+  "object": "chat.completion",
+  "created": 1700162026,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The history of artificial intelligence traces the development of intelligent machines and systems, exploring the key milestones and breakthroughs that have shaped the field over the years."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 30,
+    "total_tokens": 62
+  }
+}
+
+[INFO] 11/16/2023 2:14:00 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc6AM97hwSN9HzgXtqUVH2mVYonn",
+  "object": "chat.completion",
+  "created": 1700162030,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "As a script generator for educational YouTube videos, my purpose is to assist content creators in developing engaging and informative scripts for their videos. This involves providing concise and accurate explanations, breaking down complex concepts into easily understandable segments, and structuring the script in a way that keeps viewers interested and encourages them to learn more. My goal is to help content creators deliver high-quality educational content that effectively communicates information to their target audience. Whether it's explaining scientific theories, historical events, mathematical concepts, or any other subject"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29,
+    "completion_tokens": 100,
+    "total_tokens": 129
+  }
+}
+
+[INFO] 11/16/2023 2:14:06 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc6L0P0eigsOJ7ZxzjgplXjSN1JA",
+  "object": "chat.completion",
+  "created": 1700162041,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": ", educational YouTube videos are an invaluable tool for enhancing our understanding and knowledge. In today's fast-paced digital world, where information is readily accessible, these videos offer an engaging and interactive medium that caters to diverse learning styles. They provide concise explanations,"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 50,
+    "total_tokens": 94
+  }
+}
+
+[INFO] 11/16/2023 2:14:18 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc6RdLlstvZ6KMiwlaFnw4vDeEiV",
+  "object": "chat.completion",
+  "created": 1700162047,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "And there you have it, the fascinating world of ancient civilizations! From the pyramids of Egypt to the majestic Great Wall of China, these ancient cultures left an indelible mark on our history. They were innovative, artistic, and technologically advanced in their own unique ways. Studying ancient civilizations not only helps us learn about our past, but it also allows us to appreciate the remarkable achievements of these societies. So, next time you visit a museum or crack open a history book, remember the"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 100,
+    "total_tokens": 130
+  }
+}
+
+[INFO] 11/16/2023 2:14:23 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8Lc6c8O4KnalEZZI8NrETDAijOcgA",
+  "object": "chat.completion",
+  "created": 1700162058,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "importance of questioning and exploring different perspectives. History is not just a collection of facts, but a complex tapestry of narratives, interpretations, and biases. By critically examining the sources and viewpoints presented to us, we can gain a deeper understanding of the"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 44,
+    "completion_tokens": 50,
+    "total_tokens": 94
+  }
+}
+
+[INFO] 11/16/2023 2:14:23 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedScript.txt
+[INFO] 11/16/2023 2:14:23 PM (GenerateSubtitles): Subtitle file saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\GeneratedSubtitles.srt
+[INFO] 11/16/2023 2:14:23 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Narrator: 
+
+NarratorWelcome back, history enthusiasts! Today, we delve into the fascinating world of artificial intelligence. Before we begin, it's important to note that this content is AI generated, voiced by an AI voice. Now, let's embark on a journey through the history of artificial intelligence.
+
+Artificial intelligence, commonly known as AI, refers to the development of computer systems that can perform tasks that typically require human intelligence. The concept of AI has been around fordecades, but in recent years it has gained significant attention and advancement.
+
+Narrator: The history of artificial intelligence traces the development of intelligent machines and systems, exploring the key milestones and breakthroughs that have shaped the field over the years.
+
+Narrator: As a script generator for educational YouTube videos, my purpose is to assist content creators in developing engaging and informative scripts for their videos. This involves providing concise and accurate explanations, breaking down complex concepts into easily understandable segments, and structuring the script in a way that keeps viewers interested and encourages them to learn more. My goal is to help content creators deliver high-quality educational content that effectively communicates information to their target audience. Whether it's explaining scientific theories, historical events, mathematical concepts, or any other subject, educational YouTube videos are an invaluable tool for enhancing our understanding and knowledge. In today's fast-paced digital world, where information is readily accessible, these videos offer an engaging and interactive medium that caters to diverse learning styles. They provide concise explanations,
+
+Narrator: And there you have it, the fascinating world of ancient civilizations! From the pyramids of Egypt to the majestic Great Wall of China, these ancient cultures left an indelible mark on our history. They were innovative, artistic, and technologically advanced in their own unique ways. Studying ancient civilizations not only helps us learn about our past, but it also allows us to appreciate the remarkable achievements of these societies. So, next time you visit a museum or crack open a history book, remember theimportance of questioning and exploring different perspectives. History is not just a collection of facts, but a complex tapestry of narratives, interpretations, and biases. By critically examining the sources and viewpoints presented to us, we can gain a deeper understanding of the
+
+Don’t forget to subscribe. Thank you for watching NexaCast.
+[INFO] 11/16/2023 2:14:23 PM (GenerateDallePromptsFromScript): Extracted paragraphs:
+Narrator: 
+Narrator: The history of artificial intelligence traces the development of intelligent machines and systems, exploring the key milestones and breakthroughs that have shaped the field over the years.
+Narrator: As a script generator for educational YouTube videos, my purpose is to assist content creators in developing engaging and informative scripts for their videos. This involves providing concise and accurate explanations, breaking down complex concepts into easily understandable segments, and structuring the script in a way that keeps viewers interested and encourages them to learn more. My goal is to help content creators deliver high-quality educational content that effectively communicates information to their target audience. Whether it's explaining scientific theories, historical events, mathematical concepts, or any other subject, educational YouTube videos are an invaluable tool for enhancing our understanding and knowledge. In today's fast-paced digital world, where information is readily accessible, these videos offer an engaging and interactive medium that caters to diverse learning styles. They provide concise explanations,
+Narrator: And there you have it, the fascinating world of ancient civilizations! From the pyramids of Egypt to the majestic Great Wall of China, these ancient cultures left an indelible mark on our history. They were innovative, artistic, and technologically advanced in their own unique ways. Studying ancient civilizations not only helps us learn about our past, but it also allows us to appreciate the remarkable achievements of these societies. So, next time you visit a museum or crack open a history book, remember theimportance of questioning and exploring different perspectives. History is not just a collection of facts, but a complex tapestry of narratives, interpretations, and biases. By critically examining the sources and viewpoints presented to us, we can gain a deeper understanding of the
+[INFO] 11/16/2023 2:14:26 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: The history of artificial intelligence traces the development of intelligent machines and systems, exploring the key milestones and breakthroughs that have shaped the field over the years.
+Prompt:
+[Illustrate the history of artificial intelligence, depicting key milestones and breakthroughs that have shaped the field over the years.]
+[INFO] 11/16/2023 2:14:32 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: As a script generator for educational YouTube videos, my purpose is to assist content creators in developing engaging and informative scripts for their videos. This involves providing concise and accurate explanations, breaking down complex concepts into easily understandable segments, and structuring the script in a way that keeps viewers interested and encourages them to learn more. My goal is to help content creators deliver high-quality educational content that effectively communicates information to their target audience. Whether it's explaining scientific theories, historical events, mathematical concepts, or any other subject, educational YouTube videos are an invaluable tool for enhancing our understanding and knowledge. In today's fast-paced digital world, where information is readily accessible, these videos offer an engaging and interactive medium that caters to diverse learning styles. They provide concise explanations,
+Prompt:
+[Illustration Prompt: Create an illustration of a friendly, animated script generator assisting a content creator in developing an educational YouTube video. The content creator should be shown holding a script, with the script generator by their side, actively contributing to the brainstorming process. In the illustration, emphasize the collaboration between the]
+[INFO] 11/16/2023 2:14:39 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: And there you have it, the fascinating world of ancient civilizations! From the pyramids of Egypt to the majestic Great Wall of China, these ancient cultures left an indelible mark on our history. They were innovative, artistic, and technologically advanced in their own unique ways. Studying ancient civilizations not only helps us learn about our past, but it also allows us to appreciate the remarkable achievements of these societies. So, next time you visit a museum or crack open a history book, remember theimportance of questioning and exploring different perspectives. History is not just a collection of facts, but a complex tapestry of narratives, interpretations, and biases. By critically examining the sources and viewpoints presented to us, we can gain a deeper understanding of the
+Prompt:
+[Illustrate a scene showcasing the technological advancements and artistic achievements of ancient civilizations. Incorporate elements such as the pyramids of Egypt, the Great Wall of China, and other iconic structures from different ancient cultures. Use vibrant colors, intricate details, and various textures to highlight the ingenuity and creativity]
+[INFO] 11/16/2023 2:14:39 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Artificial Intelligence\DallePrompts.txt
+[INFO] 11/16/2023 2:14:39 PM (Main): Fetching and downloading images...
+[INFO] 11/16/2023 2:15:04 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:15:05 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_1.png
+[INFO] 11/16/2023 2:15:39 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:15:40 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_2.png
+[INFO] 11/16/2023 2:16:12 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/16/2023 2:16:13 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Artificial Intelligence\image_3.png
+[INFO] 11/16/2023 2:16:28 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/16/2023 2:17:05 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_0.mp3
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_0.mp3
+[INFO] 11/16/2023 2:17:05 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_1.mp3
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_1.mp3
+[INFO] 11/16/2023 2:17:05 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_2.mp3
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_2.mp3
+[INFO] 11/16/2023 2:17:05 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_3.mp3
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_3.mp3
+[INFO] 11/16/2023 2:17:05 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_4.mp3
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_4.mp3
+[INFO] 11/16/2023 2:17:05 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_5.mp3
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/16/2023 2:17:05 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Artificial Intelligence\voiceover_5.mp3

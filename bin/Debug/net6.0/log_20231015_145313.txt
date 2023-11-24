@@ -1,0 +1,39 @@
+[INFO] 10/15/2023 2:53:13 PM (Setup): Logger setup initialized.
+[INFO] 10/15/2023 2:53:13 PM (Main): Initializing...
+[INFO] 10/15/2023 2:53:13 PM (Main): Loading configurations...
+[INFO] 10/15/2023 2:53:13 PM (Main): GPT-4 API Key: [REDACTED]
+[INFO] 10/15/2023 2:53:13 PM (Main): Eleven Labs API Key: [REDACTED]
+[INFO] 10/15/2023 2:53:13 PM (Main): Cloud Storage API Key: [REDACTED]
+[INFO] 10/15/2023 2:53:13 PM (Main): YouTube API Key: [REDACTED]
+[INFO] 10/15/2023 2:53:37 PM (SaveGeneratedContent): Script has been saved to: .\NexaCastVideo\Generation\History Of Video Games\Script_20231015_145337.txt
+[INFO] 10/15/2023 2:53:37 PM (CallOpenAIAsync): Saving Script to: C:\Users\bryan\Documents\Projects\NexaCastVideo\NexaCastVideo\bin\Debug\net6.0\NexaCastVideo\Generation\History Of Video Games\Script_20231015_145337.txt
+[INFO] 10/15/2023 2:54:34 PM (GenerateScriptFromInput): Subtitle file saved successfully to: [REDACTED_API_KEY]/GeneratedSubtitles.srt
+[INFO] 10/15/2023 2:54:34 PM (Main): Generated Script: [Intro Music]
+
+Host: Welcome back to our channel, where we dive deep into the fascinating worlds of knowledge and exploration! Today, we're going to embark on an exhilarating journey through time as we explore the captivating history of video games. Get ready to press start and let the adventure begin!
+
+[Visual transition: Retro arcade game visuals fading into modern console graphics]
+
+Host: Video games have come a long way since their humble beginnings. From the classic pixelated characters of the 1970s, to the realistic graphics and immersive gameplay of today, video games have evolved into an art form that captivates and transports us to extraordinary worlds. But how did it all begin? What were the groundbreaking moments and technological advancements that shaped the history of video games? Let's find out.
+
+[Transition: Title card - "The Early Days"]
+
+Host: Our journey starts in the 1970s, when the concept of video games was just starting to take shape. The first commercially successful video gamewas called "Pong," and it hit the arcades in 1972. Developed by Atari, Pong was a simple tennis game that consisted of two paddles and a ball, but it captured the imagination of players around the world. This marked the beginning of the arcade gaming industry and laid the foundation for what was to come.
+
+[Visuals: Vintage arcade gameplay footage]
+
+Host: As technology advanced, so did the capabilities of video game consoles. In the late 1970s, Host: In the late 1970s, home video game consoles started to gain popularity, introducing a whole new way to experience gaming from the comfort of our living rooms. The Atari 2600, released in 1977, revolutionized the industry by bringing arcade-like graphics and gameplay into households. Games like Space Invaders and Pac-Man became instant hits, paving the way for the golden age of video games in the 1980s.
+
+[Visuals: Footage of Atari 260Host: As the 1980s dawned, video games became a cultural phenomenon. With the release of iconic consoles like the Nintendo Entertainment System (NES) and Sega Genesis, gaming reached new heights of popularity. These consoles not only introduced memorable characters like Mario and Sonic, but also delivered a level of storytelling and gameplay depth that had never been seen before.
+
+[Visuals: NES and Sega Genesis console visuals]
+
+Host: With the advancement of technology, the 1990s witnessed another leap inHost: With the advancement of technology, the 1990s witnessed another leap in the evolution of video games. This era saw the rise of 3D graphics and immersive gameplay experiences. The Sony PlayStation and Nintendo 64 took center stage, delivering groundbreaking titles like Super Mario 64, The Legend of Zelda: Ocarina of Time, and Final Fantasy VII. These games pushed the boundaries of what was possible in video game storytelling and solidified the industry as a major player in the entertainment worldDon’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 10/15/2023 2:54:34 PM (SaveScript): Script saved successfully to: .\NexaCastVideo\Generation\History Of Video Games\GeneratedScript.txt
+[INFO] 10/15/2023 2:54:34 PM (Main): Generating and downloading voiceovers...
+[INFO] 10/15/2023 2:55:14 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_1.mp3
+[INFO] 10/15/2023 2:55:14 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_3.mp3
+[INFO] 10/15/2023 2:55:14 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_5.mp3
+[INFO] 10/15/2023 2:55:14 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_7.mp3
+[INFO] 10/15/2023 2:55:14 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_8.mp3
+[INFO] 10/15/2023 2:55:14 PM (Main): Attempting to download voiceover from URL: .\NexaCastVideo\VideoContents\voiceover_10.mp3

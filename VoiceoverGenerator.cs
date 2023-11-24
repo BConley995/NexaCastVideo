@@ -63,6 +63,7 @@ namespace NexaCastVideo
             return audioPaths;
         }
 
+<<<<<<< HEAD
         public async Task<List<string>> GenerateVoiceoversFromFile(string scriptFilePath)
         {
             // Read the content of the script file
@@ -83,6 +84,8 @@ namespace NexaCastVideo
                                 .ToList();
         }
 
+=======
+>>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
         private bool IsDirection(string sentence)
         {
             return sentence.Trim().StartsWith("[") && sentence.Trim().EndsWith("]");
@@ -106,7 +109,11 @@ namespace NexaCastVideo
                     var requestBody = new
                     {
                         text = sentence,
+<<<<<<< HEAD
                         model_id = "eleven_multilingual_v2",
+=======
+                        model_id = "eleven_monolingual_v1",
+>>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
                         voice_settings = new
                         {
                             stability = 0,

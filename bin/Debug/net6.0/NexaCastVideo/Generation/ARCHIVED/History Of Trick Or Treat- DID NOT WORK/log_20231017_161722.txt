@@ -1,0 +1,292 @@
+[INFO] 10/17/2023 4:17:22 PM (Setup): Logger setup initialized.
+[INFO] 10/17/2023 4:17:22 PM (Main): Initializing...
+[INFO] 10/17/2023 4:17:22 PM (Main): Loading configurations...
+[INFO] 10/17/2023 4:17:22 PM (Main): GPT-4 API Key: [REDACTED]
+[INFO] 10/17/2023 4:17:22 PM (Main): Eleven Labs API Key: [REDACTED]
+[INFO] 10/17/2023 4:17:22 PM (Main): Cloud Storage API Key: [REDACTED]
+[INFO] 10/17/2023 4:17:22 PM (Main): YouTube API Key: [REDACTED]
+[INFO] 10/17/2023 4:18:27 PM (GenerateSubtitles): Subtitle file saved successfully to: [REDACTED_API_KEY]/GeneratedSubtitles.srt
+[INFO] 10/17/2023 4:18:27 PM (Main): Generated Script: [History of Trick or Treat Illustration]
+[Illustration of history, origin]
+[Background music playing]
+
+Host: "Welcome back to our channel, fellow history enthusiasts! Today, we have a fascinating topic to delve into — the history of trick or treating. With Halloween just around the corner, it's the perfect time to uncover the mysterious origins of this beloved tradition. So, grab your pumpkin spice latte, light a candle, and join me on this journey through time!"
+
+[Video transition]
+
+Host: "Now, when we think of Halloween, what comes to mind?
+
+[Illustration of origin, ancient]
+Host: "Costumes, spooky decorations, and of course, trick or treating! But where did this tradition actually originate? Well, it turns out that the roots of trick or treating can be traced back to ancient Celtic traditions in what is now modern-day Ireland, United Kingdom, and France."
+
+[Visual aid showing various Celtic symbols and traditions]
+
+Host: "The Celtic people celebrated a festival known as Samhain, which marked the end of the harvest season and the beginning of winter. They believed
+
+[Illustration of ancient]
+that during Samhain, the boundary between the living and the dead became blurred, allowing for communication and interaction between the two realms. To honor this occasion, the Celts would dress in costumes made from animal hides and masks to ward off evil spirits."
+
+[Visual aid showing ancient Celtic costumes and masks]
+
+Host: "During Samhain, it was also believed that spirits and fairies would roam the Earth. In order to appease these supernatural beings, the Celtic people would leave food and treats
+
+[General illustration]
+and other offerings outside their homes. This practice, known as "souling," involved wearing costumes and going from door to door, singing songs or reciting prayers in exchange for food, called "soul cakes." It was believed that by participating in souling, the living could help ease the spirits' passage to the afterlife."
+
+[Visual aid showing illustrations of souling]
+
+Host: "Over time, as Christianity spread throughout these regions, the Church sought to incorporate pagan traditions into their own
+
+[General illustration]
+Host: "As Christianity spread throughout the Celtic lands, the Church aimed to replace the pagan traditions with their own. In the 9th century, the Church introduced All Hallows' Day, also known as All Saints' Day, on November 1st. This day was meant to honor all Christian saints and martyrs. To align with this new Christian holiday, the existing Celtic festival of Samhain was moved to the night before, October 31st, and came to be known as
+
+[Illustration of origin, ancient]
+Host: "In summary, trick or treating has its origins in the ancient Celtic festival of Samhain, where costumes and offerings were used to appease spirits. The practice of souling, where people went door to door for food in exchange for songs or prayers, further evolved this tradition. With the influence of Christianity, Samhain was moved to October 31st and became known as Halloween. Today, trick or treating has become a cherished Halloween tradition in many countries, where children dress up
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+
+[INFO] 10/17/2023 4:18:27 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Trick Or Treat\GeneratedScript.txt
+[INFO] 10/17/2023 4:18:27 PM (Main): Generating and downloading voiceovers...
+[ERROR] 10/17/2023 4:18:27 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[History of Trick or Treat Illustration]
+[Illustration of history, origin]
+[Background music playing]'
+[ERROR] 10/17/2023 4:18:33 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Video transition]'
+[ERROR] 10/17/2023 4:18:38 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visual aid showing various Celtic symbols and traditions]'
+[ERROR] 10/17/2023 4:18:45 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visual aid showing ancient Celtic costumes and masks]'
+[ERROR] 10/17/2023 4:18:52 PM (GenerateVoiceovers): Skipping voiceover generation for direction: '[Visual aid showing illustrations of souling]'
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_1.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_1.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_3.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_3.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_4.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_4.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_6.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_6.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_7.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_7.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_9.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_9.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_10.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_10.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_12.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_12.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_13.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_13.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_14.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_14.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_15.mp3
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:09 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\History Of Trick Or Treat\voiceover_15.mp3
+[INFO] 10/17/2023 4:19:09 PM (Main): Fetching and downloading images...
+[ERROR] 10/17/2023 4:19:17 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697573959,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-DuDLRnEeGP7FRSrNzn7HK4DP.png?st=2023-10-17T19%3A19%3A19Z&se=2023-10-17T21%3A19%3A19Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T07%3A59%3A03Z&ske=2023-10-18T07%3A59%3A03Z&sks=b&skv=2021-08-06&sig=9hrohn/TP4COoSvqEM2C%2BIMkLFnOAhxAqIoCT0R44%2BI%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:19:17 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [History of Trick or Treat Illustration]
+[Illustration of history, origin]
+[Background music playing]
+[INFO] 10/17/2023 4:19:17 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:19:17 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:17 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:19:25 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697573967,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-DxoUe6pml8ZqTqIMTCTMSuff.png?st=2023-10-17T19%3A19%3A27Z&se=2023-10-17T21%3A19%3A27Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T17%3A45%3A37Z&ske=2023-10-18T17%3A45%3A37Z&sks=b&skv=2021-08-06&sig=L08nm%2BHlfrS1brIZNIMH5TrnDMcHTxwDjxFy%2BInlR50%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:19:25 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Welcome back to our channel, fellow history enthusiasts! Today, we have a fascinating topic to delve into — the history of trick or treating. With Halloween just around the corner, it's the perfect time to uncover the mysterious origins of this beloved tradition. So, grab your pumpkin spice latte, light a candle, and join me on this journey through time!"
+[INFO] 10/17/2023 4:19:25 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:19:25 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:25 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:19:32 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697573975,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-GaVZTntubqx7Ovynu3FO6pAc.png?st=2023-10-17T19%3A19%3A35Z&se=2023-10-17T21%3A19%3A35Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T13%3A32%3A38Z&ske=2023-10-18T13%3A32%3A38Z&sks=b&skv=2021-08-06&sig=qV3XYiyrqXjB%2BFT/UbcKTGznH0Dk88Mxplx5tjXobMM%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:19:32 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Video transition]
+[INFO] 10/17/2023 4:19:32 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:19:32 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:32 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:19:40 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697573983,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-qTVu0A921ZkOTuKhuPT7oiQp.png?st=2023-10-17T19%3A19%3A43Z&se=2023-10-17T21%3A19%3A43Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T13%3A35%3A03Z&ske=2023-10-18T13%3A35%3A03Z&sks=b&skv=2021-08-06&sig=LNxwhw9p03EhktCz2Tm55SVIyiszllMqVYvHMjgar9o%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:19:40 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Now, when we think of Halloween, what comes to mind?
+[INFO] 10/17/2023 4:19:40 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:19:40 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:40 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:19:53 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697573994,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-9pSM1f7vMe1IXtvF3csisjiC.png?st=2023-10-17T19%3A19%3A54Z&se=2023-10-17T21%3A19%3A54Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T20%3A19%3A54Z&ske=2023-10-18T20%3A19%3A54Z&sks=b&skv=2021-08-06&sig=ljdWn4RVpaK7sohUsZNhP3qAACAPsB8IZT9m6QetOkg%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:19:53 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Illustration of origin, ancient]
+Host: "Costumes, spooky decorations, and of course, trick or treating! But where did this tradition actually originate? Well, it turns out that the roots of trick or treating can be traced back to ancient Celtic traditions in what is now modern-day Ireland, United Kingdom, and France."
+[INFO] 10/17/2023 4:19:53 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:19:53 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:19:53 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:00 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574002,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-EGAZPiu3Ezr0Ww4XwOT7Eakb.png?st=2023-10-17T19%3A20%3A02Z&se=2023-10-17T21%3A20%3A02Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T00%3A41%3A51Z&ske=2023-10-18T00%3A41%3A51Z&sks=b&skv=2021-08-06&sig=%2B4j08OwAbOAtnUeZ9yT1xTmVu2zZmuxgxuDP0WhCxrY%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:00 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visual aid showing various Celtic symbols and traditions]
+[INFO] 10/17/2023 4:20:00 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:00 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:00 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:08 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574011,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-wWj7k18vRFWEr5XsUwwxd81t.png?st=2023-10-17T19%3A20%3A11Z&se=2023-10-17T21%3A20%3A11Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T15%3A45%3A40Z&ske=2023-10-18T15%3A45%3A40Z&sks=b&skv=2021-08-06&sig=Dq0jD%2B2HSIQw4WTgXR8WHFlAy/0N/7XCe4jgUDFe5lc%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:08 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "The Celtic people celebrated a festival known as Samhain, which marked the end of the harvest season and the beginning of winter. They believed
+[INFO] 10/17/2023 4:20:08 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:08 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:08 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:16 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574019,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-XrPE6HbuOLBdf6vsaNCpLjwV.png?st=2023-10-17T19%3A20%3A19Z&se=2023-10-17T21%3A20%3A19Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T15%3A53%3A29Z&ske=2023-10-18T15%3A53%3A29Z&sks=b&skv=2021-08-06&sig=Moc8T1YdQBOq%2BYGwA%2Bo/W/5aBsKmM83PJEaf%2BT0fvdg%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:16 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Illustration of ancient]
+that during Samhain, the boundary between the living and the dead became blurred, allowing for communication and interaction between the two realms. To honor this occasion, the Celts would dress in costumes made from animal hides and masks to ward off evil spirits."
+[INFO] 10/17/2023 4:20:16 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:16 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:16 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:24 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574026,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-QFpFf33iY3BMp4G9Cn7IdTBF.png?st=2023-10-17T19%3A20%3A26Z&se=2023-10-17T21%3A20%3A26Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T13%3A36%3A54Z&ske=2023-10-18T13%3A36%3A54Z&sks=b&skv=2021-08-06&sig=aw1X6RtbIn8fZz2M6jrmTlrmt89/AHPnI53cz4sglIo%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:24 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visual aid showing ancient Celtic costumes and masks]
+[INFO] 10/17/2023 4:20:24 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:24 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:24 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:32 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574034,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-duVCaJS9yOc8JaDATgqzxRpr.png?st=2023-10-17T19%3A20%3A34Z&se=2023-10-17T21%3A20%3A34Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T10%3A11%3A43Z&ske=2023-10-18T10%3A11%3A43Z&sks=b&skv=2021-08-06&sig=KGZOpIrKiqQdHoBQF0Sw3GRJsMzpFO/0YGylbzYeH3w%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:32 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "During Samhain, it was also believed that spirits and fairies would roam the Earth. In order to appease these supernatural beings, the Celtic people would leave food and treats
+[INFO] 10/17/2023 4:20:32 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:32 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:32 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:42 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574044,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-Ok3UzoKLnOgp9h1lPtIHznTm.png?st=2023-10-17T19%3A20%3A44Z&se=2023-10-17T21%3A20%3A44Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T06%3A26%3A30Z&ske=2023-10-18T06%3A26%3A30Z&sks=b&skv=2021-08-06&sig=VubW8nKz/ykIzTwSNcyAD7sF1oX5TW12WxqLU6YGWKw%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:42 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [General illustration]
+and other offerings outside their homes. This practice, known as "souling," involved wearing costumes and going from door to door, singing songs or reciting prayers in exchange for food, called "soul cakes." It was believed that by participating in souling, the living could help ease the spirits' passage to the afterlife."
+[INFO] 10/17/2023 4:20:42 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:42 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:42 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:50 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574052,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-dI4rh0eG7Udrs5odOJMbG3P6.png?st=2023-10-17T19%3A20%3A52Z&se=2023-10-17T21%3A20%3A52Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T13%3A22%3A25Z&ske=2023-10-18T13%3A22%3A25Z&sks=b&skv=2021-08-06&sig=PsoJrey937ZAAXEDv%2Bb/cmsXxSgCIxtpnoo65awcP%2B4%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:50 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Visual aid showing illustrations of souling]
+[INFO] 10/17/2023 4:20:50 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:50 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:50 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:20:57 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574060,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-EJB44RwfIZHQSE60sU4pozwh.png?st=2023-10-17T19%3A21%3A00Z&se=2023-10-17T21%3A21%3A00Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T13%3A24%3A32Z&ske=2023-10-18T13%3A24%3A32Z&sks=b&skv=2021-08-06&sig=6sEwjF9hDLP/Y2l8ApZBKbqe/%2BCCaa7lels5TFzgxIY%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:20:57 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: Host: "Over time, as Christianity spread throughout these regions, the Church sought to incorporate pagan traditions into their own
+[INFO] 10/17/2023 4:20:57 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:20:57 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:20:57 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:21:07 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574069,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-T9AJwcEAg1mjgQYP1mFZ3omL.png?st=2023-10-17T19%3A21%3A09Z&se=2023-10-17T21%3A21%3A09Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T12%3A05%3A17Z&ske=2023-10-18T12%3A05%3A17Z&sks=b&skv=2021-08-06&sig=mcxwJO1Ri3i/xRz6YtvQWNVyCF5QFaXSP9ieXXLrq5U%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:21:07 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [General illustration]
+Host: "As Christianity spread throughout the Celtic lands, the Church aimed to replace the pagan traditions with their own. In the 9th century, the Church introduced All Hallows' Day, also known as All Saints' Day, on November 1st. This day was meant to honor all Christian saints and martyrs. To align with this new Christian holiday, the existing Celtic festival of Samhain was moved to the night before, October 31st, and came to be known as
+[INFO] 10/17/2023 4:21:07 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:21:07 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:21:07 PM (DownloadFileAsync): Bytes are null, skipping file writing for 
+[ERROR] 10/17/2023 4:21:16 PM (FetchImageURLAsync): Unexpected API response: {
+  "created": 1697574079,
+  "data": [
+    {
+      "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-8FoAAYX1q7zOQdDeHc3lHAA4/user-qAfAZT9TOnrpX7T9HvlFgeMB/img-SU5XpK5L6p6Ld909APgUCtW2.png?st=2023-10-17T19%3A21%3A19Z&se=2023-10-17T21%3A21%3A19Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-17T12%3A02%3A14Z&ske=2023-10-18T12%3A02%3A14Z&sks=b&skv=2021-08-06&sig=9uA1wc%2BxCDyre7OvpZXK7J2R3obvMjl4a4bh%2BYgJ4Wg%3D"
+    }
+  ]
+}
+
+[ERROR] 10/17/2023 4:21:16 PM (GenerateImageForScriptLineAsync): Failed to generate image for script line: [Illustration of origin, ancient]
+Host: "In summary, trick or treating has its origins in the ancient Celtic festival of Samhain, where costumes and offerings were used to appease spirits. The practice of souling, where people went door to door for food in exchange for songs or prayers, further evolved this tradition. With the influence of Christianity, Samhain was moved to October 31st and became known as Halloween. Today, trick or treating has become a cherished Halloween tradition in many countries, where children dress up
+[INFO] 10/17/2023 4:21:16 PM (Main): Attempting to download image from URL: 
+[ERROR] 10/17/2023 4:21:16 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 10/17/2023 4:21:16 PM (DownloadFileAsync): Bytes are null, skipping file writing for 

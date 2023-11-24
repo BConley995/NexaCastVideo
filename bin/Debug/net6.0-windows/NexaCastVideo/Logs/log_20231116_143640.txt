@@ -1,0 +1,73 @@
+[INFO] 11/16/2023 2:36:40 PM (Setup): Logger setup initialized.
+[INFO] 11/16/2023 2:36:40 PM (Main): Initializing...
+[INFO] 11/16/2023 2:36:40 PM (Main): Loading configurations...
+[INFO] 11/16/2023 2:36:45 PM (Main): Directory NexaCastVideo\Generation\History Of Artificial Intelligence created successfully.
+[INFO] 11/16/2023 2:36:45 PM (Main): Downloading random royalty-free music...
+[INFO] 11/16/2023 2:36:49 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Artificial Intelligence\inspiring-cinematic-ambient-116199.mp3
+[INFO] 11/16/2023 2:36:58 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcSQPewLjlE1f3jadOZauUpDfMor",
+  "object": "chat.completion",
+  "created": 1700163410,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Background music playing]\n\nNarrator (AI Voice): \"Welcome back, learners! Today, we are diving deep into the captivating world of artificial intelligence, commonly referred to as AI. As an AI-generated script, it's only fitting that I, your narrator, am an AI voice guiding you through this journey of discovery.\"\n\n[Visual: AI graphic animation overlay]\n\nNarrator (AI Voice): \"Artificial intelligence has been a concept that has intrigued and amazed people throughout history. Dating back to ancient"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 47,
+    "completion_tokens": 100,
+    "total_tokens": 147
+  }
+}
+
+[INFO] 11/16/2023 2:37:01 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcSZrKaqcPdgVs3FkKAup1NIIYlD",
+  "object": "chat.completion",
+  "created": 1700163419,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "times, humans have sought companionship and romance in various forms."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 13,
+    "total_tokens": 44
+  }
+}
+
+[INFO] 11/16/2023 2:37:10 PM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8LcSdRF2VaDeyUJgpeISGJDcr3w8T",
+  "object": "chat.completion",
+  "created": 1700163423,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The main point about the history of artificial intelligence is that it has evolved significantly over the years, progressing from theoretical concepts to practical applications, and has the potential to revolutionize various fields in the future."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 40,
+    "total_tokens": 72
+  }
+}
+
+[ERROR] 11/16/2023 2:38:50 PM (GenerateScriptFromInput): Error generating script: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.

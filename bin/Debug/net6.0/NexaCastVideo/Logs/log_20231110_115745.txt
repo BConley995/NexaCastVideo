@@ -1,0 +1,282 @@
+[INFO] 11/10/2023 11:57:45 AM (Setup): Logger setup initialized.
+[INFO] 11/10/2023 11:57:45 AM (Main): Initializing...
+[INFO] 11/10/2023 11:57:45 AM (Main): Loading configurations...
+[INFO] 11/10/2023 11:57:49 AM (Main): Directory NexaCastVideo\Generation\Hstory Of Pugs created successfully.
+[INFO] 11/10/2023 11:57:49 AM (Main): Downloading random royalty-free music...
+[INFO] 11/10/2023 11:57:54 AM (Main): Music file downloaded successfully: NexaCastVideo\Generation\Hstory Of Pugs\motivational-epic-music-inspiring-cinematic-background-music-124265.mp3
+[INFO] 11/10/2023 11:58:02 AM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JP7KJl9aKRtS2jsGg1hNZFnXuFiG",
+  "object": "chat.completion",
+  "created": 1699635474,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Opening Shot: Slow zoom in towards a cozy living room where a chubby pug sits regally on a plush cushion.]\n\nNarrator (V.O.): \"Beneath those big, soulful eyes and that adorably wrinkled face lies a history as rich and fascinating as the breed itself.\"\n\n[Cut to historical images and artworks featuring pugs.]\n\nNarrator (V.O.): \"Welcome back to 'Paw Prints in History', the show that uncovers the tales of our four-legged friends. Today, we're diving into the captivating journey of one of the world's most beloved breeds—the pug.\"\n\n[Upbeat instrumental music begins to play.]\n\nNarrator (V.O.): \"Originating from the royal palaces of ancient China, these stately dogs have lived a life of luxury and have been cherished companions for centuries.\"\n\n[Transition to a 3D animated map of the world. A dotted line travels from China to Europe.]\n\nNarrator (V.O.): \"But how did the pug make its way from the Imperial Chinese courts to the hearts of families worldwide?\"\n\n[The music shifts to a playful tune.]\n\nNarrator (V.O.): \"Grab a treat and snuggle up with your furry friend, as we embark on a tail-wagging journey through time, unraveling the history of pugs - from their prestigious beginnings to their rise as canine celebrities in the modern world.\"\n\n[Cut back to the cozy living room where the pug"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 300,
+    "total_tokens": 332
+  },
+  "system_fingerprint": "fp_a24b4d720c"
+}
+
+[INFO] 11/10/2023 11:58:19 AM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JP7TxNixXaGJUdQH1nGcTvchxwZz",
+  "object": "chat.completion",
+  "created": 1699635483,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Narrator (V.O.): \"It all began in ancient China during the Han Dynasty, around 200 B.C. Pugs, or 'Lo-Sze' as they were then known, were bred to sit on the laps of emperors and warm the robes of noblewomen.\"\n\n[Cut to animated re-enactments of ancient Chinese emperors with pugs.]\n\nNarrator (V.O.): \"These cherished dogs weren't just companions; they were symbols of status and luxury, with their own servants to cater to their every whim.\"\n\n[Transition to historical documents and paintings of Chinese pugs.]\n\nNarrator (V.O.): \"But the pug's journey from the East to the West is one of both diplomatic alliances and chance encounters.\"\n\n[Cut to a 16th-century European painting depicting pugs with traders.]\n\nNarrator (V.O.): \"By the 16th century, Dutch traders brought pugs back to Europe, where they quickly became the dog of choice among the European aristocracy.\"\n\n[The scene transitions to a whimsical animation of pugs accompanying their royal owners in various European courts.]\n\nNarrator (V.O.): \"In no time, pugs were leaving their paw prints across royal halls from the Netherlands to the United Kingdom, adorning the sides of queens and dukes with their distinctive charm.\"\n\n[The music takes on a grand tone.]\n\nNarrator (V.O.): \"With the pug's regal Chinese heritage and stints as the muses of European royals, it's no wonder that these charismatic canines have earned a loyal following that continues to this day.\"\n\n[Cut back to the chubby pug in the living room, now playfully chasing its tail.]\n\nNarrator (V.O.): \"What began as a breed reserved for emperors has evolved into a family favorite known for its playful and loving nature. But as we'll see, the pug's story isn't just one of royal pampering—it's a story of survival and adaptability.\"\n\n[The screen fades to a page from a history book, with the chapter title \"The Pug's Tale of Triumph.\"]\n\nNarrator (V.O.): \"Stay tuned as we explore how the pug has thrived through the ages, defying all odds to become a true canine icon.\"\n\n[The pug finally catches its tail, causing the music to swell and end on a cheerful note.]\n\nNarrator (V.O."
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 500,
+    "total_tokens": 832
+  },
+  "system_fingerprint": "fp_a24b4d720c"
+}
+
+[INFO] 11/10/2023 11:58:25 AM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JP7jCrUHTOxkRfAW5aI8pJAH6SOY",
+  "object": "chat.completion",
+  "created": 1699635499,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Narrator (V.O.): \"Now, let us delve a bit deeper into the pug's tale of survival and the extraordinary adaptability they've exhibited throughout their history.\"\n\n[Cut to an animated depiction of a family tree, with branches leading to various types of pugs over time.]\n\nNarrator (V.O.): \"Despite the changing whims of fashion and several near brushes with extinction, pugs have shown a resilience that's as remarkable as their endearing personalities.\"\n\n[The camera zooms in on a particular branch, detailing a challenging period in pug history.]\n\nNarrator (V.O.): \"In the 19th century, the pug breed faced a crisis when the fancy for other breeds threatened to eclipse their popularity. However, the devotion of pug enthusiasts ensured that these lovable dogs did not fade into obscurity.\"\n\n[Cut to historical photographs and paintings of dedicated breeders and pug fanciers clubs.]\n\nNarrator (V.O.): \"Pug admir"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 832,
+    "completion_tokens": 200,
+    "total_tokens": 1032
+  },
+  "system_fingerprint": "fp_a24b4d720c"
+}
+
+[INFO] 11/10/2023 11:58:42 AM (MakeAPICall): Raw API response: {
+  "id": "chatcmpl-8JP7pMm4ALcphiQ0IF00YTjF9G0S3",
+  "object": "chat.completion",
+  "created": 1699635505,
+  "model": "gpt-4-1106-preview",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[Cut to an illustration of a 19th-century living room, where pug owners are joyously showcasing their dogs.]\n\nNarrator (V.O.): \"Indeed, the history of pugs is a testament to their enduring appeal. In the 19th century, the formation of pug clubs and the establishment of breed standards played a pivotal role in their survival. This period marked the beginning of the modern era for pugs, as dedicated breeders endeavored to preserve the unique qualities that make pugs so special.\"\n\n[Transition to a series of antique pug show posters and rosettes signaling the excellence of the breed.]\n\nNarrator (V.O.): \"Across the centuries, the pug's affectionate demeanor and comical nature have remained their most treasured traits. Whether serving as noble companions or as stars of the show ring, pugs continue to capture hearts and win awards with their unwavering spirit and charm.\"\n\n[Cut to the chubby pug in the present day, blissfully snoozing amidst a collection of colorful toys.]\n\nNarrator (V.O.): \"From imperial Chinese companion to beloved pet of millions, the pug's journey is a truly extraordinary chronicle of resilience and love that perseveres through the passage of time.\"\n\n[The screen fades to a warm vintage filter, as we see families playing with their pugs in modern home settings, emphasizing the breed's timeless appeal.]\n\nNarrator (V.O.): \"The pug's tale is not just history; it's a living story that continues to unfold every day in homes around the world. And with each wag of their curly tails, pugs write new chapters that delight and inspire all those lucky enough to know this remarkable breed.\"\n\n[End shot with the screen slowly zooming out from the dozing pug, returning to the cozy living room scene.]\n\nNarrator (V.O.): \"Thank you for joining us on this 'Paw Prints in History' exploration of the pug. Until next time, keep those tails wagging, and may the story of your own furry friends be as filled with joy and love as that of the ever-adorable pug.\"\n\n[The upbeat instrumental outro begins as the credits roll.]\n\n[END OF VIDEO]"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1032,
+    "completion_tokens": 456,
+    "total_tokens": 1488
+  },
+  "system_fingerprint": "fp_a24b4d720c"
+}
+
+[INFO] 11/10/2023 11:58:42 AM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\Hstory Of Pugs\GeneratedScript.txt
+[INFO] 11/10/2023 11:58:42 AM (GenerateSubtitles): Subtitle file saved successfully to: NexaCastVideo\Generation\Hstory Of Pugs\GeneratedSubtitles.srt
+[INFO] 11/10/2023 11:58:42 AM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Narrator: 
+
+Narrator"Beneath those big, soulful eyes and that adorably wrinkled face lies a history as rich and fascinating as the breed itself."
+
+
+
+Narrator"Welcome back to 'Paw Prints in History', the show that uncovers the tales of our four-legged friends. Today, we're diving into the captivating journey of one of the world's most beloved breeds—the pug."
+
+
+
+Narrator"Originating from the royal palaces of ancient China, these stately dogs have lived a life of luxury and have been cherished companions for centuries."
+
+
+
+Narrator"But how did the pug make its way from the Imperial Chinese courts to the hearts of families worldwide?"
+
+
+
+Narrator"Grab a treat and snuggle up with your furry friend, as we embark on a tail-wagging journey through time, unraveling the history of pugs from their prestigious beginnings to their rise as canine celebrities in the modern world."
+
+[Cut back to the cozy living room where the pug
+
+Narrator: Narrator"It all began in ancient China during the Han Dynasty, around 200 B. C. Pugs, or 'Lo-Sze' as they were then known, were bred to sit on the laps of emperors and warm the robes of noblewomen."
+
+
+
+Narrator"These cherished dogs weren't just companions; they were symbols of status and luxury, with their own servants to cater to their every whim."
+
+
+
+Narrator"But the pug's journey from the East to the West is one of both diplomatic alliances and chance encounters."
+
+
+
+Narrator"By the 16th century, Dutch traders brought pugs back to Europe, where they quickly became the dog of choice among the European aristocracy."
+
+
+
+Narrator"In no time, pugs were leaving their paw prints across royal halls from the Netherlands to the United Kingdom, adorning the sides of queens and dukes with their distinctive charm."
+
+
+
+Narrator"With the pug's regal Chinese heritage and stints as the muses of European royals, it's no wonder that these charismatic canines have earned a loyal following that continues to this day."
+
+
+
+Narrator"What began as a breed reserved for emperors has evolved into a family favorite known for its playful and loving nature. But as we'll see, the pug's story isn't just one of royal pampering—it's a story of survival and adaptability."
+
+
+
+Narrator"Stay tuned as we explore how the pug has thrived through the ages, defying all odds to become a true canine icon."
+
+
+
+Narrator"Now, let us delve a bit deeper into the pug's tale of survival and the extraordinary adaptability they've exhibited throughout their history."
+
+
+
+Narrator"Despite the changing whims of fashion and several near brushes with extinction, pugs have shown a resilience that's as remarkable as their endearing personalities."
+
+
+
+Narrator"In the 19th century, the pug breed faced a crisis when the fancy for other breeds threatened to eclipse their popularity. However, the devotion of pug enthusiasts ensured that these lovable dogs did not fade into obscurity."
+
+
+
+Narrator"Pug admir
+
+Narrator: 
+
+Narrator"Indeed, the history of pugs is a testament to their enduring appeal. In the 19th century, the formation of pug clubs and the establishment of breed standards played a pivotal role in their survival. This period marked the beginning of the modern era for pugs, as dedicated breeders endeavored to preserve the unique qualities that make pugs so special."
+
+
+
+Narrator"Across the centuries, the pug's affectionate demeanor and comical nature have remained their most treasured traits. Whether serving as noble companions or as stars of the show ring, pugs continue to capture hearts and win awards with their unwavering spirit and charm."
+
+
+
+Narrator"From imperial Chinese companion to beloved pet of millions, the pug's journey is a truly extraordinary chronicle of resilience and love that perseveres through the passage of time."
+
+
+
+Narrator"The pug's tale is not just history; it's a living story that continues to unfold every day in homes around the world. And with each wag of their curly tails, pugs write new chapters that delight and inspire all those lucky enough to know this remarkable breed."
+
+
+
+Narrator"Thank you for joining us on this 'Paw Prints in History' exploration of the pug. Until next time, keep those tails wagging, and may the story of your own furry friends be as filled with joy and love as that of the ever-adorable pug."
+
+
+
+
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/10/2023 11:58:42 AM (GenerateDallePromptsFromScript): Extracted paragraphs:
+Narrator: 
+Narrator: Narrator"It all began in ancient China during the Han Dynasty, around 200 B. C. Pugs, or 'Lo-Sze' as they were then known, were bred to sit on the laps of emperors and warm the robes of noblewomen."
+Narrator: 
+[INFO] 11/10/2023 11:58:47 AM (GenerateDallePromptsFromScript): Generated prompt for paragraph:
+Narrator: Narrator"It all began in ancient China during the Han Dynasty, around 200 B. C. Pugs, or 'Lo-Sze' as they were then known, were bred to sit on the laps of emperors and warm the robes of noblewomen."
+Prompt:
+[Generate an illustration featuring a pug sitting on an emperor's lap, surrounded by noblewomen wearing warm robes, set in ancient China during the Han Dynasty.]
+[INFO] 11/10/2023 11:58:47 AM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\Hstory Of Pugs\DallePrompts.txt
+[INFO] 11/10/2023 11:58:47 AM (Main): Fetching and downloading images...
+[INFO] 11/10/2023 11:59:02 AM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/10/2023 11:59:03 AM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\Hstory Of Pugs\image_1.png
+[INFO] 11/10/2023 11:59:18 AM (Main): Generating and downloading voiceovers...
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_0.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_0.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_1.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_1.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_2.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_2.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_3.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_3.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_4.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_4.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_5.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_5.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_6.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_6.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_7.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_7.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_8.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_8.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_9.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_9.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_10.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_10.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_11.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_11.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_12.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_12.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_13.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_13.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_14.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_14.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_15.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_15.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_16.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_16.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_17.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_17.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_18.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_18.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_19.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_19.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_20.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_20.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_21.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_21.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_22.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_22.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_23.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_23.mp3
+[INFO] 11/10/2023 12:00:27 PM (Main): Attempting to download voiceover from URL: NexaCastVideo\Generation\Hstory Of Pugs\voiceover_24.mp3
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): General Error in API call in DownloadFileAsync: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+[ERROR] 11/10/2023 12:00:27 PM (DownloadFileAsync): Bytes are null, skipping file writing for NexaCastVideo\Generation\Hstory Of Pugs\voiceover_24.mp3
