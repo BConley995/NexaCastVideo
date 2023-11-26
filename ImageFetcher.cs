@@ -75,17 +75,10 @@ namespace NexaCastVideo
             {
                 var requestBody = new
                 {
-<<<<<<< HEAD
-                    model="dall-e-3",
+                    model = "dall-e-3",
                     prompt = prompt,
                     n = 1,
                     size = "1792x1024", // dall-e-3 uses 1792x1024 - dall-e-2 uses 1024x1024
-=======
-                    model="dall-e-2",
-                    prompt = prompt,
-                    n = 1,
-                    size = "1792x1024",
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
                     response_format = "b64_json"
                 };
 

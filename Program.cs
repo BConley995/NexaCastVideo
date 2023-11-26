@@ -161,9 +161,11 @@ class Program
             await videoCompiler.ConcatenateSegments();
 
             string finalVideoPath = Path.Combine(generationDirectory, "Generated Video", "final_video.mp4");
-            //Logger.LogInfo("Concatenation of video segments completed. Proceeding to add background music.");
-            //string outputWithMusic = await musicManager.AddBackgroundMusicWithFade(finalVideoPath, new List<string> { musicFilePath }, generationDirectory);
-            //Logger.LogInfo($"Background music added. Final video with music located at: {outputWithMusic}");
+            Logger.LogInfo($"Final video path: {finalVideoPath}");
+            Logger.LogInfo($"Music file path: {string.Join(", ", new List<string> { musicFilePath })}");
+            Logger.LogInfo("Concatenation of video segments completed. Proceeding to add background music.");
+            string outputWithMusic = await musicManager.AddBackgroundMusicWithFade(finalVideoPath, new List<string> { musicFilePath }, generationDirectory);
+            Logger.LogInfo($"Background music added. Final video with music located at: {outputWithMusic}");
 
             Logger.LogInfo("Video compilation completed.");
 

@@ -19,7 +19,6 @@ public class TopicGenerator
     private readonly string _generationDirectory;
     private readonly SubtitleEngine _subtitleEngine;
 
-<<<<<<< HEAD
     public class CustomHttpClientFactory
     {
         public HttpClient CreateClient()
@@ -31,19 +30,12 @@ public class TopicGenerator
     }
 
 
-=======
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     public TopicGenerator(string generationDirectory)
     {
         string apiKey = ConfigManager.GetAPIKey("Gpt4ApiKey");
 
-<<<<<<< HEAD
         var httpClientFactory = new CustomHttpClientFactory();
         _client = httpClientFactory.CreateClient();
-=======
-        _subtitleEngine = new SubtitleEngine(generationDirectory);
-        _client = new HttpClient();
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
         _client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
         _generationDirectory = generationDirectory ?? throw new ArgumentNullException(nameof(generationDirectory));
@@ -54,7 +46,6 @@ public class TopicGenerator
         }
     }
 
-<<<<<<< HEAD
     public async Task<bool> TestOpenAIAPIAvailability()
     {
         try
@@ -71,9 +62,6 @@ public class TopicGenerator
     }
 
     private async Task<string> MakeAPICall(string messageRole, string messageContent, int maxTokens, int maxRetries = 3)
-=======
-    private async Task<string> MakeAPICall(string messageRole, string messageContent, int maxTokens)
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     {
         var messages = new object[]
         {
@@ -89,7 +77,6 @@ public class TopicGenerator
             max_tokens = maxTokens
         };
 
-<<<<<<< HEAD
         for (int attempt = 0; attempt < maxRetries; attempt++)
         {
             try
@@ -130,32 +117,6 @@ public class TopicGenerator
         }
 
         throw new Exception("Max retry attempts reached. Unable to get a successful response.");
-=======
-        var requestContent = new StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json");
-
-        var response = await _client.PostAsync(OpenAIApiUrl, requestContent).ConfigureAwait(false);
-
-        var responseBody = await response.Content.ReadAsStringAsync();
-        Logger.LogInfo($"Raw API response: {responseBody}");
-
-        if (response.IsSuccessStatusCode)
-        {
-            var responseObject = JObject.Parse(responseBody);
-            return responseObject["choices"][0]["message"]["content"].ToString().Trim();
-        }
-        else
-        {
-            var errorContent = await response.Content.ReadAsStringAsync();
-            throw new HttpRequestException($"OpenAI API call failed. Status: {response.StatusCode}. Error: {errorContent}. Please try again.");
-        }
-    }
-
-    private async Task<string> GenerateSegment(string context, string prompt, int maxTokens)
-    {
-        var generatedSegment = await MakeAPICall("You are a script generator for educational YouTube videos.", context + prompt, maxTokens);
-        var completeSegment = await EnsureCompleteSentence(generatedSegment);
-        return completeSegment;
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     }
 
     private async Task<string> EnsureCompleteSentence(string segment)
@@ -183,11 +144,7 @@ public class TopicGenerator
 
         var requestBody = new
         {
-<<<<<<< HEAD
-            model = "gpt-4-1106-preview", 
-=======
-            model = "gpt-3.5-turbo", 
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
+            model = "gpt-4-1106-preview",
             messages = messages,
             max_tokens = 60  // Reduce max_tokens to encourage brevity
         };
@@ -213,14 +170,10 @@ public class TopicGenerator
     }
 
     private string SimplifyPrompt(string prompt)
-    { 
+    {
         return prompt;
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     public async Task<string> GenerateScriptFromInput(string topic)
     {
         var script = new StringBuilder();
@@ -228,7 +181,6 @@ public class TopicGenerator
 
         try
         {
-<<<<<<< HEAD
             Logger.LogInfo($"Starting to generate introduction for topic: {topic}");
             var introduction = await GenerateSegment(context, $"Create an quick introduction saying 'welcome to nexacast' and quickly discussing {topic} and quickly mention this is AI generated.", 30, topic);
             context += introduction;
@@ -256,50 +208,6 @@ public class TopicGenerator
 
             Logger.LogInfo("Script generation completed successfully.");
             return cleanedScript;
-=======
-            // Generate a concise introduction
-            var introduction = await GenerateSegment(context, $"Create a very brief introduction include a quick statement that content is AI generated and the narrator is an AI voice. Than discus a quick into to {topic}.", 100);
-            if (!string.IsNullOrWhiteSpace(introduction))
-            {
-                script.AppendLine($"Narrator: {introduction}");
-                script.AppendLine();
-            }
-
-            // Limit the number of main points and sub-points
-            for (int i = 1; i <= 1; i++)
-            {
-                // Generate a main point
-                var mainPoint = await GenerateSegment(context, $"Provide a concise main point about {topic}.", 150);
-                if (!string.IsNullOrWhiteSpace(mainPoint))
-                {
-                    script.AppendLine($"Narrator: {mainPoint}");
-                    script.AppendLine();
-                }
-
-                // Generate a sub-point
-                var subPoint = await GenerateSegment(context, $"Briefly elaborate on the above point.", 100);
-                if (!string.IsNullOrWhiteSpace(subPoint))
-                {
-                    script.AppendLine($"Narrator: {subPoint}");
-                    script.AppendLine();
-                }
-            }
-
-            // Generate a brief conclusion
-            var conclusion = await GenerateSegment(context, "Conclude the discussion with a short fact.", 100);
-            if (!string.IsNullOrWhiteSpace(conclusion))
-            {
-                script.AppendLine($"Narrator: {conclusion}");
-                script.AppendLine();
-            }
-
-            // Add the final call to action
-            script.AppendLine("Don’t forget to subscribe. Thank you for watching NexaCast.");
-
-            string finalScript = ScriptCleaner(script.ToString());
-
-            return finalScript;
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
         }
         catch (Exception e)
         {
@@ -308,7 +216,6 @@ public class TopicGenerator
         }
     }
 
-<<<<<<< HEAD
 
 
     private async Task<string> GenerateSegment(string context, string prompt, int maxTokens, string topic)
@@ -435,8 +342,6 @@ public class TopicGenerator
     }
 
 
-=======
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     public async Task<List<string>> GenerateDallePromptsFromScript(string script)
     {
         Logger.LogInfo($"Received script for DALL·E prompts generation:\n{script}");
@@ -444,27 +349,9 @@ public class TopicGenerator
         var prompts = new List<string>();
         try
         {
-<<<<<<< HEAD
             // Updated splitting logic to accommodate different paragraph delimiters
             var paragraphs = script.Split(new string[] { "\r\n\r\n", "\n\n", "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
             Logger.LogInfo($"Number of paragraphs extracted: {paragraphs.Length}");
-=======
-            // Split the script into paragraphs
-            var paragraphs = script.Split(new string[] { "\r\n\r\n", "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-            Logger.LogInfo($"Extracted paragraphs:\n{string.Join("\n", paragraphs)}");
-
-            // Define a retry policy for transient fault handling
-            var retryPolicy = Policy
-                .Handle<Exception>()
-                .WaitAndRetryAsync(
-                    3, // Retry count
-                    retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), // Exponential back-off
-                    onRetry: (exception, timespan, retryCount, context) =>
-                    {
-                        Logger.LogWarning($"Retry {retryCount} due to {exception.Message}. Waiting {timespan.TotalSeconds} seconds before next retry.");
-                    });
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
 
             foreach (var paragraph in paragraphs)
             {
@@ -472,16 +359,10 @@ public class TopicGenerator
                 if (!string.IsNullOrEmpty(content))
                 {
                     // Generate DALL-E prompt for each paragraph
-<<<<<<< HEAD
                     var rawPrompt = await GenerateDetailedPromptForDalle(content, "");
                     var bracketedPrompt = $"[{Regex.Replace(rawPrompt, @"^\w+:\s+", "")}]";
                     prompts.Add(bracketedPrompt);
                     Logger.LogInfo($"Generated prompt for paragraph: {content}");
-=======
-                    var rawPrompt = await retryPolicy.ExecuteAsync(() => GenerateDetailedPromptForDalle(content, ""));
-                    var bracketedPrompt = $"[{Regex.Replace(rawPrompt, @"^\w+:\s+", "")}]";
-                    prompts.Add(bracketedPrompt);
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
                 }
             }
 
@@ -502,15 +383,11 @@ public class TopicGenerator
             throw;
         }
 
-<<<<<<< HEAD
         Logger.LogInfo($"Number of prompts generated: {prompts.Count}");
-=======
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
         return prompts;
     }
 
 
-<<<<<<< HEAD
 
     //public void GenerateSubtitles(string script)
     //{
@@ -539,35 +416,6 @@ public class TopicGenerator
     //        Logger.LogError($"Error generating or saving subtitles: {e.Message}");
     //    }
     //}
-=======
-    public void GenerateSubtitles(string script)
-    {
-        try
-        {
-            // Assume each line takes approximately 3 seconds to speak.
-            List<double> durations = new List<double>();
-            var lines = script.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
-            foreach (var line in lines)
-            {
-                durations.Add(3.0); // Adding 3 seconds for each line.
-            }
-
-            // Initialize SubtitleEngine and generate the SRT content.
-            var subtitleEngine = new SubtitleEngine(_generationDirectory);
-            var srtContent = subtitleEngine.GenerateSRT(lines.ToList(), durations);
-
-            // Save the generated SRT content to file.
-            string srtFileName = Path.Combine(_generationDirectory, "GeneratedSubtitles.srt");
-            _subtitleEngine.SaveSRTToGenerationDirectory(srtContent, "GeneratedSubtitles.srt");
-
-            Logger.LogInfo($"Subtitle file saved successfully to: {srtFileName}");
-        }
-        catch (Exception e)
-        {
-            Logger.LogError($"Error generating or saving subtitles: {e.Message}");
-        }
-    }
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
 
 
     public async Task SaveScript(string script)
