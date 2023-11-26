@@ -63,11 +63,7 @@ public class MusicManager
         return string.Empty;
     }
 
-<<<<<<< HEAD
     public async Task<string> AddBackgroundMusicWithFade(string videoPath, List<string> musicPaths, string generationDirectory)
-=======
-    public async Task<string> AddBackgroundMusicWithFade(string videoPath, List<string> musicPaths)
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     {
         if (musicPaths == null || musicPaths.Count == 0)
         {
@@ -79,7 +75,6 @@ public class MusicManager
         try
         {
             double videoDuration = await GetVideoDurationAsync(videoPath);
-<<<<<<< HEAD
             var random = new Random();
             var selectedMusicPath = musicPaths[random.Next(musicPaths.Count)];
             double musicDuration = await GetAudioDurationAsync(selectedMusicPath);
@@ -94,16 +89,6 @@ public class MusicManager
             var ffmpegProcess = new Process();
             ffmpegProcess.StartInfo.FileName = "ffmpeg";
             ffmpegProcess.StartInfo.Arguments = $"-stream_loop {loopCount} -i \"{selectedMusicPath}\" -i \"{videoPath}\" -filter_complex \"[0:a]volume=0.18,aloop=loop=-1:size=2e+09[a1];[1:a][a1]amix=inputs=2:duration=first,afade=t=out:st={videoDuration - 0.5}:d=0.5[aout]\" -map 1:v -map \"[aout]\" -c:v copy -shortest \"{outputVideoPath}\"";
-=======
-
-            var random = new Random();
-            var selectedMusicPath = musicPaths[random.Next(musicPaths.Count)];
-            var outputVideoPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "output_video_with_music.mp4");
-
-            var ffmpegProcess = new Process();
-            ffmpegProcess.StartInfo.FileName = "ffmpeg";
-            ffmpegProcess.StartInfo.Arguments = $"-i {videoPath} -i {selectedMusicPath} -filter_complex [0:a][1:a]amix=inputs=2:duration=first[aout];[aout]afade=t=out:st={videoDuration - 3}:d=3[vout] -map [vout] -map 0:v -c:v copy {outputVideoPath}";
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
             ffmpegProcess.StartInfo.UseShellExecute = false;
             ffmpegProcess.StartInfo.RedirectStandardOutput = true;
             ffmpegProcess.Start();
@@ -118,7 +103,6 @@ public class MusicManager
         }
     }
 
-<<<<<<< HEAD
 
 
     private async Task<double> GetAudioDurationAsync(string audioPath)
@@ -153,8 +137,6 @@ public class MusicManager
         }
     }
 
-=======
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     public async Task<string> DownloadRandomMusicFileAsync(string saveDirectory)
     {
         try
@@ -203,11 +185,7 @@ public class MusicManager
         {
             var ffprobeProcess = new Process();
             ffprobeProcess.StartInfo.FileName = "ffprobe";
-<<<<<<< HEAD
             ffprobeProcess.StartInfo.Arguments = $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 \"{videoPath}\""; // Note the quotes around {videoPath}
-=======
-            ffprobeProcess.StartInfo.Arguments = $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {videoPath}";
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
             ffprobeProcess.StartInfo.UseShellExecute = false;
             ffprobeProcess.StartInfo.RedirectStandardOutput = true;
             ffprobeProcess.Start();

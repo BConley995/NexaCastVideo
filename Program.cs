@@ -5,16 +5,11 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Globalization;
 using System.Text.RegularExpressions;
-<<<<<<< HEAD
-=======
-using Google.Apis.YouTube.v3.Data;
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
 
 class Program
 {
     static async Task Main(string[] args)
     {
-<<<<<<< HEAD
 
         //static void TestFilePathGeneration()
         //{
@@ -47,18 +42,13 @@ class Program
         //Console.WriteLine("\nPress any key to exit...");
         //Console.ReadKey();
 
-=======
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
         string logFileName = "log_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".txt";
         string logDirectory = Path.Combine(Environment.CurrentDirectory, "NexaCastVideo", "Logs");
         string generationDirectory = "";
 
-<<<<<<< HEAD
         Console.WriteLine("\nPress any key to continue...");
         Console.ReadKey();
 
-=======
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
         Logger.LogInfo($"Attempting to create directory at {logDirectory}");
         if (!Directory.Exists(logDirectory))
         {
@@ -74,7 +64,6 @@ class Program
             Logger.LogError($"Unhandled exception: {(e.ExceptionObject as Exception)?.Message}");
         };
 
-<<<<<<< HEAD
         Console.WriteLine("Please enter a short description of what you want the video to be about:");
         string userRequest = Console.ReadLine();
 
@@ -217,126 +206,6 @@ class Program
 
 
 
-=======
-        try
-        {
-            Logger.LogInfo("Initializing...");
-            Logger.LogInfo("Loading configurations...");
-            ConfigManager.LoadConfigurations();
-            string apiKey = ConfigManager.GetAPIKey("DalleApiKey");
-
-            Console.WriteLine("Please enter a short description of what you want the video to be about:");
-            string userRequest = Console.ReadLine();
-
-            using (Spinner spinner = new Spinner())
-            {
-                spinner.Start();
-
-                string formattedUserRequest = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(userRequest);
-                string safeUserRequestFolderName = string.Concat(formattedUserRequest.Split(Path.GetInvalidFileNameChars(), StringSplitOptions.RemoveEmptyEntries));
-                generationDirectory = Path.Combine("NexaCastVideo", "Generation", safeUserRequestFolderName);
-
-                Console.WriteLine($"Attempting to create directory: {generationDirectory}");
-                Directory.CreateDirectory(generationDirectory);
-
-                if (Directory.Exists(generationDirectory))
-                {
-                    Logger.LogInfo($"Directory {generationDirectory} created successfully.");
-                }
-                else
-                {
-                    Logger.LogError($"Failed to create directory {generationDirectory}.");
-                    return;
-                }
-
-                MusicManager musicManager = new MusicManager();
-                Logger.LogInfo("Downloading random royalty-free music...");
-                string musicFilePath = await musicManager.DownloadRandomMusicFileAsync(generationDirectory);
-
-                if (string.IsNullOrEmpty(musicFilePath))
-                {
-                    Logger.LogError("Failed to download a music file. Aborting process.");
-                    return;
-                }
-                else
-                {
-                    Logger.LogInfo($"Music file downloaded successfully: {musicFilePath}");
-                }
-
-                TopicGenerator topicGenerator = new TopicGenerator(generationDirectory);
-                string script = await topicGenerator.GenerateScriptFromInput(userRequest);
-                await topicGenerator.SaveScript(script);
-
-                string subtitlePath = Path.Combine(generationDirectory, "GeneratedSubtitles.srt");
-                topicGenerator.GenerateSubtitles(script);
-                await topicGenerator.GenerateDallePromptsFromScript(script);
-
-                string promptsFilePath = Path.Combine(generationDirectory, "DallePrompts.txt");
-                if (new FileInfo(promptsFilePath).Length == 0)
-                {
-                    Logger.LogError("DallePrompts.txt is empty. No prompts generated.");
-                    return;
-                }
-
-                Logger.LogInfo("Fetching and downloading images...");
-                ImageFetcher imageFetcher = new ImageFetcher(apiKey, generationDirectory);
-                List<string> imageFiles = await imageFetcher.FetchAndDownloadImages();
-
-                if (imageFiles.Count == 0)
-                {
-                    Logger.LogError("No images were downloaded.");
-                    return;
-                }
-
-                string ttsScript = ProcessTextForTts(script, true);
-                ttsScript = RemoveNarrationLabels(ttsScript);
-
-                Logger.LogInfo("Generating and downloading voiceovers...");
-                VoiceoverGenerator voiceoverGenerator = new VoiceoverGenerator(generationDirectory, ConfigManager.GetAPIKey("ElevenLabsApiKey"));
-                var scriptSegments = ttsScript.Split(new[] { "\r\n\r\n", "\n\n" }, StringSplitOptions.RemoveEmptyEntries);
-                var voiceoverFiles = await voiceoverGenerator.GenerateVoiceovers(new List<string>(scriptSegments));
-
-                List<string> downloadedVoiceoverFiles = new List<string>();
-                foreach (var voiceoverUrl in voiceoverFiles)
-                {
-                    Logger.LogInfo($"Attempting to download voiceover from URL: {voiceoverUrl}");
-                    string localVoiceoverPath = Path.Combine(generationDirectory, "Voiceovers", Path.GetFileName(voiceoverUrl));
-                    downloadedVoiceoverFiles.Add(await DownloadFileAsync(voiceoverUrl, localVoiceoverPath));
-                }
-
-                List<string> videoSegments = new List<string>();
-
-                // After downloading voiceovers
-                VideoCompiler videoCompiler = new VideoCompiler(generationDirectory);
-
-                // Compile individual segments
-                await videoCompiler.CompileIndividualSegments(imageFiles, downloadedVoiceoverFiles);
-
-                // Path for the final concatenated video
-                string finalOutputVideo = Path.Combine(generationDirectory, "final_video.mp4");
-
-                // Concatenate segments
-                await videoCompiler.ConcatenateSegments(videoSegments);
-
-                // Overlay background music
-                string backgroundMusicFile = musicFilePath; // Path to background music file
-                await videoCompiler.OverlayBackgroundMusicAndSubtitles(finalOutputVideo, backgroundMusicFile);
-
-                spinner.Stop();
-            }
-        }
-        finally
-        {
-            if (!string.IsNullOrEmpty(generationDirectory))
-            {
-                // placeholder for cleanup directory
-            }
-
-            Logger.LogInfo("Application has terminated.");
-        }
-    }
-
->>>>>>> 11e65ae839e18e5bf191660fc19839b2140e4a37
     private static string ProcessTextForTts(string input, bool ignoreParenthesesContent)
     {
         if (ignoreParenthesesContent)
