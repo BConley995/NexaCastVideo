@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 3:52:48 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 3:52:56 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 3:52:59 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitar\dont-stop-me-abstract-future-bass-162753.mp3
+[INFO] 11/26/2023 3:52:59 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of electric guitar
+[INFO] 11/26/2023 3:53:14 PM (GenerateScriptFromInput): Generating main point about early history for topic: History of electric guitar
+[INFO] 11/26/2023 3:53:56 PM (GenerateScriptFromInput): Generating main point about major achievements for topic: History of electric guitar
+[INFO] 11/26/2023 3:54:33 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 3:54:58 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 3:54:58 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitar\GeneratedScript.txt

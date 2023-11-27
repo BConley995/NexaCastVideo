@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 3:18:37 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 3:18:44 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 3:18:46 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\happy-acoustic-guitar-background-music-122614.mp3
+[INFO] 11/26/2023 3:18:46 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of Electric Guitars
+[INFO] 11/26/2023 3:19:00 PM (GenerateScriptFromInput): Generating main point about early career for topic: History of Electric Guitars
+[INFO] 11/26/2023 3:19:28 PM (GenerateScriptFromInput): Generating main point about major achievements for topic: History of Electric Guitars
+[INFO] 11/26/2023 3:20:06 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 3:20:23 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 3:20:23 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt

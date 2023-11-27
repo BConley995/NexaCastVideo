@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 4:06:24 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 4:06:28 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 4:06:33 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\summer-adventures-115949.mp3
+[INFO] 11/26/2023 4:06:33 PM (GenerateScriptFromInput): Starting to generate introduction for topic: history of electric guitars
+[INFO] 11/26/2023 4:06:42 PM (GenerateScriptFromInput): Generating main point about early history for topic: history of electric guitars
+[INFO] 11/26/2023 4:07:03 PM (GenerateScriptFromInput): Generating main point about major achievements or advancements for topic: history of electric guitars
+[INFO] 11/26/2023 4:07:25 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 4:07:36 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 4:07:36 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt

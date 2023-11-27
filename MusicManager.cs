@@ -65,6 +65,8 @@ public class MusicManager
 
     public async Task<string> AddBackgroundMusicWithFade(string videoPath, List<string> musicPaths, string generationDirectory)
     {
+        Logger.LogInfo("Entering AddBackgroundMusicWithFade method.");
+
         if (musicPaths == null || musicPaths.Count == 0)
         {
             var errorMessage = "No music files provided.";
@@ -74,25 +76,39 @@ public class MusicManager
 
         try
         {
+            Logger.LogInfo($"Video path: {videoPath}");
             double videoDuration = await GetVideoDurationAsync(videoPath);
+            Logger.LogInfo($"Video duration: {videoDuration} seconds.");
+
             var random = new Random();
             var selectedMusicPath = musicPaths[random.Next(musicPaths.Count)];
+            Logger.LogInfo($"Selected music path: {selectedMusicPath}");
+
             double musicDuration = await GetAudioDurationAsync(selectedMusicPath);
+            Logger.LogInfo($"Music duration: {musicDuration} seconds.");
 
-            // Modify this line to use the generationDirectory
             var outputVideoPath = Path.Combine(generationDirectory, "Generated Video", "output_with_music.mp4");
+            Logger.LogInfo($"Output video path: {outputVideoPath}");
 
-            // Calculate the number of times the music needs to loop
             int loopCount = (int)Math.Ceiling(videoDuration / musicDuration);
+            Logger.LogInfo($"Music loop count: {loopCount}");
 
-            // Constructing the FFmpeg command to loop and fade music
             var ffmpegProcess = new Process();
             ffmpegProcess.StartInfo.FileName = "ffmpeg";
-            ffmpegProcess.StartInfo.Arguments = $"-stream_loop {loopCount} -i \"{selectedMusicPath}\" -i \"{videoPath}\" -filter_complex \"[0:a]volume=0.18,aloop=loop=-1:size=2e+09[a1];[1:a][a1]amix=inputs=2:duration=first,afade=t=out:st={videoDuration - 0.5}:d=0.5[aout]\" -map 1:v -map \"[aout]\" -c:v copy -shortest \"{outputVideoPath}\"";
+            ffmpegProcess.StartInfo.Arguments = $"-stream_loop {loopCount} -i \"{selectedMusicPath}\" -i \"{videoPath}\" -filter_complex \"[0:a]volume=0.14,aloop=loop=-1:size=2e+09[a1];[1:a][a1]amix=inputs=2:duration=first,afade=t=out:st={videoDuration - 0.5}:d=0.5[aout]\" -map 1:v -map \"[aout]\" -c:v copy -shortest \"{outputVideoPath}\"";
             ffmpegProcess.StartInfo.UseShellExecute = false;
             ffmpegProcess.StartInfo.RedirectStandardOutput = true;
+
+            Logger.LogInfo("Starting FFmpeg process for adding background music.");
             ffmpegProcess.Start();
             await ffmpegProcess.WaitForExitAsync();
+            Logger.LogInfo("FFmpeg process completed.");
+
+            if (ffmpegProcess.ExitCode != 0)
+            {
+                Logger.LogError($"FFmpeg process exited with non-zero exit code: {ffmpegProcess.ExitCode}");
+                // Optionally, you can include more details from ffmpegProcess.StandardOutput here.
+            }
 
             return outputVideoPath;
         }
@@ -101,17 +117,27 @@ public class MusicManager
             Logger.LogError($"Failed to add background music: {ex.Message}");
             throw;
         }
+        finally
+        {
+            Logger.LogInfo("Exiting AddBackgroundMusicWithFade method.");
+        }
     }
-
 
 
     private async Task<double> GetAudioDurationAsync(string audioPath)
     {
         try
         {
+            // Ensuring the path is correctly enclosed in quotes to handle spaces and special characters
+            string formattedAudioPath = $"\"{audioPath}\"";
+
+            // Constructing the ffprobe command
+            string ffprobeArguments = $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {formattedAudioPath}";
+            Logger.LogInfo($"Executing ffprobe with arguments: {ffprobeArguments}");
+
             var ffprobeProcess = new Process();
             ffprobeProcess.StartInfo.FileName = "ffprobe";
-            ffprobeProcess.StartInfo.Arguments = $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {audioPath}";
+            ffprobeProcess.StartInfo.Arguments = ffprobeArguments;
             ffprobeProcess.StartInfo.UseShellExecute = false;
             ffprobeProcess.StartInfo.RedirectStandardOutput = true;
             ffprobeProcess.Start();
@@ -119,13 +145,16 @@ public class MusicManager
             string output = await ffprobeProcess.StandardOutput.ReadToEndAsync();
             await ffprobeProcess.WaitForExitAsync();
 
+            Logger.LogInfo($"ffprobe output: {output}");
+
             if (double.TryParse(output, NumberStyles.Number, CultureInfo.InvariantCulture, out double duration))
             {
+                Logger.LogInfo($"Parsed audio duration: {duration} seconds.");
                 return duration;
             }
             else
             {
-                var errorMessage = "Failed to obtain audio duration.";
+                var errorMessage = "Failed to obtain or parse audio duration.";
                 Logger.LogError(errorMessage);
                 throw new InvalidOperationException(errorMessage);
             }
@@ -136,6 +165,7 @@ public class MusicManager
             throw;
         }
     }
+
 
     public async Task<string> DownloadRandomMusicFileAsync(string saveDirectory)
     {

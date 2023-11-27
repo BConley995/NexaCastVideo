@@ -8,12 +8,14 @@ using Newtonsoft.Json;
 
 namespace NexaCastVideo
 {
+    // Class VoiceoverGenerator: Responsible for generating voiceovers from text
     public class VoiceoverGenerator
     {
         private const string _apiEndpoint = "https://api.elevenlabs.io/v1/text-to-speech/TxGEqnHWrfWFTfGW9XjX";
         private readonly string _outputDirectory;
         private readonly string _apiKey;
 
+        // Constructor - Dependency Injection for output directory and API key
         public VoiceoverGenerator(string outputDirectory, string apiKey)
         {
             _outputDirectory = outputDirectory ?? throw new ArgumentNullException(nameof(outputDirectory));
@@ -21,6 +23,7 @@ namespace NexaCastVideo
             Directory.CreateDirectory(_outputDirectory);
         }
 
+        // Asynchronously generate voiceovers for a list of sentences
         public async Task<List<string>> GenerateVoiceovers(List<string> sentences)
         {
             List<string> audioPaths = new List<string>();
@@ -75,25 +78,26 @@ namespace NexaCastVideo
             return await GenerateVoiceovers(paragraphs);
         }
 
+        // Helper method to split a script into paragraphs
         private List<string> SplitIntoParagraphs(string scriptContent)
         {
-            // Split the script content into paragraphs using newline as a delimiter
-            // and remove any empty entries
             return scriptContent.Split(new string[] { "\r\n\r\n", "\n\n" }, StringSplitOptions.RemoveEmptyEntries)
                                 .ToList();
         }
 
+        // Check if a sentence is a direction (enclosed in square brackets)
         private bool IsDirection(string sentence)
         {
             return sentence.Trim().StartsWith("[") && sentence.Trim().EndsWith("]");
         }
 
-
+        // Clean the sentence by removing specific labels
         private string CleanSentence(string sentence)
         {
             return sentence.Replace("Host:", "").Trim();
         }
 
+        // Asynchronously generate a voiceover from a sentence
         private async Task<bool> GenerateVoiceover(string sentence, string outputPath)
         {
             using (HttpClient client = new HttpClient())

@@ -1,0 +1,51 @@
+[INFO] 11/26/2023 2:07:17 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 2:10:28 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 2:10:31 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Twenty One Pilots\the-best-jazz-club-in-new-orleans-164472.mp3
+[INFO] 11/26/2023 2:10:31 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of twenty one pilots
+[INFO] 11/26/2023 2:10:45 PM (GenerateScriptFromInput): Generating main point 1 for topic: History of twenty one pilots
+[INFO] 11/26/2023 2:11:05 PM (GenerateScriptFromInput): Generating main point 2 for topic: History of twenty one pilots
+[INFO] 11/26/2023 2:11:14 PM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/26/2023 2:11:30 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 2:11:30 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Twenty One Pilots\GeneratedScript.txt
+[INFO] 11/26/2023 2:11:30 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to Nexacast! In today's video, we'll be diving into the fascinating history of Twenty One Pilots. But before we jump into the topic, let's take a moment to briefly introduce ourselves and explain why this subject is important.
+
+ Welcome back to Nexacast, where we explore the captivating stories behind some of our favorite musicians. Today, we're delving into the rich history of Twenty One Pilots. This dynamic duo has taken the music world by storm, captivating fans with their unique blend of genres and thought-provoking lyrics. From their humble beginnings to their meteoric rise to fame, the history of Twenty One Pilots is not only intriguing but also provides valuable insights into the music industry and the power of perseverance. So, strap in and get ready to embark on a journey through the captivating evolution of Twenty One Pilots.
+
+ Today, we're going to dive into a captivating journey through the history of Twenty One Pilots. From their early days as a local Ohio band to their explosive success on the global stage, the story of this duo is one of resilience, creativity, and a relentless pursuit of their passion for music. Buckle up as we explore the triumphs, setbacks, and pivotal moments that shaped the history of Twenty One Pilots.
+
+ And there you have it, a captivating journey through the history of Twenty One Pilots. From their humble beginnings in Ohio to their status as global music icons, their story is a testament to the power of determination, creativity, and staying true to oneself. Whether you're a fan of their music or simply curious about their rise to fame, the history of Twenty One Pilotsis a fascinating journey that sheds light on the evolution of alternative music and the power of authentic self-expression. From humble beginnings in Columbus, Ohio, to selling out arenas worldwide, Twenty One Pilots has captured the hearts of millions with their unique sound and
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 2:11:30 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 5
+[INFO] 11/26/2023 2:11:33 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to Nexacast! In today's video, we'll be diving into the fascinating history of Twenty One Pilots. But before we jump into the topic, let's take a moment to briefly introduce ourselves and explain why this subject is important.
+[INFO] 11/26/2023 2:11:34 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome back to Nexacast, where we explore the captivating stories behind some of our favorite musicians. Today, we're delving into the rich history of Twenty One Pilots. This dynamic duo has taken the music world by storm, captivating fans with their unique blend of genres and thought-provoking lyrics. From their humble beginnings to their meteoric rise to fame, the history of Twenty One Pilots is not only intriguing but also provides valuable insights into the music industry and the power of perseverance. So, strap in and get ready to embark on a journey through the captivating evolution of Twenty One Pilots.
+[INFO] 11/26/2023 2:11:36 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Today, we're going to dive into a captivating journey through the history of Twenty One Pilots. From their early days as a local Ohio band to their explosive success on the global stage, the story of this duo is one of resilience, creativity, and a relentless pursuit of their passion for music. Buckle up as we explore the triumphs, setbacks, and pivotal moments that shaped the history of Twenty One Pilots.
+[INFO] 11/26/2023 2:11:38 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: And there you have it, a captivating journey through the history of Twenty One Pilots. From their humble beginnings in Ohio to their status as global music icons, their story is a testament to the power of determination, creativity, and staying true to oneself. Whether you're a fan of their music or simply curious about their rise to fame, the history of Twenty One Pilotsis a fascinating journey that sheds light on the evolution of alternative music and the power of authentic self-expression. From humble beginnings in Columbus, Ohio, to selling out arenas worldwide, Twenty One Pilots has captured the hearts of millions with their unique sound and
+[INFO] 11/26/2023 2:11:39 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 2:11:39 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Twenty One Pilots\DallePrompts.txt
+[INFO] 11/26/2023 2:11:39 PM (GenerateDallePromptsFromScript): Number of prompts generated: 5
+[INFO] 11/26/2023 2:11:39 PM (Main): Fetching and downloading images...
+[INFO] 11/26/2023 2:11:54 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:11:54 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_1.png
+[INFO] 11/26/2023 2:12:25 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:12:26 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_2.png
+[INFO] 11/26/2023 2:12:56 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:12:56 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_3.png
+[INFO] 11/26/2023 2:13:24 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:13:25 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_4.png
+[INFO] 11/26/2023 2:13:54 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:13:55 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_5.png
+[INFO] 11/26/2023 2:14:10 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/26/2023 2:15:43 PM (Main): Concatenating video segments...
+[INFO] 11/26/2023 2:15:43 PM (Main): Final video path: NexaCastVideo\Generation\History Of Twenty One Pilots\Generated Video\final_video.mp4
+[INFO] 11/26/2023 2:15:43 PM (Main): Music file path: NexaCastVideo\Generation\History Of Twenty One Pilots\the-best-jazz-club-in-new-orleans-164472.mp3
+[INFO] 11/26/2023 2:15:43 PM (Main): Concatenation of video segments completed. Proceeding to add background music.
+[INFO] 11/26/2023 2:15:43 PM (AddBackgroundMusicWithFade): Entering AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 2:15:43 PM (AddBackgroundMusicWithFade): Video path: NexaCastVideo\Generation\History Of Twenty One Pilots\Generated Video\final_video.mp4
+[INFO] 11/26/2023 2:15:43 PM (AddBackgroundMusicWithFade): Video duration: 120.919206 seconds.
+[INFO] 11/26/2023 2:15:43 PM (AddBackgroundMusicWithFade): Selected music path: NexaCastVideo\Generation\History Of Twenty One Pilots\the-best-jazz-club-in-new-orleans-164472.mp3
+[ERROR] 11/26/2023 2:15:43 PM (GetAudioDurationAsync): Failed to obtain audio duration.
+[ERROR] 11/26/2023 2:15:43 PM (GetAudioDurationAsync): Error while obtaining audio duration: Failed to obtain audio duration.
+[ERROR] 11/26/2023 2:15:43 PM (AddBackgroundMusicWithFade): Failed to add background music: Failed to obtain audio duration.
+[INFO] 11/26/2023 2:15:43 PM (AddBackgroundMusicWithFade): Exiting AddBackgroundMusicWithFade method.

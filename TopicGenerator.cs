@@ -12,6 +12,8 @@ using System.Linq;
 using Google.Apis.Http;
 using Polly;
 
+
+// The TopicGenerator class is responsible for generating topics and related content using OpenAI's API.
 public class TopicGenerator
 {
     private const string OpenAIApiUrl = "https://api.openai.com/v1/chat/completions";
@@ -19,12 +21,14 @@ public class TopicGenerator
     private readonly string _generationDirectory;
     private readonly SubtitleEngine _subtitleEngine;
 
+    // Custom factory for creating HttpClient instances.
     public class CustomHttpClientFactory
     {
+        // Creates and configures an HttpClient instance.
         public HttpClient CreateClient()
         {
             var httpClient = new HttpClient();
-            httpClient.Timeout = TimeSpan.FromSeconds(600); // Extended timeout
+            httpClient.Timeout = TimeSpan.FromSeconds(600);
             return httpClient;
         }
     }
@@ -46,6 +50,7 @@ public class TopicGenerator
         }
     }
 
+    // Tests the availability of the OpenAI API.
     public async Task<bool> TestOpenAIAPIAvailability()
     {
         try
@@ -61,6 +66,14 @@ public class TopicGenerator
         }
     }
 
+    /// <summary>
+    /// Makes a call to the OpenAI API.
+    /// </summary>
+    /// <param name="messageRole">Role of the message (system or user).</param>
+    /// <param name="messageContent">Content of the message.</param>
+    /// <param name="maxTokens">Maximum number of tokens to generate.</param>
+    /// <param name="maxRetries">Maximum number of retry attempts.</param>
+    /// <returns>A task that represents the asynchronous operation, returning the API response as a string.</returns>
     private async Task<string> MakeAPICall(string messageRole, string messageContent, int maxTokens, int maxRetries = 3)
     {
         var messages = new object[]
@@ -119,18 +132,34 @@ public class TopicGenerator
         throw new Exception("Max retry attempts reached. Unable to get a successful response.");
     }
 
+    // Ensures that a given segment ends with a complet esentence. 
     private async Task<string> EnsureCompleteSentence(string segment)
     {
+        // Check if the segment ends with a punctuation mark
         if (!segment.EndsWith(".") && !segment.EndsWith("?") && !segment.EndsWith("!"))
         {
-            // The last sentence seems incomplete. Generate the completion.
+            // Attempt to complete the sentence
             string completionPrompt = "Complete the following sentence: " + segment.Split('.').Last();
             var completion = await MakeAPICall("You are a script generator for educational YouTube videos.", completionPrompt, 50);
+
+            // Check for repetition in the completion and remove if necessary
+            var lastPart = segment.Split('.').Last();
+            if (completion.StartsWith(lastPart))
+            {
+                completion = completion.Substring(lastPart.Length).Trim();
+            }
+
             return segment + completion;
         }
         return segment; // Return the original segment if it ends with a complete sentence.
     }
 
+    /// <summary>
+    /// Generates a prompt for DALL·E based on given content.
+    /// </summary>
+    /// <param name="content">Content to base the DALL·E prompt on.</param>
+    /// <param name="topic">The topic of the content.</param>
+    /// <returns>A task that represents the asynchronous operation, returning a DALL·E prompt.</returns>
     private async Task<string> GenerateDetailedPromptForDalle(string content, string topic)
     {
         // Adjust the instruction to ask for a simple and clear description suitable for image generation.
@@ -146,7 +175,7 @@ public class TopicGenerator
         {
             model = "gpt-4-1106-preview",
             messages = messages,
-            max_tokens = 60  // Reduce max_tokens to encourage brevity
+            max_tokens = 60 
         };
 
         var requestContent = new StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json");
@@ -182,22 +211,24 @@ public class TopicGenerator
         try
         {
             Logger.LogInfo($"Starting to generate introduction for topic: {topic}");
-            var introduction = await GenerateSegment(context, $"Create an quick introduction saying 'welcome to nexacast' and quickly discussing {topic} and quickly mention this is AI generated.", 30, topic);
+            var introduction = await GenerateSegment(context, $"Create an quick introduction saying 'welcome to nexacast' and quickly discussing {topic} and quickly mention this is AI generated.", 60, topic);
             context += introduction;
             script.AppendLine($"Narrator: {introduction}");
             script.AppendLine();
 
-            for (int i = 1; i <= 2; i++)
+            // Specify areas to cover in main points
+            string[] mainPointsTopics = { "early history", "major achievements or advancements" }; 
+            for (int i = 0; i < mainPointsTopics.Length; i++)
             {
-                Logger.LogInfo($"Generating main point {i} for topic: {topic}");
-                var mainPoint = await GenerateSegment(context, $"Provide a main point about {topic}. Do not use the words MAIN POINT. This should sound natural as it's being read aloud.", 150, topic);
+                Logger.LogInfo($"Generating main point about {mainPointsTopics[i]} for topic: {topic}");
+                var mainPoint = await GenerateSegment(context, $"Discuss an aspect of {topic}'s {mainPointsTopics[i]}.", 150, topic);
                 context += mainPoint;
                 script.AppendLine($"Narrator: {mainPoint}");
                 script.AppendLine();
             }
 
-            Logger.LogInfo("Generating conclusion");
-            var conclusion = await GenerateSegment(context, "Conclude the discussion with an interesting fact. Do not use the word conclude or conclusion. This should sound natural as it's being read aloud.", 75, topic);
+            Logger.LogInfo("Generating conclusion with a unique fact");
+            var conclusion = await GenerateSegment(context, "Conclude the discussion with a unique or lesser-known fact about " + topic + ".", 75, topic);
             context += conclusion;
             script.AppendLine($"Narrator: {conclusion}");
             script.AppendLine();
@@ -226,7 +257,7 @@ public class TopicGenerator
 
         do
         {
-            string focusedPrompt = $"{context}{prompt} Focus on {topic}.";
+            string focusedPrompt = $"{context} Discuss {topic} focusing on {prompt}. Avoid Q&A format and make the content flow naturally as in an instructional video.";
             generatedSegment = await MakeAPICall("You are a script generator for educational YouTube videos. Do not use titles or the statement 'did you know' stay on topic to the original {topic}", focusedPrompt, maxTokens);
 
             // Post-process and check content relevance
@@ -241,87 +272,6 @@ public class TopicGenerator
 
         return await EnsureCompleteSentence(generatedSegment);
     }
-
-    //public async Task<string> GenerateScriptFromInput(string topic)
-    //{
-    //    var script = new StringBuilder();
-
-    //    // Generate Introduction
-    //    var introduction = await GenerateIntroduction(topic);
-    //    script.AppendLine(introduction);
-    //    script.AppendLine();  // Add an extra line for separation
-
-    //    // Generate Main Body
-    //    var mainBody = await GenerateMainBody(topic, 2); // Generate three main facts
-    //    script.Append(mainBody);  // Main body already has new lines after each fact
-
-    //    // Generate Conclusion
-    //    var conclusion = GenerateConclusion();
-    //    script.AppendLine(conclusion);
-
-    //    // Clean and return the script
-    //    string finalScript = ScriptCleaner(script.ToString());
-    //    return finalScript;
-    //}
-
-    //private async Task<string> GenerateIntroduction(string topic)
-    //{
-    //    // Logic for generating the introduction
-    //    string introPrompt = $"Introduce the topic of '{topic}', focusing on key aspects and relevance and mention that the content is AI-generated.";
-    //    string introduction = await GenerateSegment(introPrompt, 70, topic);
-    //    return introduction + Environment.NewLine;  // Ensure newline at the end
-    //}
-
-    //private async Task<string> GenerateMainBody(string topic, int numberOfFacts)
-    //{
-    //    var mainBody = new StringBuilder();
-    //    for (int i = 0; i < numberOfFacts; i++)
-    //    {
-    //        string factPrompt = $"Provide a detailed and relevant fact about '{topic}'.";
-    //        string fact = await GenerateSegment(factPrompt, 100, topic);
-    //        mainBody.Append(fact);
-
-    //        // Append an extra new line for delimiter between paragraphs
-    //        if (i < numberOfFacts - 1)
-    //        {
-    //            mainBody.Append("\n\n");
-    //        }
-    //    }
-    //    return mainBody.ToString();
-    //}
-
-
-
-    //private string GenerateConclusion()
-    //{
-    //    // Static conclusion text
-    //    return "Thank you for watching NexaCast. Don't forget to subscribe for more intersting content. From thought to YouTube, NexaCast brings knowledge to your screen.";
-    //}
-
-    //private async Task<string> GenerateSegment(string prompt, int maxTokens, string topic)
-    //{
-    //    string generatedSegment;
-    //    int attempts = 0;
-    //    const int maxAttempts = 3; // Limit attempts to avoid endless loops
-
-    //    do
-    //    {
-    //        string focusedPrompt = $"{prompt} Focus on {topic}.";
-    //        generatedSegment = await MakeAPICall("You are a script generator for educational YouTube videos.", focusedPrompt, maxTokens);
-
-    //        // Post-process to remove direct responses and refine content
-    //        generatedSegment = PostProcessResponse(generatedSegment);
-
-    //        if (IsContentRelevant(generatedSegment, topic))
-    //        {
-    //            break; // Break the loop if content is on-topic
-    //        }
-
-    //        attempts++;
-    //    } while (attempts < maxAttempts);
-
-    //    return await EnsureCompleteSentence(generatedSegment);
-    //}
 
     private bool IsContentRelevant(string content, string topic)
     {
@@ -386,37 +336,6 @@ public class TopicGenerator
         Logger.LogInfo($"Number of prompts generated: {prompts.Count}");
         return prompts;
     }
-
-
-
-    //public void GenerateSubtitles(string script)
-    //{
-    //    try
-    //    {
-    //        Assume each line takes approximately 3 seconds to speak.
-    //       List<double> durations = new List<double>();
-    //        var lines = script.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
-    //        foreach (var line in lines)
-    //        {
-    //            durations.Add(3.0); // Adding 3 seconds for each line.
-    //        }
-
-    //        Initialize SubtitleEngine and generate the SRT content.
-    //       var subtitleEngine = new SubtitleEngine(_generationDirectory);
-    //        var srtContent = subtitleEngine.GenerateSRT(lines.ToList(), durations);
-
-    //        Save the generated SRT content to file.
-    //         string srtFileName = Path.Combine(_generationDirectory, "GeneratedSubtitles.srt");
-    //        _subtitleEngine.SaveSRTToGenerationDirectory(srtContent, "GeneratedSubtitles.srt");
-
-    //        Logger.LogInfo($"Subtitle file saved successfully to: {srtFileName}");
-    //    }
-    //    catch (Exception e)
-    //    {
-    //        Logger.LogError($"Error generating or saving subtitles: {e.Message}");
-    //    }
-    //}
-
 
     public async Task SaveScript(string script)
     {

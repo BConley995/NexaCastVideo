@@ -1,0 +1,108 @@
+[INFO] 11/26/2023 3:22:02 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 3:22:08 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 3:22:11 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\modern-vlog-140795.mp3
+[INFO] 11/26/2023 3:22:11 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of Electric guitars
+[INFO] 11/26/2023 3:22:21 PM (GenerateScriptFromInput): Generating main point about early career for topic: History of Electric guitars
+[INFO] 11/26/2023 3:23:03 PM (GenerateScriptFromInput): Generating main point about major achievements for topic: History of Electric guitars
+[INFO] 11/26/2023 3:23:50 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 3:24:10 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 3:24:10 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt
+[INFO] 11/26/2023 3:24:10 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+"Hey there, music enthusiasts! Welcome back to our channel where we explore the fascinating world of music history.
+
+ 
+
+ "Hello, music enthusiasts! Today, we're diving deep into the captivating history of electric guitars, focusing on the early years that shaped this iconic instrument. So, let's plug in and rewind back to where it all began."
+
+
+
+ "The history of electric guitars can be traced back to the early 1930s when innovators started experimenting with amplifying traditional acoustic guitars. This period witnessed several significant developments that revolutionized the music industry. One crucial pioneer during this time was the legendary musician and inventor, Les Paul."
+
+
+
+ "LesPaul, one of the greatest innovators in the world of music, revolutionized the way we play the guitar with his groundbreaking inventions. Let's dive into his incredible contributions and explore the impact they've had on the music industry."
+
+[Background music fades
+
+ "One of Les Paul's major achievements was the invention of the solid-body electric guitar. Prior to this invention, guitars were primarily hollow-bodied, producing a softer and more acoustic sound. However, Les Paul had a vision of creating an instrument that could sustain higher volume levels without feedback issues."
+
+
+
+ "Les Paul's first prototype, known as 'The Log,' was essentially a wooden board with pickups and hardware attached. It lacked the traditional guitar shape but provided the foundation for what would become the iconic electric guitar design we know today."
+
+
+
+ "In collaboration with Gibson, Les Paul refined and improved his designs, resulting inthe iconic Gibson Les Paul Model that we know and love today." 
+
+
+
+ "One of the key features of the Gibson Les Paul Model is its solid body construction, which provides
+
+ sustain and a consistent tone. The solid body design allowed for greater control over the sound and eliminated unwanted feedback, making it perfect for the emerging genres of rock and blues."
+
+
+
+ "The Gibson Les Paul Model gained popularity, thanks to its exceptional craftsmanship, rich tone, and the endorsement of influential guitaristssuch as Jimmy Page, Slash, and Duane Allman."
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 3:24:10 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 13
+[INFO] 11/26/2023 3:24:12 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "Hey there, music enthusiasts! Welcome back to our channel where we explore the fascinating world of music history.
+[INFO] 11/26/2023 3:24:14 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "Hello, music enthusiasts! Today, we're diving deep into the captivating history of electric guitars, focusing on the early years that shaped this iconic instrument. So, let's plug in and rewind back to where it all began."
+[INFO] 11/26/2023 3:24:15 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "The history of electric guitars can be traced back to the early 1930s when innovators started experimenting with amplifying traditional acoustic guitars. This period witnessed several significant developments that revolutionized the music industry. One crucial pioneer during this time was the legendary musician and inventor, Les Paul."
+[INFO] 11/26/2023 3:24:17 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "LesPaul, one of the greatest innovators in the world of music, revolutionized the way we play the guitar with his groundbreaking inventions. Let's dive into his incredible contributions and explore the impact they've had on the music industry."
+[INFO] 11/26/2023 3:24:19 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: [Background music fades
+[INFO] 11/26/2023 3:24:20 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "One of Les Paul's major achievements was the invention of the solid-body electric guitar. Prior to this invention, guitars were primarily hollow-bodied, producing a softer and more acoustic sound. However, Les Paul had a vision of creating an instrument that could sustain higher volume levels without feedback issues."
+[INFO] 11/26/2023 3:24:21 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "Les Paul's first prototype, known as 'The Log,' was essentially a wooden board with pickups and hardware attached. It lacked the traditional guitar shape but provided the foundation for what would become the iconic electric guitar design we know today."
+[INFO] 11/26/2023 3:24:23 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "In collaboration with Gibson, Les Paul refined and improved his designs, resulting inthe iconic Gibson Les Paul Model that we know and love today."
+[INFO] 11/26/2023 3:24:24 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "One of the key features of the Gibson Les Paul Model is its solid body construction, which provides
+[INFO] 11/26/2023 3:24:25 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: sustain and a consistent tone. The solid body design allowed for greater control over the sound and eliminated unwanted feedback, making it perfect for the emerging genres of rock and blues."
+[INFO] 11/26/2023 3:24:27 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "The Gibson Les Paul Model gained popularity, thanks to its exceptional craftsmanship, rich tone, and the endorsement of influential guitaristssuch as Jimmy Page, Slash, and Duane Allman."
+[INFO] 11/26/2023 3:24:28 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 3:24:28 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\DallePrompts.txt
+[INFO] 11/26/2023 3:24:28 PM (GenerateDallePromptsFromScript): Number of prompts generated: 12
+[INFO] 11/26/2023 3:24:28 PM (Main): Fetching and downloading images...
+[INFO] 11/26/2023 3:24:44 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:24:45 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_1.png
+[INFO] 11/26/2023 3:25:14 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:25:14 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_2.png
+[INFO] 11/26/2023 3:25:42 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:25:43 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_3.png
+[INFO] 11/26/2023 3:26:12 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:26:12 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_4.png
+[INFO] 11/26/2023 3:26:41 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:26:41 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_5.png
+[INFO] 11/26/2023 3:27:09 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:27:09 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_6.png
+[INFO] 11/26/2023 3:27:36 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:27:37 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_7.png
+[INFO] 11/26/2023 3:28:06 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:28:07 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_8.png
+[INFO] 11/26/2023 3:28:39 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:28:39 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_9.png
+[INFO] 11/26/2023 3:29:09 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:29:09 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_10.png
+[INFO] 11/26/2023 3:29:39 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:29:39 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_11.png
+[INFO] 11/26/2023 3:30:10 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 3:30:10 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_12.png
+[INFO] 11/26/2023 3:30:25 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/26/2023 3:32:05 PM (Main): Concatenating video segments...
+[INFO] 11/26/2023 3:32:06 PM (Main): Final video path: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\final_video.mp4
+[INFO] 11/26/2023 3:32:06 PM (Main): Music file path: NexaCastVideo\Generation\History Of Electric Guitars\modern-vlog-140795.mp3
+[INFO] 11/26/2023 3:32:06 PM (Main): Concatenation of video segments completed. Proceeding to add background music.
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Entering AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Video path: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\final_video.mp4
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Video duration: 125.053985 seconds.
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Selected music path: NexaCastVideo\Generation\History Of Electric Guitars\modern-vlog-140795.mp3
+[INFO] 11/26/2023 3:32:06 PM (GetAudioDurationAsync): Executing ffprobe with arguments: -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "NexaCastVideo\Generation\History Of Electric Guitars\modern-vlog-140795.mp3"
+[INFO] 11/26/2023 3:32:06 PM (GetAudioDurationAsync): ffprobe output: 139.337125
+
+[INFO] 11/26/2023 3:32:06 PM (GetAudioDurationAsync): Parsed audio duration: 139.337125 seconds.
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Music duration: 139.337125 seconds.
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Output video path: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\output_with_music.mp4
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Music loop count: 1
+[INFO] 11/26/2023 3:32:06 PM (AddBackgroundMusicWithFade): Starting FFmpeg process for adding background music.
+[INFO] 11/26/2023 3:32:08 PM (AddBackgroundMusicWithFade): FFmpeg process completed.
+[INFO] 11/26/2023 3:32:08 PM (AddBackgroundMusicWithFade): Exiting AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 3:32:08 PM (Main): Background music added. Final video with music located at: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\output_with_music.mp4
+[INFO] 11/26/2023 3:32:08 PM (Main): Video compilation completed.

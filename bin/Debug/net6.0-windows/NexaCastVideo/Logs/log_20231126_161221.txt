@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 4:12:24 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 4:12:33 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 4:12:36 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\inside-you-162760.mp3
+[INFO] 11/26/2023 4:12:36 PM (GenerateScriptFromInput): Starting to generate introduction for topic: history of electric guitars
+[INFO] 11/26/2023 4:12:45 PM (GenerateScriptFromInput): Generating main point about early history for topic: history of electric guitars
+[INFO] 11/26/2023 4:13:04 PM (GenerateScriptFromInput): Generating main point about major achievements or advancements for topic: history of electric guitars
+[INFO] 11/26/2023 4:13:17 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 4:13:27 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 4:13:27 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt

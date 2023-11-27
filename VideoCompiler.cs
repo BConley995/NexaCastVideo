@@ -22,6 +22,7 @@ public class VideoCompiler
         }
     }
 
+    // Retrieves a list of MP3 files from a specified folder, excluding a specific file if needed.
     private List<string> GetVoiceoverFiles(string folderPath, string excludedFile)
     {
         return new DirectoryInfo(folderPath)
@@ -31,6 +32,7 @@ public class VideoCompiler
             .ToList();
     }
 
+    // Compiles individual video segments from image and voiceover files.
     public async Task CompileIndividualSegments(List<string> imageFiles, List<string> voiceoverFiles)
     {
         int imageCount = imageFiles.Count;
@@ -40,7 +42,7 @@ public class VideoCompiler
         for (int i = 0; i < segmentCount; i++)
         {
             string imageFile = imageFiles[i];
-            string voiceoverFile = voiceoverFiles[i];  // Already a full path
+            string voiceoverFile = voiceoverFiles[i]; 
 
             Console.WriteLine($"Creating segment {i}:");
             Console.WriteLine($" - Image File: {imageFile}");
@@ -49,25 +51,25 @@ public class VideoCompiler
             CreateVideoSegment(imageFile, voiceoverFile, $"segment_{i}.mp4");
         }
 
+        // Handles extra files if the counts of images and voiceovers do not match.
         if (voiceoverCount > imageCount)
         {
             Console.WriteLine("More voiceover files than image files. Reusing images for extra voiceovers.");
-            // Additional logic to handle extra voiceovers, if needed
         }
         else if (imageCount > voiceoverCount)
         {
             Console.WriteLine("More image files than voiceover files. Some images will not be used.");
-            // Additional logic if needed
         }
 
     }
 
-
+    // Constructs an FFmpeg command for a given image and voiceover file.
     private string ConstructFFmpegCommand(string imageFile, string voiceoverFile, string outputVideoFile)
     {
         return $"-i \"{imageFile}\" -i \"{voiceoverFile}\" -c:v libx264 -c:a aac \"{outputVideoFile}\"";
     }
 
+    // Creates a video segment from an image file and a voiceover file.
     private void CreateVideoSegment(string imageFile, string voiceoverFile, string outputSegmentFileName)
     {
         string outputFilePath = Path.Combine(outputDirectory, outputSegmentFileName);
@@ -85,7 +87,7 @@ public class VideoCompiler
         Console.WriteLine($"Completed segment: {outputSegmentFileName}");
     }
 
-
+    // Retrieves the duration of an audio file.
     private TimeSpan GetAudioDuration(string filePath)
     {
         Console.WriteLine($"Getting audio duration for file: {filePath}");
@@ -106,18 +108,18 @@ public class VideoCompiler
         catch (Exception ex)
         {
             Console.WriteLine($"Error reading MP3 file: {ex.Message}");
-            return TimeSpan.Zero; // Handling other exceptions
+            return TimeSpan.Zero;
         }
     }
 
-
+    // Concatenates video segments into a single video.
     public async Task ConcatenateSegments()
     {
         Console.WriteLine("Starting concatenation of video segments...");
 
         // Find all segment files
         var segmentFiles = Directory.GetFiles(outputDirectory, "segment_*.mp4")
-                                    .Select(Path.GetFileName) // Get only the file names
+                                    .Select(Path.GetFileName) 
                                     .ToList();
 
         // Creating a file list for FFmpeg
@@ -151,6 +153,7 @@ public class VideoCompiler
         }
     }
 
+    // Identify background music file
     private string FindLargestMp3File(string folderPath)
     {
         return new DirectoryInfo(folderPath)
@@ -261,7 +264,7 @@ public class VideoCompiler
         }
     }
 
-
+    // Executes the FFmpeg command and handles the process output.
     private async Task ExecuteFFmpegCommand(string arguments)
     {
         using (var process = new Process())
@@ -278,7 +281,6 @@ public class VideoCompiler
             process.BeginOutputReadLine();
             process.BeginErrorReadLine();
 
-            // Read output and error in real-time
             process.OutputDataReceived += (sender, args) => Console.WriteLine(args.Data);
             process.ErrorDataReceived += (sender, args) => Console.WriteLine(args.Data);
 

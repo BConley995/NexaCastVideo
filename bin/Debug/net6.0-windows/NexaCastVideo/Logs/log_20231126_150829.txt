@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 3:08:33 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 3:08:38 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 3:08:41 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\sexy-chillout-hip-hop-track-come-with-me-133764.mp3
+[INFO] 11/26/2023 3:08:41 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of electric guitars
+[INFO] 11/26/2023 3:08:55 PM (GenerateScriptFromInput): Generating main point about early career for topic: History of electric guitars
+[INFO] 11/26/2023 3:09:38 PM (GenerateScriptFromInput): Generating main point about major achievements for topic: History of electric guitars
+[INFO] 11/26/2023 3:10:25 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 3:10:50 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 3:10:50 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt

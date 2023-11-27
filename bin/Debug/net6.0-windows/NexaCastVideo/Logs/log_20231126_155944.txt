@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 3:59:48 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 3:59:52 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 3:59:55 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\goldn-116392 (1).mp3
+[INFO] 11/26/2023 3:59:55 PM (GenerateScriptFromInput): Starting to generate introduction for topic: history of electric guitars
+[INFO] 11/26/2023 4:00:02 PM (GenerateScriptFromInput): Generating main point 1 for topic: history of electric guitars
+[INFO] 11/26/2023 4:00:07 PM (GenerateScriptFromInput): Generating main point 2 for topic: history of electric guitars
+[INFO] 11/26/2023 4:00:23 PM (GenerateScriptFromInput): Generating conclusion
+[INFO] 11/26/2023 4:00:44 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 4:00:44 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt

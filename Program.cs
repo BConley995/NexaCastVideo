@@ -42,12 +42,10 @@ class Program
         //Console.WriteLine("\nPress any key to exit...");
         //Console.ReadKey();
 
+        // Setting up logging
         string logFileName = "log_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".txt";
         string logDirectory = Path.Combine(Environment.CurrentDirectory, "NexaCastVideo", "Logs");
         string generationDirectory = "";
-
-        Console.WriteLine("\nPress any key to continue...");
-        Console.ReadKey();
 
         Logger.LogInfo($"Attempting to create directory at {logDirectory}");
         if (!Directory.Exists(logDirectory))
@@ -64,6 +62,7 @@ class Program
             Logger.LogError($"Unhandled exception: {(e.ExceptionObject as Exception)?.Message}");
         };
 
+        // Capturing user input
         Console.WriteLine("Please enter a short description of what you want the video to be about:");
         string userRequest = Console.ReadLine();
 
@@ -110,6 +109,7 @@ class Program
         {
             spinner.Start();
 
+            // Music management
             MusicManager musicManager = new MusicManager();
             Logger.LogInfo("Downloading random royalty-free music...");
             string musicFilePath = await musicManager.DownloadRandomMusicFileAsync(generationDirectory);
@@ -122,6 +122,7 @@ class Program
 
             Logger.LogInfo($"Music file downloaded successfully: {musicFilePath}");
 
+            // Script generation and processing
             string script = await topicGenerator.GenerateScriptFromInput(userRequest);
             await topicGenerator.SaveScript(script);
 
@@ -137,6 +138,7 @@ class Program
                 return;
             }
 
+            // Image fetching
             Logger.LogInfo("Fetching and downloading images...");
             ImageFetcher imageFetcher = new ImageFetcher(ConfigManager.GetAPIKey("DalleApiKey"), generationDirectory);
             List<string> imageFiles = await imageFetcher.FetchAndDownloadImages();
@@ -147,6 +149,7 @@ class Program
                 return;
             }
 
+            // Voiceover generation
             string ttsScript = ProcessTextForTts(script, true);
             ttsScript = RemoveNarrationLabels(ttsScript);
 
@@ -154,6 +157,7 @@ class Program
             VoiceoverGenerator voiceoverGenerator = new VoiceoverGenerator(generationDirectory, ConfigManager.GetAPIKey("ElevenLabsApiKey"));
             List<string> voiceoverFiles = await voiceoverGenerator.GenerateVoiceovers(scriptSegmentsList);
 
+            // Video compilation
             VideoCompiler videoCompiler = new VideoCompiler(generationDirectory);
             await videoCompiler.CompileIndividualSegments(imageFiles, voiceoverFiles);
 
@@ -207,7 +211,7 @@ class Program
     //}
 
 
-
+    // Method to process text for Text-to-Speech conversion
     private static string ProcessTextForTts(string input, bool ignoreParenthesesContent)
     {
         if (ignoreParenthesesContent)
@@ -217,6 +221,7 @@ class Program
         return input;
     }
 
+    // Method to remove narration labels from the script
     private static string RemoveNarrationLabels(string input)
     {
         string[] patterns = { "Sub-point:", "Narrator:", "Point:", "Main Point:" };
@@ -227,6 +232,7 @@ class Program
         return input.Trim();
     }
 
+    // Method to download files asynchronously
     private static async Task<string> DownloadFileAsync(string fileUrl, string destinationPath)
     {
         using (HttpClient client = new HttpClient())

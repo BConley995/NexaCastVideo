@@ -1,0 +1,79 @@
+[INFO] 11/26/2023 2:43:19 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 2:43:26 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 2:43:30 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Twenty One Pilots\smooth-waters-115977.mp3
+[INFO] 11/26/2023 2:43:30 PM (GenerateScriptFromInput): Starting to generate introduction for topic: History of twenty one pilots
+[INFO] 11/26/2023 2:43:40 PM (GenerateScriptFromInput): Generating main point about early career for topic: History of twenty one pilots
+[INFO] 11/26/2023 2:43:56 PM (GenerateScriptFromInput): Generating main point about major achievements for topic: History of twenty one pilots
+[INFO] 11/26/2023 2:44:07 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 2:44:19 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 2:44:19 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Twenty One Pilots\GeneratedScript.txt
+[INFO] 11/26/2023 2:44:19 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome back to our channel! Today, we're diving into the fascinating history of twenty one pilots and their undeniable impact on the music industry. With theirWith their unique characteristics and fascinating behaviors, animals have always been a source of wonder and intrigue.
+
+ In the history of twenty one pilots, one aspect that stands out is their early career and the unconventional path they took to success. Unlike many other bands, they didn't rely on a traditional record label to launch their music career. Instead, they utilized the power of the internet and social media to gain a dedicated fanbase.
+
+Tyler Joseph and Josh Dun, the founding members of twenty one pilots, met in Columbus, Ohio, and quickly realized their shared passion for music. They began making music together, experimenting with different genres and styles. However, breaking into the music industry proved to be challenging.
+
+Rather than giving up, Joseph and Dun took matters into their own hands. They decided to release their music independently, using platforms like SoundCloud and YouTube toreach a wider audience and maintain creative control over their work.
+
+ One major achievement in the history of twenty one pilots is their breakthrough with the release of their album "Blurryface" in 2015. This album not only solidified their position in the music industry but also propelled them to mainstream success.
+
+"Blurryface" was the fourth studio album by twenty one pilots and featured hit singles such as "Stressed Out" and "Ride." It explored themes of anxiety, self-doubt, and inner demons, resonating with listeners of all ages. The album's unique blend of genres, combining elements of alternative rock, hip-hop, and electronic music, further showcased the band's versatility and musicality.
+
+One of the notable aspects of "Blurryface" was its commercial success. TheThe world of science is vast and ever-expanding.
+
+ One lesser-known fact about the history of twenty one pilots is that their band name actually has a deeper meaning. The name "twenty one pilots" was inspired by a play titled "All My Sons" by Arthur Miller. In the play, a character is asked to decide which pilots should be sacrificed to save the lives of others. The number twenty one refers to the age atwhich a person is legally allowed to consume alcohol in the United States.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 2:44:19 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 9
+[INFO] 11/26/2023 2:44:21 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome back to our channel! Today, we're diving into the fascinating history of twenty one pilots and their undeniable impact on the music industry. With theirWith their unique characteristics and fascinating behaviors, animals have always been a source of wonder and intrigue.
+[INFO] 11/26/2023 2:44:23 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In the history of twenty one pilots, one aspect that stands out is their early career and the unconventional path they took to success. Unlike many other bands, they didn't rely on a traditional record label to launch their music career. Instead, they utilized the power of the internet and social media to gain a dedicated fanbase.
+[INFO] 11/26/2023 2:44:24 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Tyler Joseph and Josh Dun, the founding members of twenty one pilots, met in Columbus, Ohio, and quickly realized their shared passion for music. They began making music together, experimenting with different genres and styles. However, breaking into the music industry proved to be challenging.
+[INFO] 11/26/2023 2:44:26 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Rather than giving up, Joseph and Dun took matters into their own hands. They decided to release their music independently, using platforms like SoundCloud and YouTube toreach a wider audience and maintain creative control over their work.
+[INFO] 11/26/2023 2:44:27 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One major achievement in the history of twenty one pilots is their breakthrough with the release of their album "Blurryface" in 2015. This album not only solidified their position in the music industry but also propelled them to mainstream success.
+[INFO] 11/26/2023 2:44:29 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: "Blurryface" was the fourth studio album by twenty one pilots and featured hit singles such as "Stressed Out" and "Ride." It explored themes of anxiety, self-doubt, and inner demons, resonating with listeners of all ages. The album's unique blend of genres, combining elements of alternative rock, hip-hop, and electronic music, further showcased the band's versatility and musicality.
+[INFO] 11/26/2023 2:44:31 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One of the notable aspects of "Blurryface" was its commercial success. TheThe world of science is vast and ever-expanding.
+[INFO] 11/26/2023 2:44:33 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: One lesser-known fact about the history of twenty one pilots is that their band name actually has a deeper meaning. The name "twenty one pilots" was inspired by a play titled "All My Sons" by Arthur Miller. In the play, a character is asked to decide which pilots should be sacrificed to save the lives of others. The number twenty one refers to the age atwhich a person is legally allowed to consume alcohol in the United States.
+[INFO] 11/26/2023 2:44:34 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 2:44:34 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Twenty One Pilots\DallePrompts.txt
+[INFO] 11/26/2023 2:44:34 PM (GenerateDallePromptsFromScript): Number of prompts generated: 9
+[INFO] 11/26/2023 2:44:34 PM (Main): Fetching and downloading images...
+[INFO] 11/26/2023 2:44:49 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:44:50 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_1.png
+[INFO] 11/26/2023 2:45:17 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:45:18 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_2.png
+[INFO] 11/26/2023 2:45:49 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:45:49 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_3.png
+[INFO] 11/26/2023 2:46:17 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:46:18 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_4.png
+[INFO] 11/26/2023 2:46:47 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:46:48 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_5.png
+[INFO] 11/26/2023 2:47:19 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:47:20 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_6.png
+[INFO] 11/26/2023 2:47:48 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:47:48 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_7.png
+[INFO] 11/26/2023 2:48:16 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:48:17 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_8.png
+[INFO] 11/26/2023 2:48:48 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 2:48:49 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Twenty One Pilots\image_9.png
+[INFO] 11/26/2023 2:49:04 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/26/2023 2:51:00 PM (Main): Concatenating video segments...
+[INFO] 11/26/2023 2:51:01 PM (Main): Final video path: NexaCastVideo\Generation\History Of Twenty One Pilots\Generated Video\final_video.mp4
+[INFO] 11/26/2023 2:51:01 PM (Main): Music file path: NexaCastVideo\Generation\History Of Twenty One Pilots\smooth-waters-115977.mp3
+[INFO] 11/26/2023 2:51:01 PM (Main): Concatenation of video segments completed. Proceeding to add background music.
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Entering AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Video path: NexaCastVideo\Generation\History Of Twenty One Pilots\Generated Video\final_video.mp4
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Video duration: 148.55424 seconds.
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Selected music path: NexaCastVideo\Generation\History Of Twenty One Pilots\smooth-waters-115977.mp3
+[INFO] 11/26/2023 2:51:01 PM (GetAudioDurationAsync): Executing ffprobe with arguments: -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "NexaCastVideo\Generation\History Of Twenty One Pilots\smooth-waters-115977.mp3"
+[INFO] 11/26/2023 2:51:01 PM (GetAudioDurationAsync): ffprobe output: 299.102031
+
+[INFO] 11/26/2023 2:51:01 PM (GetAudioDurationAsync): Parsed audio duration: 299.102031 seconds.
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Music duration: 299.102031 seconds.
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Output video path: NexaCastVideo\Generation\History Of Twenty One Pilots\Generated Video\output_with_music.mp4
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Music loop count: 1
+[INFO] 11/26/2023 2:51:01 PM (AddBackgroundMusicWithFade): Starting FFmpeg process for adding background music.
+[INFO] 11/26/2023 2:51:03 PM (AddBackgroundMusicWithFade): FFmpeg process completed.
+[INFO] 11/26/2023 2:51:03 PM (AddBackgroundMusicWithFade): Exiting AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 2:51:03 PM (Main): Background music added. Final video with music located at: NexaCastVideo\Generation\History Of Twenty One Pilots\Generated Video\output_with_music.mp4
+[INFO] 11/26/2023 2:51:03 PM (Main): Video compilation completed.

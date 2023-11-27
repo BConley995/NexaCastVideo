@@ -1,0 +1,105 @@
+[INFO] 11/26/2023 4:15:39 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 4:15:46 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 4:15:49 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Electric Guitars\tvari-tokyo-cafe-159065 (1).mp3
+[INFO] 11/26/2023 4:15:49 PM (GenerateScriptFromInput): Starting to generate introduction for topic: history of electric guitars
+[INFO] 11/26/2023 4:15:59 PM (GenerateScriptFromInput): Generating main point about early history for topic: history of electric guitars
+[INFO] 11/26/2023 4:16:17 PM (GenerateScriptFromInput): Generating main point about major achievements or advancements for topic: history of electric guitars
+[INFO] 11/26/2023 4:16:34 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 4:17:00 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 4:17:00 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\GeneratedScript.txt
+[INFO] 11/26/2023 4:17:00 PM (GenerateDallePromptsFromScript): Received script for DALL·E prompts generation:
+Welcome to Nexacast! Today, we're diving into the fascinating history of electric guitars. But before we begin, it's worth mentioning that this video is AI-generated. So, let's get started!
+
+
+
+ The development of electric guitars aswe know them today has been a revolutionary journey in the world of music. In this video, we'll delve into the fascinating history, innovative designs, and the impact of electric guitars on modern music. So, let's get started!
+
+ In order to understand the history of electric guitars, we need to go back to the early 20th century. It was a time of innovation and experimentation in the world of music. 
+
+The concept of amplifying musical instruments was already well-established, with the invention of the telephone in the late 19th century. It was Alexander Graham Bell who first had the idea of using electricity to amplify sound. Little did he know that his invention would eventually pave the way for the electric guitar.
+
+But it wasn't until the 1920s that the first attempts at creating an electric guitar were made. It was a time when jazz music was becoming increasingly popular, and musicians were looking for ways to make their instruments louder and more versatile.
+
+Oneof the most important concepts in mathematics is the notion of a "function."
+
+ Sure! One major achievement in the history of electric guitars is the introduction of the magnetic pickup, which revolutionized the way guitars produced sound.
+
+
+
+ In the early 1930s, a musician and inventor named George Beauchamp teamed up with the electronics engineer Adolph Rickenbacker to develop the first commercially successful electric guitar. Their creation, known as the "Frying Pan," featured a magnetic pickup.
+
+The magnetic pickup was a groundbreaking innovation. It consisted of a coil of wire wrapped around a magnet, which created a magnetic field. When the strings of the guitar vibrated, they disrupted the magnetic field, generating an electrical signal.
+
+This signal was then sent to an amplifier, which boosted the volume of theaudio signal.
+
+ 
+
+ As the popularity of electric guitars grew, so did the demand for improved designs and features. In the 1950s, a company called Gibson introduced one of the most iconic electric guitars of all time the Les Paul.
+
+Les Paul was not only a talented musician but also an inventor. He wanted to create a guitar that had a solid body, excellent sustain, and could withstand high volume levels without feedback issues.
+
+Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 4:17:00 PM (GenerateDallePromptsFromScript): Number of paragraphs extracted: 14
+[INFO] 11/26/2023 4:17:01 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Welcome to Nexacast! Today, we're diving into the fascinating history of electric guitars. But before we begin, it's worth mentioning that this video is AI-generated. So, let's get started!
+[INFO] 11/26/2023 4:17:02 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The development of electric guitars aswe know them today has been a revolutionary journey in the world of music. In this video, we'll delve into the fascinating history, innovative designs, and the impact of electric guitars on modern music. So, let's get started!
+[INFO] 11/26/2023 4:17:03 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In order to understand the history of electric guitars, we need to go back to the early 20th century. It was a time of innovation and experimentation in the world of music.
+[INFO] 11/26/2023 4:17:05 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The concept of amplifying musical instruments was already well-established, with the invention of the telephone in the late 19th century. It was Alexander Graham Bell who first had the idea of using electricity to amplify sound. Little did he know that his invention would eventually pave the way for the electric guitar.
+[INFO] 11/26/2023 4:17:06 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: But it wasn't until the 1920s that the first attempts at creating an electric guitar were made. It was a time when jazz music was becoming increasingly popular, and musicians were looking for ways to make their instruments louder and more versatile.
+[INFO] 11/26/2023 4:17:07 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Oneof the most important concepts in mathematics is the notion of a "function."
+[INFO] 11/26/2023 4:17:08 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Sure! One major achievement in the history of electric guitars is the introduction of the magnetic pickup, which revolutionized the way guitars produced sound.
+[INFO] 11/26/2023 4:17:10 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: In the early 1930s, a musician and inventor named George Beauchamp teamed up with the electronics engineer Adolph Rickenbacker to develop the first commercially successful electric guitar. Their creation, known as the "Frying Pan," featured a magnetic pickup.
+[INFO] 11/26/2023 4:17:12 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: The magnetic pickup was a groundbreaking innovation. It consisted of a coil of wire wrapped around a magnet, which created a magnetic field. When the strings of the guitar vibrated, they disrupted the magnetic field, generating an electrical signal.
+[INFO] 11/26/2023 4:17:13 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: This signal was then sent to an amplifier, which boosted the volume of theaudio signal.
+[INFO] 11/26/2023 4:17:14 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: As the popularity of electric guitars grew, so did the demand for improved designs and features. In the 1950s, a company called Gibson introduced one of the most iconic electric guitars of all time the Les Paul.
+[INFO] 11/26/2023 4:17:16 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Les Paul was not only a talented musician but also an inventor. He wanted to create a guitar that had a solid body, excellent sustain, and could withstand high volume levels without feedback issues.
+[INFO] 11/26/2023 4:17:18 PM (GenerateDallePromptsFromScript): Generated prompt for paragraph: Don’t forget to subscribe, and thank you for enjoying a byte-sized bit with NexaCast, from thought to YouTube.
+[INFO] 11/26/2023 4:17:18 PM (GenerateDallePromptsFromScript): DALL·E prompts saved successfully to: NexaCastVideo\Generation\History Of Electric Guitars\DallePrompts.txt
+[INFO] 11/26/2023 4:17:18 PM (GenerateDallePromptsFromScript): Number of prompts generated: 13
+[INFO] 11/26/2023 4:17:18 PM (Main): Fetching and downloading images...
+[INFO] 11/26/2023 4:17:34 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:17:35 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_1.png
+[INFO] 11/26/2023 4:18:05 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:18:06 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_2.png
+[INFO] 11/26/2023 4:18:35 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:18:36 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_3.png
+[INFO] 11/26/2023 4:19:05 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:19:06 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_4.png
+[INFO] 11/26/2023 4:19:35 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:19:35 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_5.png
+[INFO] 11/26/2023 4:20:05 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:20:05 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_6.png
+[INFO] 11/26/2023 4:20:32 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:20:33 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_7.png
+[INFO] 11/26/2023 4:21:01 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:21:02 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_8.png
+[INFO] 11/26/2023 4:21:32 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:21:33 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_9.png
+[INFO] 11/26/2023 4:22:01 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:22:01 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_10.png
+[INFO] 11/26/2023 4:22:29 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:22:29 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_11.png
+[INFO] 11/26/2023 4:22:58 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:22:58 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_12.png
+[INFO] 11/26/2023 4:23:30 PM (GenerateAndSaveImage): Response Status Code: OK
+[INFO] 11/26/2023 4:23:30 PM (SaveImage): Downloaded and saved image to NexaCastVideo\Generation\History Of Electric Guitars\image_13.png
+[INFO] 11/26/2023 4:23:45 PM (Main): Generating and downloading voiceovers...
+[INFO] 11/26/2023 4:25:43 PM (Main): Concatenating video segments...
+[INFO] 11/26/2023 4:25:44 PM (Main): Final video path: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\final_video.mp4
+[INFO] 11/26/2023 4:25:44 PM (Main): Music file path: NexaCastVideo\Generation\History Of Electric Guitars\tvari-tokyo-cafe-159065 (1).mp3
+[INFO] 11/26/2023 4:25:44 PM (Main): Concatenation of video segments completed. Proceeding to add background music.
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Entering AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Video path: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\final_video.mp4
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Video duration: 146.707969 seconds.
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Selected music path: NexaCastVideo\Generation\History Of Electric Guitars\tvari-tokyo-cafe-159065 (1).mp3
+[INFO] 11/26/2023 4:25:44 PM (GetAudioDurationAsync): Executing ffprobe with arguments: -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "NexaCastVideo\Generation\History Of Electric Guitars\tvari-tokyo-cafe-159065 (1).mp3"
+[INFO] 11/26/2023 4:25:44 PM (GetAudioDurationAsync): ffprobe output: 153.495500
+
+[INFO] 11/26/2023 4:25:44 PM (GetAudioDurationAsync): Parsed audio duration: 153.4955 seconds.
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Music duration: 153.4955 seconds.
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Output video path: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\output_with_music.mp4
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Music loop count: 1
+[INFO] 11/26/2023 4:25:44 PM (AddBackgroundMusicWithFade): Starting FFmpeg process for adding background music.
+[INFO] 11/26/2023 4:25:46 PM (AddBackgroundMusicWithFade): FFmpeg process completed.
+[INFO] 11/26/2023 4:25:46 PM (AddBackgroundMusicWithFade): Exiting AddBackgroundMusicWithFade method.
+[INFO] 11/26/2023 4:25:46 PM (Main): Background music added. Final video with music located at: NexaCastVideo\Generation\History Of Electric Guitars\Generated Video\output_with_music.mp4
+[INFO] 11/26/2023 4:25:46 PM (Main): Video compilation completed.

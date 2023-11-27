@@ -1,0 +1,9 @@
+[INFO] 11/26/2023 4:03:26 PM (Setup): Logger setup initialized.
+[INFO] 11/26/2023 4:03:35 PM (Main): Downloading random royalty-free music...
+[INFO] 11/26/2023 4:03:39 PM (Main): Music file downloaded successfully: NexaCastVideo\Generation\History Of Graphic Design In Marketing\lifelike-126735.mp3
+[INFO] 11/26/2023 4:03:39 PM (GenerateScriptFromInput): Starting to generate introduction for topic: history of graphic design in marketing
+[INFO] 11/26/2023 4:03:49 PM (GenerateScriptFromInput): Generating main point about early history for topic: history of graphic design in marketing
+[INFO] 11/26/2023 4:04:13 PM (GenerateScriptFromInput): Generating main point about major achievements or advancements for topic: history of graphic design in marketing
+[INFO] 11/26/2023 4:04:47 PM (GenerateScriptFromInput): Generating conclusion with a unique fact
+[INFO] 11/26/2023 4:04:57 PM (GenerateScriptFromInput): Script generation completed successfully.
+[INFO] 11/26/2023 4:04:57 PM (SaveScript): Script saved successfully to: NexaCastVideo\Generation\History Of Graphic Design In Marketing\GeneratedScript.txt
