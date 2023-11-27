@@ -1,3 +1,5 @@
+![NexaCast Video](https://github.com/BConley995/NexaCastVideo/tree/master/Assets/Banner.png)
+
 # NexaCast-Video: Automated YouTube Video Generator
 
 NexaCast is an innovative project that leverages advanced AI technologies to automate the creation of YouTube videos. It enables users to input a brief summary or idea, and NexaCast efficiently generates a comprehensive video. This includes creating scripts, voiceovers, visuals, and adding background music, all tailored for YouTube audiences.
