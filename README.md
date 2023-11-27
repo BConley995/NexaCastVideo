@@ -1,5 +1,4 @@
-![NexaCast Video](https://github.com/BConley995/NexaCastVideo/tree/master/Assets/Banner.png)
-
+![NexaCast Video](https://raw.githubusercontent.com/BConley995/NexaCastVideo/master/Assets/Banner.png)
 
 # NexaCast-Video: Automated YouTube Video Generator
 
