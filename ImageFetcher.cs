@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace NexaCastVideo
 {
+    // This class is responsible for fetching and processing images.
     public class ImageFetcher
     {
         private readonly string _dalleApiEndpoint = "https://api.openai.com/v1/images/generations";
@@ -25,6 +26,8 @@ namespace NexaCastVideo
             _generationDirectory = generationDirectory ?? throw new ArgumentNullException(nameof(generationDirectory));
         }
 
+        // The method adheres to its base implementation. 
+        // If any subclass overrides this method, it should not alter the expected behavior.
         public async Task<List<string>> FetchAndDownloadImages()
         {
             var promptsFilePath = Path.Combine(_generationDirectory, "DallePrompts.txt");
@@ -69,6 +72,7 @@ namespace NexaCastVideo
             return imagePaths;
         }
 
+        // Details about image generation and saving are encapsulated in this method.
         private async Task<string> GenerateAndSaveImage(string prompt)
         {
             try
@@ -148,6 +152,7 @@ namespace NexaCastVideo
             return filePath;
         }
 
+        // Encapsulate data structures for JSON deserialization.
         public class DalleResponseWrapper
         {
             public long Created { get; set; }

@@ -9,11 +9,13 @@ using System.IO;
 using System.Threading.Tasks;
 using NexaCastVideo;
 
+// MusicManager is responsible for managing music-related operations.
 public class MusicManager
 {
     private readonly DriveService _driveService;
     private readonly string _folderId = "1rOX3z7rSz5YZN0aEhzS6wMC98P5RrJd3";
 
+    // Allows for injecting an external DriveService instance.
     public MusicManager()
     {
         try
@@ -40,6 +42,7 @@ public class MusicManager
         _driveService = driveService ?? throw new ArgumentNullException(nameof(driveService));
     }
 
+    // Methods for handling music files can be added without altering existing code.
     public async Task<string> GetRandomMusicFileUrlAsync()
     {
         try
@@ -63,6 +66,7 @@ public class MusicManager
         return string.Empty;
     }
 
+    // Each method does one thing - downloading, calculating duration, or adding music.
     public async Task<string> AddBackgroundMusicWithFade(string videoPath, List<string> musicPaths, string generationDirectory)
     {
         Logger.LogInfo("Entering AddBackgroundMusicWithFade method.");
@@ -107,7 +111,6 @@ public class MusicManager
             if (ffmpegProcess.ExitCode != 0)
             {
                 Logger.LogError($"FFmpeg process exited with non-zero exit code: {ffmpegProcess.ExitCode}");
-                // Optionally, you can include more details from ffmpegProcess.StandardOutput here.
             }
 
             return outputVideoPath;

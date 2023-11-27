@@ -3,6 +3,7 @@ using System.IO;
 using Newtonsoft.Json.Linq;
 using NexaCastVideo;
 
+// IFileWrapper provides an interface for file operations.
 public interface IFileWrapper
 {
     bool Exists(string path);
@@ -10,6 +11,7 @@ public interface IFileWrapper
     void WriteAllText(string path, string contents);
 }
 
+// FileWrapper implements file operations defined in IFileWrapper.
 public class FileWrapper : IFileWrapper
 {
     public bool Exists(string path) => File.Exists(path);
@@ -17,6 +19,7 @@ public class FileWrapper : IFileWrapper
     public void WriteAllText(string path, string contents) => File.WriteAllText(path, contents);
 }
 
+// ConfigManager depends on the abstraction IFileWrapper.
 public class ConfigManager
 {
     private static readonly string ConfigDirectory = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\..\SECURE"));
@@ -65,6 +68,8 @@ public class ConfigManager
         }
     }
 
+    // GetAppSetting retrieves a specific configuration value.
+
     public static string GetAppSetting(string key)
     {
         if (string.IsNullOrWhiteSpace(key))
@@ -87,6 +92,7 @@ public class ConfigManager
         }
     }
 
+    // SetAppSetting method can be extended to support different types of settings.
     public static void SetAppSetting(string key, string value)
     {
         if (string.IsNullOrWhiteSpace(key))

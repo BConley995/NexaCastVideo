@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 
 class Program
 {
+    //  Main handles the program flow and coordinates various functionalities.
     static async Task Main(string[] args)
     {
 
@@ -57,6 +58,7 @@ class Program
         string logFilePath = Path.Combine(logDirectory, logFileName);
         Logger.Setup(logFilePath);
 
+        // Handle uncaught exceptions
         AppDomain.CurrentDomain.UnhandledException += (s, e) =>
         {
             Logger.LogError($"Unhandled exception: {(e.ExceptionObject as Exception)?.Message}");

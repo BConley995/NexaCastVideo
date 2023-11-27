@@ -3,6 +3,7 @@ using System.IO;
 
 namespace NexaCastVideo
 {
+    // The Logger class is responsible for logging activities.
     public static class Logger
     {
         private static string _logFilePath;

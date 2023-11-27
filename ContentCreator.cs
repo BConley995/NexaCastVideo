@@ -5,6 +5,8 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using NexaCastVideo;
 
+// The ContentCreator class focuses on generating content using the OpenAI API.
+
 public class ContentCreator
 {
     private readonly string _openAIApiEndpoint = "https://api.openai.com/v2/engines/davinci/completions";
@@ -16,6 +18,8 @@ public class ContentCreator
         _apiKey = ConfigManager.GetAPIKey("Gpt4ApiKey");
         _generationDirectory = generationDirectory;
     }
+
+    // This method only focuses on saving generated content to a file.
 
     private void SaveGeneratedContent(string content, string fileType, string filePath)
     {
@@ -95,6 +99,8 @@ public class ContentCreator
 
 
 }
+
+// Data structures for JSON deserialization are encapsulated within specific classes.
 
 public class OpenAIResponse
 {
