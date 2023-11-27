@@ -27,13 +27,6 @@ NexaCast-Video combines various technologies and APIs to create a seamless video
 - **Dynamic Image Sourcing**: Generates contextually relevant images for each script line using DALL·E.
 - **Royalty-Free Music**: Sources random royalty-free music tracks for the video background.
 
-## Development Progress
-
-The project is in an active development phase, with the following functionalities implemented:
-
-- **Video Compilation**: Combines generated content into a cohesive video format.
-- **Music Integration**: Adds and adjusts background music, including looping and fading effects.
-
 ## Installation and Setup
 
 1. **Clone the Repository**: Download the project from its GitHub repository.
