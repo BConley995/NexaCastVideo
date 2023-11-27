@@ -51,6 +51,7 @@ NexaCast-Video combines various technologies and APIs to create a seamless video
     - Xabe.FFmpeg               5.2.6
 
 4. **FFmpeg**: Ensure FFmpeg is installed and configured, as it is crucial for video and audio processing.
+    - [Easily Download and Install FFmpeg on a windows PC](https://www.wikihow.com/Install-FFmpeg-on-Windows)
 5. **Running**:  Once you run the application in Visual Studio, it will generate the content in `.\NexaCastVideo\bin\Debug\net6.0-windows\NexaCastVideo\Generation\{Name From Prompt}`
 
 ## Usage Guide
