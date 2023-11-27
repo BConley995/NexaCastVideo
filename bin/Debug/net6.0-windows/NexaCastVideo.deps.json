@@ -26,7 +26,7 @@
           "System.Net.Http": "4.3.4",
           "System.Text.Json": "8.0.0",
           "Xabe.FFmpeg": "5.2.6",
-          "Accord.Video.FFMPEG": "3.8.0.0"
+          "Accord.Video.FFMPEG": "0.0.0.0"
         },
         "runtime": {
           "NexaCastVideo.dll": {}
@@ -752,19 +752,11 @@
           }
         }
       },
-      "Accord.Video.FFMPEG/3.8.0.0": {
+      "Accord.Video.FFMPEG/0.0.0.0": {
         "runtime": {
           "Accord.Video.FFMPEG.dll": {
             "assemblyVersion": "3.8.0.0",
             "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Accord.Video/3.8.0.0": {
-        "runtime": {
-          "Accord.Video.dll": {
-            "assemblyVersion": "3.8.0.0",
-            "fileVersion": "3.8.0.6134"
           }
         }
       }
@@ -1336,12 +1328,7 @@
       "path": "xabe.ffmpeg/5.2.6",
       "hashPath": "xabe.ffmpeg.5.2.6.nupkg.sha512"
     },
-    "Accord.Video.FFMPEG/3.8.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Accord.Video/3.8.0.0": {
+    "Accord.Video.FFMPEG/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

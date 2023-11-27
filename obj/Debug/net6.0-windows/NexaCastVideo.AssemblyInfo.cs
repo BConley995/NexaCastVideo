@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NexaCastVideo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a77bb4228014f8a20576d0cfdeac23af73223e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NexaCastVideo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NexaCastVideo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

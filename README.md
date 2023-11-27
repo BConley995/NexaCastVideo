@@ -58,6 +58,7 @@ The project is in an active development phase, with the following functionalitie
     - Xabe.FFmpeg               5.2.6
 
 4. **FFmpeg**: Ensure FFmpeg is installed and configured, as it is crucial for video and audio processing.
+5. **Running**:  Once you run the application in Visual Studio, it will generate the content in `.\NexaCastVideo\bin\Debug\net6.0-windows\NexaCastVideo\Generation\{Name From Prompt}`
 
 ## Usage Guide
 
