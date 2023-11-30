@@ -58,7 +58,7 @@ NexaCast-Video combines various technologies and APIs to create a seamless video
 
 NexaCast-Video is designed to be user-friendly:
 
-** It will take Approx 20 minutes for a video to generate and compile fully **
+**It will take Approx 20 minutes for a video to generate and compile fully**
 
 1. **Input Topic**: Users can input a brief summary or topic idea.
 2. **Content Generation**: The application generates a script, sources images, and produces voiceovers.
